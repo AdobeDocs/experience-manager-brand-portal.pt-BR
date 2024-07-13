@@ -11,8 +11,8 @@ discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 exl-id: 1f52045b-afb1-4501-878d-c327d394e258
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 2%
+source-wordcount: '269'
+ht-degree: 0%
 
 ---
 
@@ -31,12 +31,12 @@ A seguir estão as etapas a serem executadas para os usuários que fazem logon n
 
    >[!NOTE]
    >
-   >Se sua organização usar Enterprise IDs, em vez de visualizar essa página de inscrição, você será redirecionado para a página de logon corporativo. Para obter mais informações, consulte [Enterprise ID, logon e ajuda da conta](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
+   >Se sua organização usar Enterprise IDs, em vez de visualizar essa página de inscrição, você será redirecionado para a página de logon corporativo. Para obter mais informações, consulte [Enterprise ID, entrar e ajuda da conta](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
 
-1. Clique em **[!UICONTROL Continuar]** para prosseguir para a página Brand Portal de sua organização.
-1. Na página de logon da Brand Portal, clique em **[!UICONTROL Conectar]** para fazer logon no Brand Portal.
+1. Clique em **[!UICONTROL Continuar]** para prosseguir para a página Brand Portal da sua organização.
+1. Na página de entrada da Brand Portal, clique em **[!UICONTROL Entrar]** para fazer logon na Brand Portal.
 
-   ![Página de logon do Brand Portal](assets/signin-onboarding.png)
+   ![Página de Logon do Brand Portal](assets/signin-onboarding.png)
 
    >[!NOTE]
    >

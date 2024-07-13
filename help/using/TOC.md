@@ -10,13 +10,13 @@ feature: Brand Portal
 role: User
 source-git-commit: 3ef765c6b6127c1f3f19d27ee1fd74fbe2dc52af
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 75%
+source-wordcount: '254'
+ht-degree: 31%
 
 ---
 
 
-# Adobe Experience Manager Assets Brand Portal Guia {#using}
+# Guia do Adobe Experience Manager Assets Brand Portal {#using}
 
 + [Guia do AEM Brand Portal](/help/using/home.md)
 + Introdução {#introduction}
@@ -28,36 +28,36 @@ ht-degree: 75%
    + [Acesso de convidado ao Brand Portal](/help/using/guest-access.md)
    + [Noções básicas sobre o Brand Portal com o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Navegar por ativos no Brand Portal](/help/using/browse-assets-brand-portal.md)
-+ Publicar de Experience Manager Assets para Brand Portal {#publish}
++ Publish do Experience Manager Assets para o Brand Portal {#publish}
    + [Configurar o Experience Manager Assets com o Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)
    + [Publicar ativos no Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [Publicar pastas no Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
    + [Publicar coleções no Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Solucionar problemas na publicação paralela no Brand Portal](/help/using/troubleshoot-parallel-publishing.md)
-   + [Publicar marcações no Brand Portal](/help/using/brand-portal-publish-tags.md)
-   + [Publicar predefinições, esquema e aspectos no Brand Portal](/help/using/publish-schema-search-facets-presets.md)
+   + [Tags do Publish para o Brand Portal](/help/using/brand-portal-publish-tags.md)
+   + [Predefinições, esquema e aspectos do Publish para o Brand Portal](/help/using/publish-schema-search-facets-presets.md)
 + Origem de ativos no Brand Portal {#asset-sourcing-in-brand-portal}
    + [Visão geral da origem do ativo](/help/using/brand-portal-asset-sourcing.md)
    + [Configurar pasta de contribuição no Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [Publicar pasta de contribuição para o Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Pasta de contribuição do Publish para o Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Compartilhar ativos com usuários {#share}
    + [Compartilhar uma coleção](/help/using/brand-portal-share-collection.md)
    + [Compartilhar pastas](/help/using/brand-portal-sharing-folders.md)
    + [Compartilhar ativos como um link](/help/using/brand-portal-link-share.md)
 + Usar recursos de pesquisa {#search-capabilities}
-   + [Buscar ativos no Brand Portal](/help/using/brand-portal-searching.md)
-   + [Usar facetas de busca personalizada](/help/using/brand-portal-search-facets.md)
+   + [Pesquisar ativos no Brand Portal](/help/using/brand-portal-searching.md)
+   + [Usar aspectos de pesquisa personalizados](/help/using/brand-portal-search-facets.md)
 + Usar recursos de download {#download}
    + [Baixar ativos](/help/using/brand-portal-download-assets.md)
    + [Suporte a vídeo dinâmico no Brand Portal](/help/using/dynamic-video-brand-portal.md)
    + [Gerenciar a coleção lightbox](/help/using/brand-portal-light-box.md)
    + [Gerenciar direitos digitais dos ativos](/help/using/manage-digital-rights-of-assets.md)
-   + [Guia para acelerar downloads no Brand Portal](/help/using/accelerated-download.md)
+   + [Guia para acelerar downloads da Brand Portal](/help/using/accelerated-download.md)
 + Uso de ferramentas administrativas {#admin-tools}
    + [Administrar acesso de usuários no Brand Portal](/help/using/access-configurations-brand-portal.md)
    + [Administrar configurações de locatários gerais](/help/using/brand-portal-general-configuration.md)
    + [Experiência de login pela primeira vez](/help/using/brand-portal-onboarding.md)
-   + [Gerenciar usuários, grupos e cargos de usuários](/help/using/brand-portal-adding-users.md)
+   + [Gerenciar usuários, grupos e funções de usuário](/help/using/brand-portal-adding-users.md)
    + [Personalizar papel de parede, cabeçalho e mensagens de e-mail](/help/using/brand-portal-branding.md)
    + [Usar o formulário de esquema de metadados](/help/using/brand-portal-metadata-schemas.md)
    + [Aplicar predefinições de imagens ou representações dinâmicas](/help/using/brand-portal-image-presets.md)

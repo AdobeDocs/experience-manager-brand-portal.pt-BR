@@ -6,14 +6,14 @@ seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 source-git-commit: f8959c00c35ecdb76f94c1f12a81ad7d26cb5724
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 65%
+source-wordcount: '416'
+ht-degree: 58%
 
 ---
 
-# Adobe Experience Manager Assets Brand Portal Guia {#aem-brand-portal}
+# Guia do Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand Portal** O auxilia as organizações a atender às suas necessidades de marketing, distribuindo com segurança os ativos de marca e produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
+A **Adobe Experience Manager Assets Brand Portal** auxilia as organizações a atender às suas necessidades de marketing, distribuindo com segurança os ativos de marca e produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
 
 A falta de uma solução de compartilhamento de ativos seguros pode resultar em:
 
@@ -25,7 +25,7 @@ A falta de uma solução de compartilhamento de ativos seguros pode resultar em:
 * Armazenamento inseguro de ativos antes do lançamento
 
 Com o Brand Portal, as organizações podem garantir conformidade à marca permitindo que os vendedores colaborem com parceiros do canal e usuários de negócios internos para rapidamente criar, gerenciar e fornecer as orientações, logotipos, campanhas e ativos de produtos mais recentes para os participantes.
-Brand Portal é uma oferta SAAS baseada em nuvem. Ele está disponível como add-on ao produto Adobe Experience Manager Assets (no local ou serviço gerenciado). Você pode utilizar o Brand Portal com [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service]. Uma vez [configurado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=pt-BR), você pode publicar ativos aprovados de [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] instância para [!DNL Brand Portal] e distribuí-los aos usuários do Brand Portal.
+Brand Portal é uma oferta SAAS baseada em nuvem. Ele está disponível como um complemento para o produto Adobe Experience Manager Assets (no local ou managed service). Você pode utilizar o Brand Portal com [!DNL Adobe Experience Manager Assets] como [!DNL Cloud Service]. Depois de [configurado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=pt-BR), você pode publicar ativos aprovados de [!DNL Adobe Experience Manager Assets] como uma instância de [!DNL Cloud Service] para [!DNL Brand Portal] e distribuí-los aos usuários do Brand Portal.
 
 O fluxo de trabalho da solução Brand Portal está ilustrado na imagem a seguir.
 
@@ -46,7 +46,7 @@ Este guia do usuário documenta insights para ofertas e fluxos de trabalho princ
 | [Formatos de arquivo não suportados](brand-portal-supported-formats.md) | Formatos de arquivo suportados no Brand Portal para visualização e download. |
 | [Publicar ativos no Brand Portal](brand-portal-sharing-folders.md) | Como publicar pastas, coleções, links, predefinições, esquema, aspectos e tags no Brand Portal. |
 | [Origem de ativos no Brand Portal](brand-portal-asset-sourcing.md) | Como configurar a Origem de ativos no AEM Assets, fazer upload de ativos no Brand Portal e publicar a pasta de contribuição de volta para o AEM Assets. |
-| [Vídeos em destaque do Brand Portal](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Saiba como usar o Experience Manager Assets Brand Portal com a ajuda de tutoriais em vídeo. |
+| [vídeos de recursos do Brand Portal](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Saiba como usar o Experience Manager Assets Brand Portal com a ajuda de tutoriais em vídeo. |
 
 ### Recursos úteis
 

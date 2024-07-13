@@ -11,8 +11,8 @@ discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1006'
+ht-degree: 7%
 
 ---
 
@@ -50,7 +50,7 @@ Você pode visualizar, navegar e selecionar (para novas ações) seus recursos c
 
 ![](assets/card-view.png)
 
-A exibição de cartão exibe cartões de informações para cada item no nível atual. Esses cartões fornecem os seguintes detalhes:
+A exibição de cartão mostra cartões de informação para cada item no nível atual. Esses cartões fornecem os seguintes detalhes:
 
 * Uma representação visual do ativo/pasta.
 * Tipo
@@ -60,7 +60,7 @@ A exibição de cartão exibe cartões de informações para cada item no nível
 * Tamanho
 * Dimensões
 
-É possível navegar para baixo na hierarquia tocando/clicando em cartões (com cautela para evitar as ações rápidas) ou para cima novamente usando o [navegações estruturais no cabeçalho](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+Você pode navegar para baixo na hierarquia tocando/clicando em cartões (com cautela para evitar as ações rápidas) ou para cima novamente usando a [navegação estrutural no cabeçalho](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 ![](assets/cardquickactions.png)
 
@@ -80,7 +80,7 @@ A opção Visão geral está disponível para usuários não administradores (Ed
 * na barra de ferramentas na parte superior ao selecionar um ativo/pasta.
 * na lista suspensa em selecionar o Seletor de painéis.
 
-Ao selecionar a variável **[!UICONTROL Visão geral]** enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e o horário da criação do ativo. Já na página de detalhes do ativo, a seleção da opção Visão geral permite que os usuários vejam os metadados do ativo.
+Ao selecionar a opção **[!UICONTROL Visão geral]** enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e a hora da criação do ativo. Já na página de detalhes do ativo, a seleção da opção Visão geral permite que os usuários vejam os metadados do ativo.
 
 ![](assets/overview-option.png)
 
@@ -88,7 +88,7 @@ Ao selecionar a variável **[!UICONTROL Visão geral]** enquanto um ativo/pasta 
 
 #### Exibir configurações na exibição de cartão
 
-**[!UICONTROL Configurações de exibição]** é aberta ao selecionar **[!UICONTROL Configurações de exibição]** no seletor de exibições. Ela permite redimensionar as miniaturas de ativos na Exibição de cartão. Dessa forma, você pode personalizar a visualização e controlar o número de miniaturas exibidas.
+A caixa de diálogo **[!UICONTROL Configurações de Exibição]** é aberta ao selecionar **[!UICONTROL Configurações de Exibição]** no seletor de exibição. Ela permite redimensionar as miniaturas de ativos na Exibição de cartão. Dessa forma, você pode personalizar a visualização e controlar o número de miniaturas exibidas.
 
 ![](assets/cardviewsettings.png)
 
@@ -103,13 +103,13 @@ A exibição de lista exibe informações para cada recurso no nível atual. A e
 * Título
 * Localidade
 * Tipo
-* Dimension
+* Dimensão
 * Tamanho
 * Avaliação
 * Caminho da pasta mostrando a hierarquia de ativos
 * Data de publicação do ativo no Brand Portal
 
-A coluna Caminho permite identificar facilmente o local do ativo na hierarquia de pastas. É possível navegar para baixo na hierarquia tocando/clicando no nome do recurso e fazer backup usando a [navegações estruturais no cabeçalho](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+A coluna Caminho permite identificar facilmente o local do ativo na hierarquia de pastas. Você pode navegar para baixo na hierarquia tocando/clicando no nome do recurso e fazer backup usando a [navegação estrutural no cabeçalho](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +117,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Exibir configurações na exibição de lista
 
-A exibição de lista mostra o ativo **[!UICONTROL Nome]** como a primeira coluna por padrão. Informações adicionais, como ativo **[!UICONTROL Título]**, **[!UICONTROL Localidade]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamanho]**, **[!UICONTROL Classificação]**, o status de publicação também é exibido. No entanto, é possível selecionar as colunas a serem mostradas usando **[!UICONTROL Configurações de exibição]**.
+A exibição de lista mostra o ativo **[!UICONTROL Nome]** como a primeira coluna por padrão. Informações adicionais, como ativo **[!UICONTROL Título]**, **[!UICONTROL Local]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamanho]**, **[!UICONTROL Classificação]**, status de publicação também são mostradas. No entanto, você pode selecionar as colunas a serem mostradas usando **[!UICONTROL Configurações de Exibição]**.
 
 ![](assets/list-view-setting.png)
 
@@ -134,7 +134,7 @@ Selecionar um recurso na primeira coluna (mais à esquerda) exibe os recursos-fi
 * O nome e a divisa do recurso são realçados quando tocados ou clicados.
 * Tocar ou clicar na miniatura seleciona o recurso.
 * Quando selecionada, uma marca de seleção é sobreposta à miniatura e o nome do recurso é realçado.
-* Os detalhes do recurso selecionado são mostrados na coluna final.
+* Os detalhes do recurso selecionado serão mostrados na coluna final.
 
 Quando um ativo é selecionado na exibição de coluna, a representação visual do ativo é exibida na coluna final junto com os seguintes detalhes:
 
@@ -234,7 +234,7 @@ Comment Type: draft
 
 Além dessas exibições, use a exibição em árvore para detalhar a hierarquia de ativos enquanto exibe e seleciona os ativos ou pastas desejados.
 
-Para abrir a exibição em árvore, toque/clique no seletor do painel na parte superior esquerda e selecione a **[!UICONTROL Árvore de conteúdo]** no menu.
+Para abrir o modo de exibição de árvore, toque/clique no seletor do painel na parte superior esquerda e selecione a **[!UICONTROL Árvore de conteúdo]** no menu.
 
 ![](assets/contenttree.png)
 
@@ -252,7 +252,7 @@ Para exibir os metadados do ativo ou exibir suas várias representações, use o
 
 ![](assets/asset-overview.png)
 
-É possível exibir todas as representações disponíveis do ativo na página de detalhes do ativo e selecionar uma representação na **[!UICONTROL Representações]** painel para pré-visualizá-lo.
+Você pode exibir todas as representações disponíveis do ativo na página de detalhes do ativo e selecionar uma representação no painel **[!UICONTROL Representações]** para visualizá-la.
 
 ![](assets/renditions.png)
 
@@ -266,7 +266,7 @@ Para exibir os metadados do ativo ou exibir suas várias representações, use o
 >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
 -->
 
-Para abrir a página de propriedades do ativo, use **[!UICONTROL Propriedades (p)]** na barra superior.
+Para abrir a página de propriedades do ativo, use a opção **[!UICONTROL Propriedades (p)]** da barra superior.
 
 ![](assets/asset-properties.png)
 

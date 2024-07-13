@@ -42,9 +42,9 @@ Esta versão inclui as seguintes correções de erros:
 
 * Não é possível baixar ativos digitais protegidos por DRM na localidade turca.
 * Não é possível abrir e baixar os relatórios existentes que contêm ativos com título de várias linhas.
-* Ao baixar ativos usando [!UICONTROL Baixar] na barra de ações, é possível baixar no máximo 1000 ativos.
+* Ao baixar ativos usando o botão [!UICONTROL Baixar] da barra de ações, você baixará no máximo 1000 ativos.
 * Nome incorreto de ativos do tipo PSD ao visualizar na Árvore de conteúdo.
-* [!UICONTROL Excluir representação] a opção na página detalhes do ativo não está funcionando.
+* A opção [!UICONTROL Excluir representação] da página de detalhes do ativo não está funcionando.
 * Título e tamanho dos ativos desalinhados na janela pop-up de download.
 * Ao criar um relatório, os rótulos não são localizados.
 * Os administradores de suporte eram chamados de administradores no Brand Portal.
@@ -56,19 +56,19 @@ Esta versão inclui as seguintes correções de erros:
 **Correções de erros e aprimoramentos**
 Esta versão inclui os seguintes aprimoramentos:
 
-* Melhorias de desempenho ao navegar pela [!UICONTROL Coleções].
+* Melhorias de desempenho ao navegar pelas [!UICONTROL Coleções].
 
 * Melhorias nos resultados da pesquisa ao executar uma pesquisa parcial usando o campo OmniSearch.
 
 Esta versão inclui as seguintes correções de erros:
 
-* Não é possível salvar [!UICONTROL Data] e [!UICONTROL Opções] predicados para o [!UICONTROL Conjunto inteligente].
+* Não é possível salvar os predicados [!UICONTROL Data] e [!UICONTROL Opções] na [!UICONTROL Coleção Inteligente].
 
-* A variável [!UICONTROL Data e hora] O formato do é inconsistente durante o trabalho em um local diferente do inglês.
+* O formato [!UICONTROL Data e Hora] é inconsistente ao trabalhar em uma localidade diferente do inglês.
 
-* Ao realizar a pesquisa de ativos, a variável [!UICONTROL Excluir] botão ausente.
+* Durante a pesquisa de ativos, o botão [!UICONTROL Excluir] está ausente.
 
-* Se a variável [!UICONTROL Título] o campo contém símbolos multibyte em [!UICONTROL Compartilhamento de link], o relatório não poderá ser baixado.
+* Se o campo [!UICONTROL Título] contiver símbolos multibyte em [!UICONTROL Compartilhamento de Link], o relatório não poderá ser baixado.
 
 * Ao visualizar um documento do tipo PDF, os rótulos e as dicas de ferramenta não estão localizados.
 
@@ -77,7 +77,7 @@ Esta versão inclui as seguintes correções de erros:
 **Correções de erros e aprimoramentos**
 Esta versão inclui os seguintes aprimoramentos:
 
-* Melhorias de desempenho ao carregar ativos no [!UICONTROL Baixar] aparecer.
+* Melhorias de desempenho ao carregar ativos no pop-up [!UICONTROL Download].
 * Ao baixar um ativo ou uma representação de um ativo, agora ele é baixado em seu formato de tipo de arquivo original em vez de um arquivo zip.
 
 Esta versão inclui as seguintes correções de erros:
@@ -91,8 +91,8 @@ Esta versão inclui as seguintes correções de erros:
 **Correções de erros**
 Esta versão inclui correções para os seguintes problemas críticos:
 
-* Se ocorrer um erro ao baixar um Ativo de um link compartilhado, a variável `Notice` e `Close` os rótulos do prompt de erro não estão localizados.
-* Brand Portal displays **Campos de cabeçalho de solicitação muito grandes** erro ao acessar filtros de pesquisa usando `Filter` painel.
+* Se ocorrer um erro ao baixar um Ativo de um link compartilhado, os rótulos `Notice` e `Close` do prompt de erro não serão localizados.
+* O Brand Portal exibe o erro **Solicitar campos de cabeçalho muito grandes** ao acessar filtros de pesquisa usando o painel `Filter`.
 
 **Problemas conhecidos**
 Esta versão inclui os seguintes problemas conhecidos:
@@ -111,12 +111,12 @@ Esta versão inclui correções para os seguintes problemas críticos:
 * Os resultados da pesquisa são inconsistentes para o mesmo predicado de propriedade usado duas vezes nos formulários de pesquisa.
 * O texto nas páginas de logon intermediárias não está traduzido para todos os idiomas.
 
-**Aprimoramentos**
+**Melhorias**
 
 Esta versão inclui os seguintes aprimoramentos:
 
 * Um novo visualizador de PDF moderno está disponível para uma visualização aprimorada dos ativos de PDF.
-* Agora você pode optar por ativar ou desativar as notificações de origem de ativos para Administradores. Navegue até [!UICONTROL Configurações gerais] e, em seguida, ativar ou desativar [!UICONTROL `Notify Administrator of asset contribution`].
+* Agora você pode optar por ativar ou desativar as notificações de origem de ativos para Administradores. Navegue até [!UICONTROL Configurações Gerais] e habilite ou desabilite [!UICONTROL `Notify Administrator of asset contribution`].
 
   ![Notificar o administrador sobre a contribuição de ativos](assets/notify-admin.png)
 
@@ -159,7 +159,7 @@ Esta versão inclui correções para os seguintes problemas críticos:
 * Quando a NUI não processa um ativo no Experience Manager, o Brand Portal exibe um status de importação de ativo impreciso.
 * Quando a ação de visualização falha, não há notificação para comunicar a falha.
 * Valor impreciso da propriedade totalUploadedSize para cada ativo corrigido.
-* Ao clicar em **Baixar todos os itens** e houver um grande número de representações disponíveis para um ativo, a Brand Portal baixa um arquivo .ZIP inválido.
+* Quando você clica em **Baixar todos os itens** e há um grande número de representações disponíveis para um ativo, o Brand Portal baixa um arquivo .ZIP inválido.
 * A tradução de algumas cadeias de caracteres é truncada na interface do usuário do Brand Portal.
 
 ### Versão de maio de 2022 {#may-2022}
@@ -184,14 +184,14 @@ Esta versão inclui correções para os seguintes problemas críticos:
 **Novos recursos**
 
 * O limite de tempo limite de sessão para os usuários convidados foi reduzido de 2 horas para 15 minutos.
-* O montante **[!UICONTROL Exibir páginas]** A opção foi removida para PDF de várias páginas, pois o usuário agora pode exibir as páginas de PDF do visualizador do Adobe Document Cloud.
+* A opção **[!UICONTROL Exibir páginas]** adicional foi removida para PDF de várias páginas, pois o usuário agora pode exibir as páginas de PDF do Visualizador do Adobe Document Cloud.
 * Os usuários não podem pesquisar, navegar ou abrir pastas. A interface do usuário reflete a mensagem de erro: `Failed to load data`.
-* A variável **[!UICONTROL Representações]** O painel não lista todas as representações estáticas dos ativos publicados no Brand Portal.
-* A variável **[!UICONTROL Representações]** O painel lista as representações de corte inteligente do ativo, no entanto, o usuário não pode visualizar ou baixar as representações de corte inteligente.
+* O painel **[!UICONTROL Representações]** não lista todas as representações estáticas dos ativos publicados no Brand Portal.
+* O painel **[!UICONTROL Representações]** lista as representações de corte inteligente do ativo, no entanto, o usuário não pode visualizar ou baixar as representações de corte inteligente.
 * A caixa de diálogo de download lista as representações de corte inteligente do ativo selecionado. No entanto, o usuário não pode baixar as representações de corte inteligente.
 * Um usuário não administrador está obtendo somente a representação do ativo original ao baixar um ativo. O sistema e as representações personalizadas não são baixados.
-* Ao aplicar o filtro de pesquisa para baixar um ativo, a variável `Download` O botão está desativado na caixa de diálogo de download e não permite que o usuário baixe o ativo.
-* Se `Smart Tags` e (ou) `Color Tags` estiverem ativados, a caixa de diálogo de download listará as `json` arquivos como representações e faz o download desses `json` arquivos na pasta zip arquivada.
+* Ao aplicar o filtro de pesquisa para baixar um ativo, o botão `Download` é desativado na caixa de diálogo de download e não permite que o usuário baixe o ativo.
+* Se `Smart Tags` e (ou) `Color Tags` estiverem habilitados, a caixa de diálogo de download listará os arquivos `json` como representações e baixará esses arquivos `json` na pasta zip arquivada.
 * Os usuários anônimos não conseguem baixar ativos usando um link compartilhado porque o link redireciona para a página de logon do Brand Portal.
 * O sistema não está refletindo o valor correto para o número de usuários simultâneos ativos.
 
@@ -374,11 +374,11 @@ A interface do usuário do Brand Portal está disponível nos seguintes idiomas:
 
 ## Plataformas certificadas {#certified-platforms}
 
-Para determinar quais plataformas estão certificadas para execução com esta versão do Brand Portal, consulte **Suporte para interface otimizada para toque** na tabela no **Navegadores compatíveis com a interface de criação de usuário** seção de [Requisitos técnicos](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Para determinar quais plataformas estão certificadas para execução com esta versão do Brand Portal, consulte a coluna **Suporte para interface otimizada para toque** na tabela na seção **Navegadores com suporte para criação de interface do usuário** de [Requisitos técnicos](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Links {#links}
 
-* [Página do produto Adobe Experience Manager em adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Página de produto do Adobe Experience Manager em adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
 * [Documentação do Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## Acesso e suporte do produto (sites restritos) {#product-access-and-support-restricted-sites}
