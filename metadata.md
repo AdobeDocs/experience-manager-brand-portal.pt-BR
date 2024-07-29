@@ -6,10 +6,10 @@ feature-set: Experience Manager Assets
 type: Documentation
 index: y
 recommendations: noDisplay
-source-git-commit: b8b0f367a74023a12a29e05e8c384cd0d5cd84a3
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 89%
+source-wordcount: '112'
+ht-degree: 99%
 
 ---
 
@@ -25,5 +25,5 @@ O arquivo metadata.md inclui metadados de nível de repositório que passam para
 | solution-icon | Exibe o ícone da solução ao lado do título da solução. Ainda não implementado |
 | getting-started-url | Link para a página de introdução |
 | tutorials-url | Link para tutoriais em vídeo — tutoriais de ajuda ou tutoriais de KT |
-| mini-toc-levels | Calcula o número de níveis de cabeçalho exibidos no painel direito. O padrão é 2 |
+| mini-toc-levels | Determina o número de níveis de cabeçalho exibidos no painel direito. O padrão é 2 |
 | git-repo | Especifica o local do repositório principal para uso interno |
