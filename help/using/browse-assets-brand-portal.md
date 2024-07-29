@@ -1,24 +1,20 @@
 ---
 title: Procurar ativos no Brand Portal
-seo-title: Browse assets on Brand Portal
 description: Navegue pelos ativos, navegue pelas hierarquias de ativos e pesquise ativos usando diferentes opções de exibição e elementos de interface no Brand Portal.
-seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
-uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
-discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
+source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1015'
 ht-degree: 7%
 
 ---
 
 # Procurar ativos no Brand Portal {#browsing-assets-on-brand-portal}
 
-O Experience Manager Assets Brand Portal fornece vários recursos e elementos da interface do usuário que facilitam a navegação pelos recursos, o percurso pelas hierarquias de ativos e a pesquisa de ativos usando diferentes opções de exibição.
+O Experience Manager Assets Brand Portal oferece vários recursos e elementos de interface do usuário que facilitam a navegação por recursos, a navegação em hierarquias de ativos e a pesquisa de ativos usando diferentes opções de exibição.
 
 O logotipo Experience Manager na barra de ferramentas na parte superior facilita que os usuários administradores acessem o painel de ferramentas administrativas.
 
@@ -28,11 +24,11 @@ O logotipo Experience Manager na barra de ferramentas na parte superior facilita
 
 ![](assets/bp_subheader.png)
 
-Seletor de painéis no canto superior esquerdo dos menus suspensos do Brand Portal para expor opções de navegação nas hierarquias de ativos, dinamizar a pesquisa e exibir recursos.
+O seletor de painéis na parte superior esquerda do menu suspenso Brand Portal expõe as opções para navegar até as hierarquias de ativos, simplificar sua pesquisa e exibir recursos.
 
 ![](assets/siderail-1.png)
 
-Você pode visualizar, navegar e selecionar ativos usando qualquer uma das exibições disponíveis (Cartão, Coluna e Lista) no seletor de exibições no canto superior direito do Brand Portal.
+Você pode visualizar, navegar e selecionar ativos usando qualquer uma das exibições disponíveis (Cartão, Coluna e Lista) no seletor de exibições do Brand Portal.
 
 ![](assets/viewselector.png)
 
@@ -60,27 +56,28 @@ A exibição de cartão mostra cartões de informação para cada item no nível
 * Tamanho
 * Dimensões
 
-Você pode navegar para baixo na hierarquia tocando/clicando em cartões (com cautela para evitar as ações rápidas) ou para cima novamente usando a [navegação estrutural no cabeçalho](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+Você pode navegar para baixo na hierarquia clicando em cartões (com cautela para evitar as ações rápidas) ou para cima novamente usando a [navegação estrutural no cabeçalho](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
 #### Exibição de cartão para usuários não administradores
 
-Cartões de pastas, na Exibição de cartão, exibem informações de hierarquia de pastas para usuários não administradores (Editor, Visualizador e Usuário convidado). Essa funcionalidade permite que os usuários saibam o local das pastas que estão acessando em relação à hierarquia principal.
-As informações de hierarquia de pastas são particularmente úteis para diferenciar as pastas com nomes semelhantes a outras pastas compartilhadas de uma hierarquia de pastas diferente. Se os usuários não administradores não estiverem cientes da estrutura de pastas dos ativos compartilhados com eles, os ativos/pastas com nomes semelhantes parecerão confusos.
+Cartões de pastas, na Exibição de cartão, exibem informações de hierarquia de pastas para usuários não administradores (Editor, Visualizador e Usuário convidado). Essa funcionalidade permite que os usuários saibam a localização das pastas que estão acessando, com relação à hierarquia principal.
 
-* Os caminhos mostrados nas respectivas placas estão truncados para se ajustarem aos tamanhos da placa. No entanto, os usuários podem ver o caminho completo como uma dica de ferramenta ao passar o mouse sobre o caminho truncado.
+As informações de hierarquia de pastas são particularmente úteis na diferenciação das pastas que têm nomes semelhantes a outras pastas compartilhadas de uma hierarquia de pastas diferente. Se os usuários não administradores não estiverem cientes da estrutura de pastas dos ativos compartilhados com eles, ativos/pastas com nomes semelhantes parecem confusos.
+
+* Os caminhos mostrados nas respectivas placas estão truncados para se ajustarem aos tamanhos da placa. No entanto, os usuários podem ver o caminho completo como uma dica de ferramenta, passando o cursor do mouse sobre o caminho truncado.
 
 ![](assets/folder-hierarchy1.png)
 
 **Opção de visão geral para exibir as propriedades do ativo**
 
-A opção Visão geral está disponível para usuários não administradores (Editores, Visualizadores, Usuários convidados) para visualizar Propriedades de ativos de ativos/pastas selecionadas. A opção Visão geral está visível:
+A opção Visão geral está disponível para usuários não administradores (Editores, Visualizadores, Usuários convidados) para exibir propriedades de ativos de ativos/pastas selecionados. A opção Visão geral está visível:
 
-* na barra de ferramentas na parte superior ao selecionar um ativo/pasta.
-* na lista suspensa em selecionar o Seletor de painéis.
+* Na barra de ferramentas, na parte superior, em selecione um ativo/pasta.
+* Na lista suspensa, em selecione o seletor de painéis.
 
-Ao selecionar a opção **[!UICONTROL Visão geral]** enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e a hora da criação do ativo. Já na página de detalhes do ativo, a seleção da opção Visão geral permite que os usuários vejam os metadados do ativo.
+Ao selecionar a opção **[!UICONTROL Visão geral]** enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e a hora da criação do ativo. Enquanto na página de detalhes do ativo, selecionar a opção Visão geral permite que os usuários vejam os metadados do ativo.
 
 ![](assets/overview-option.png)
 
@@ -88,7 +85,7 @@ Ao selecionar a opção **[!UICONTROL Visão geral]** enquanto um ativo/pasta é
 
 #### Exibir configurações na exibição de cartão
 
-A caixa de diálogo **[!UICONTROL Configurações de Exibição]** é aberta ao selecionar **[!UICONTROL Configurações de Exibição]** no seletor de exibição. Ela permite redimensionar as miniaturas de ativos na Exibição de cartão. Dessa forma, você pode personalizar a visualização e controlar o número de miniaturas exibidas.
+A caixa de diálogo **[!UICONTROL Configurações de Exibição]** é aberta ao selecionar **[!UICONTROL Configurações de Exibição]** no seletor de exibições. Ela permite redimensionar as miniaturas de ativos na Exibição de cartão. Dessa forma, você pode personalizar a visualização e controlar o número de miniaturas exibidas.
 
 ![](assets/cardviewsettings.png)
 
@@ -96,7 +93,7 @@ A caixa de diálogo **[!UICONTROL Configurações de Exibição]** é aberta ao 
 
 ![](assets/list-view.png)
 
-A exibição de lista exibe informações para cada recurso no nível atual. A exibição em lista fornece os seguintes detalhes:
+A exibição de lista exibe informações para cada recurso no nível atual. A exibição em Lista fornece os seguintes detalhes:
 
 * Imagem em miniatura de ativos
 * Nome
@@ -109,7 +106,7 @@ A exibição de lista exibe informações para cada recurso no nível atual. A e
 * Caminho da pasta mostrando a hierarquia de ativos
 * Data de publicação do ativo no Brand Portal
 
-A coluna Caminho permite identificar facilmente o local do ativo na hierarquia de pastas. Você pode navegar para baixo na hierarquia tocando/clicando no nome do recurso e fazer backup usando a [navegação estrutural no cabeçalho](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+A coluna de caminho permite identificar facilmente o local do ativo na hierarquia de pastas. Você pode navegar para baixo na hierarquia clicando no nome do recurso e fazer backup usando a [navegação estrutural no cabeçalho](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +114,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Exibir configurações na exibição de lista
 
-A exibição de lista mostra o ativo **[!UICONTROL Nome]** como a primeira coluna por padrão. Informações adicionais, como ativo **[!UICONTROL Título]**, **[!UICONTROL Local]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamanho]**, **[!UICONTROL Classificação]**, status de publicação também são mostradas. No entanto, você pode selecionar as colunas a serem mostradas usando **[!UICONTROL Configurações de Exibição]**.
+A exibição em Lista mostra o ativo **[!UICONTROL Nome]** como a primeira coluna por padrão. Informações adicionais, como ativo **[!UICONTROL Título]**, **[!UICONTROL Local]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamanho]**, **[!UICONTROL Classificação]**, status de publicação também são mostradas. No entanto, você pode selecionar as colunas a serem mostradas usando **[!UICONTROL Configurações de Exibição]**.
 
 ![](assets/list-view-setting.png)
 
@@ -129,14 +126,14 @@ Use a exibição de coluna para navegar em uma árvore de conteúdo por uma sér
 
 Selecionar um recurso na primeira coluna (mais à esquerda) exibe os recursos-filho na segunda coluna à direita. Selecionar um recurso na segunda coluna exibe os recursos secundários na terceira coluna à direita e assim por diante.
 
-É possível navegar para cima e para baixo na árvore tocando ou clicando no nome do recurso ou na divisa à direita do nome do recurso.
+Você pode navegar para cima e para baixo na árvore. Clique no nome do recurso ou na divisa à direita do nome do recurso.
 
 * O nome e a divisa do recurso são realçados quando tocados ou clicados.
 * Tocar ou clicar na miniatura seleciona o recurso.
 * Quando selecionada, uma marca de seleção é sobreposta à miniatura e o nome do recurso é realçado.
 * Os detalhes do recurso selecionado serão mostrados na coluna final.
 
-Quando um ativo é selecionado na exibição de coluna, a representação visual do ativo é exibida na coluna final junto com os seguintes detalhes:
+Quando um ativo é selecionado na exibição de coluna, uma representação visual do ativo é exibida na coluna final junto com os seguintes detalhes:
 
 * Título
 * Nome
@@ -144,7 +141,7 @@ Quando um ativo é selecionado na exibição de coluna, a representação visual
 * Data e hora em que o ativo foi publicado no Brand Portal a partir do AEM
 * Tamanho
 * Tipo
-* Opção Mais detalhes, para acessar a página de detalhes do ativo
+* Opção Mais detalhes que acompanha a página de detalhes do ativo
 
 <!--
 Comment Type: draft
@@ -266,7 +263,7 @@ Você pode exibir todas as representações disponíveis do ativo na página de 
 >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
 -->
 
-Para abrir a página de propriedades do ativo, use a opção **[!UICONTROL Propriedades (p)]** da barra superior.
+Para abrir a página de propriedades do ativo, use a opção **[!UICONTROL Propriedades (p)]** na barra superior.
 
 ![](assets/asset-properties.png)
 
