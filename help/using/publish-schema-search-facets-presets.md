@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Para publicar predefinições de imagem no Brand Portal:
 
 Para desfazer a publicação de uma predefinição de imagem do Brand Portal:
 
-1. Na instância do Autor AEM, toque/clique no logotipo AEM para acessar o console de navegação global e toque/clique no ícone **[!UICONTROL Ferramentas]** e navegue até **[!UICONTROL Assets > Predefinições de imagem]**.
+1. Na instância do Autor AEM, toque/clique no logotipo AEM para acessar o console de navegação global, clique no ícone **[!UICONTROL Ferramentas]** e navegue até **[!UICONTROL Assets > Predefinições de imagem]**.
 1. Selecione uma predefinição de imagem e selecione **[!UICONTROL Remover do Brand Portal]** entre as opções disponíveis na parte superior.
 
 ## Esquema de metadados do Publish para o Brand Portal  {#publish-metadata-schema-to-brand-portal}
@@ -71,7 +71,7 @@ Se os usuários tiverem criado um esquema personalizado na instância do autor A
 
 Para publicar um esquema de metadados da instância do autor do AEM no Brand Portal:
 
-1. Na instância do Autor AEM, toque/clique no logotipo AEM para acessar o console de navegação global e toque/clique no ícone Ferramentas e navegue até **[!UICONTROL Assets > Esquemas de metadados]**.
+1. Na instância do Autor AEM, toque/clique no logotipo AEM para acessar o console de navegação global, clique no ícone Ferramentas e navegue até **[!UICONTROL Assets > Esquemas de metadados]**.
 1. Selecione um esquema de metadados e selecione **[!UICONTROL Publish to Brand Portal]** entre as opções disponíveis na parte superior.
 
 >[!NOTE]
@@ -80,7 +80,7 @@ Para publicar um esquema de metadados da instância do autor do AEM no Brand Por
 
 Para desfazer a publicação de um esquema de metadados do Brand Portal:
 
-1. Na instância do Autor AEM, toque/clique no logotipo AEM para acessar o console de navegação global e toque/clique no ícone Ferramentas e navegue até **[!UICONTROL Assets > Esquemas de metadados]**.
+1. Na instância do Autor AEM, toque/clique no logotipo AEM para acessar o console de navegação global, clique no ícone Ferramentas e navegue até **[!UICONTROL Assets > Esquemas de metadados]**.
 1. Selecione um esquema de metadados e selecione **[!UICONTROL Remover do Brand Portal]** entre as opções disponíveis na parte superior.
 
 ## Aspectos de pesquisa do Publish para o Brand Portal {#publish-search-facets-to-brand-portal}
@@ -98,7 +98,7 @@ Se você quiser usar o formulário de pesquisa personalizado **[!UICONTROL Paine
 
 Para publicar a faceta de pesquisa editada da instância do autor do AEM no Brand Portal:
 
-1. Toque/clique no logotipo do AEM e acesse **[!UICONTROL Ferramentas > Geral > Pesquisar Forms]**.
+1. Clique no logotipo do AEM e acesse **[!UICONTROL Ferramentas > Geral > Pesquisar Forms]**.
 1. Selecione o formulário de pesquisa editado e selecione **[!UICONTROL Publish to Brand Portal]**.
 
    >[!NOTE]
@@ -107,7 +107,7 @@ Para publicar a faceta de pesquisa editada da instância do autor do AEM no Bran
 
 Para desfazer a publicação de formulários de pesquisa no Brand Portal:
 
-1. Na instância do Autor AEM, toque/clique no logotipo AEM para acessar o console de navegação global e toque/clique no ícone Ferramentas e navegue até **[!UICONTROL Geral > Pesquisar Forms]**.
+1. Na instância do Autor AEM, toque/clique no logotipo AEM para acessar o console de navegação global, clique no ícone Ferramentas e navegue até **[!UICONTROL Geral > Pesquisar Forms]**.
 1. Selecione o formulário de pesquisa e selecione **[!UICONTROL Remover do Brand Portal]** entre as opções disponíveis na parte superior.
 
 >[!NOTE]

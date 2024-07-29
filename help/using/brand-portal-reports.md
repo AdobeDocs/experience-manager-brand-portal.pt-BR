@@ -1,19 +1,15 @@
 ---
 title: Trabalhar com relatórios
-seo-title: Work with reports
-description: Os administradores do Experience Manager Assets Brand Portal podem exibir relatórios sobre o uso do Brand Portal e criar, gerenciar e exibir relatórios sobre ativos baixados, expirados, publicados e compartilhados por meio do Brand Portal.
-seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
-uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
+description: Os administradores do Experience Manager Assets Brand Portal podem exibir relatórios sobre o uso do Brand Portal e criar, gerenciar e exibir relatórios de ativos baixados, expirados, publicados e compartilhados por meio do Brand Portal.
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '1010'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +23,7 @@ A interface de gerenciamento de relatórios é intuitiva e inclui opções e con
 
 Para exibir um relatório, siga estas etapas:
 
-1. Na barra de ferramentas na parte superior, toque/clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -39,11 +35,11 @@ Para exibir um relatório, siga estas etapas:
 
    >[!NOTE]
    >
-   >O relatório de uso é um relatório padrão gerado no Brand Portal. Ele não pode ser criado ou excluído. No entanto, você pode criar, baixar e excluir os relatórios Download, Expiração, Publish, Compartilhamento de links e Logons de usuário.
+   >O relatório de uso é um relatório padrão gerado no Brand Portal. Ele não pode ser criado ou excluído. No entanto, você pode criar, baixar e excluir os relatórios de Download, Expiração, Publish, `Link Share` e logons de usuário.
 
-   Para exibir um relatório, clique no link do relatório. Como alternativa, selecione o relatório e toque/clique no ícone Exibir na barra de ferramentas.
+   Para exibir um relatório, clique no link do relatório. Como alternativa, selecione o relatório e clique no ícone Exibir na barra de ferramentas.
 
-   O **[!UICONTROL Relatório de uso]** exibe informações sobre o número de usuários ativos do Brand Portal, o espaço de armazenamento ocupado por todos os ativos e a contagem total de ativos no Brand Portal. Os usuários do portal de marcas que não estão atribuídos a nenhum perfil de produto no Admin Console são considerados usuários inativos e não são refletidos no **[!UICONTROL Relatório de uso]**.
+   O **[!UICONTROL Relatório de uso]** exibe informações sobre o número de usuários ativos do Brand Portal, o espaço de armazenamento ocupado por todos os ativos e a contagem total de ativos no Brand Portal. Os usuários do Brand Portal que não estão atribuídos a nenhum perfil de produto no Admin Console são considerados usuários inativos e não são refletidos no **[!UICONTROL Relatório de uso]**.
 O relatório também exibe a capacidade permitida para cada uma dessas métricas de informações.
 
    ![](assets/usage-report.png)
@@ -72,7 +68,7 @@ O relatório também exibe a capacidade permitida para cada uma dessas métricas
    >
    >O Relatório do Publish não exibe informações sobre fragmentos de conteúdo, pois eles não podem ser publicados na Brand Portal.
 
-   O **[!UICONTROL Relatório de compartilhamento de links]** lista todos os ativos compartilhados por meio de links da interface do Brand Portal em um intervalo de tempo específico. O relatório também informa quando o ativo foi compartilhado por meio de um link, por qual usuário, quando o link expira e o número de links compartilhados para o locatário (e usuários com os quais o link do ativo foi compartilhado). As colunas do Relatório de compartilhamento de link não são personalizáveis.
+   O relatório **[!UICONTROL Compartilhamento de links]** lista todos os ativos compartilhados por meio de links da interface do Brand Portal em um intervalo de tempo específico. O relatório detalha quando o ativo foi compartilhado por meio de um link, qual usuário o compartilhou e a data de expiração do link. Ele também relata o número de links compartilhados para o locatário e os usuários. As colunas do Relatório de compartilhamento de link não são personalizáveis.
 
    ![](assets/link-share-report.png)
 
@@ -80,11 +76,11 @@ O relatório também exibe a capacidade permitida para cada uma dessas métricas
    >
    >O Relatório de compartilhamento de links não exibe usuários que têm acesso ao ativo compartilhado por meio do link ou que baixaram o ativo por meio do link.
    >
-   >Para rastrear downloads por meio do link compartilhado, você precisa gerar um relatório de download após selecionar a opção **[!UICONTROL Somente Downloads de Compartilhamento de Link]** na página **[!UICONTROL Criar Relatório]**. No entanto, o usuário (baixado por) é anônimo neste caso.
+   >Para rastrear downloads por meio do link compartilhado, é necessário gerar um relatório de download após selecionar a opção **[!UICONTROL Somente Downloads de Compartilhamento de Link]** na página **[!UICONTROL Criar Relatório]**. No entanto, o usuário (Baixado por) é anônimo nesse caso.
 
 ## Gerar relatórios {#generate-reports}
 
-Os administradores podem gerar e gerenciar os seguintes relatórios padrão. Uma vez gerados, eles são salvos para serem [acessados](../using/brand-portal-reports.md#main-pars-header) mais tarde:
+Os administradores podem gerar e gerenciar os seguintes relatórios padrão. Após a geração, os relatórios são salvos para [acesso posterior](../using/brand-portal-reports.md#main-pars-header).
 
 * Logons de usuário
 * Download
@@ -94,56 +90,56 @@ Os administradores podem gerar e gerenciar os seguintes relatórios padrão. Uma
 
 As colunas no relatório de Download, Expiração e Publish podem ser personalizadas para exibição. Para gerar um relatório, siga estas etapas:
 
-1. Na barra de ferramentas na parte superior, toque/clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
 
-1. No painel de ferramentas administrativas, toque/clique em **[!UICONTROL Criar/Gerenciar relatórios]** para abrir a página **[!UICONTROL Relatórios de ativos]**.
+1. No painel de ferramentas administrativas, clique em **[!UICONTROL Criar/Gerenciar Relatórios]** para abrir a página **[!UICONTROL Relatórios de Ativos]**.
 
    ![](assets/asset-reports.png)
 
-1. Na página Relatórios de ativos, toque/clique em **[!UICONTROL Criar]**.
-1. Na página **[!UICONTROL Criar relatório]**, selecione um relatório a ser criado e toque/clique em **[!UICONTROL Avançar]**.
+1. Na página Relatórios de ativos, clique em **[!UICONTROL Criar]**.
+1. Na página **[!UICONTROL Criar Relatório]**, selecione um relatório a ser criado e clique em **[!UICONTROL Avançar]**.
 
    ![](assets/crete-report.png)
 
-1. Configurar detalhes do relatório. Especifique o título, a descrição, a estrutura de pastas (onde o relatório precisa ser executado e gerar estatísticas) e o intervalo de datas dos relatórios **[!UICONTROL Download]**, **[!UICONTROL Expiração]** e **[!UICONTROL Publish]**.
+1. Configurar detalhes do relatório. Especifique o título, a descrição, a estrutura de pastas (onde o relatório precisa ser executado e gerar estatísticas) e o intervalo de datas dos relatórios de **[!UICONTROL Download]**, **[!UICONTROL Expiração]** e **[!UICONTROL Publish]**.
 
    ![](assets/create-report-page.png)
 
-   Por outro lado, o **[!UICONTROL Relatório de compartilhamento de links]** precisa apenas dos parâmetros de título, descrição e intervalo de datas.
+   O relatório **[!UICONTROL Compartilhamento de links]** precisa apenas dos parâmetros de título, descrição e intervalo de datas.
 
    ![](assets/create-link-share-report.png)
 
    >[!NOTE]
    >
-   >Os caracteres especiais # e % no título do relatório são substituídos por um hífen (-) na geração do relatório.
+   >Gerar o relatório substitui os caracteres especiais `#` e `%` no título por um hífen (-).
 
-1. Toque/clique em **[!UICONTROL Avançar]** para configurar as colunas dos relatórios de Download, Expiração e Publish.
-1. Marque ou desmarque as caixas de seleção apropriadas, conforme necessário. Por exemplo, para exibir nomes de usuários (que baixaram ativos) no relatório **[!UICONTROL Download]**, selecione **[!UICONTROL Baixado por]**. A imagem a seguir ilustra a seleção de colunas padrão no relatório de Download.
+1. Clique em **[!UICONTROL Avançar]** para configurar as colunas dos relatórios de Download, Expiração e Publish.
+1. Marque ou desmarque as caixas de seleção apropriadas, conforme necessário. Por exemplo, para exibir nomes de usuários (que baixaram ativos) no relatório **[!UICONTROL Download]**, selecione **[!UICONTROL Baixado por]**. A imagem a seguir ilustra a seleção das colunas padrão no relatório de Download.
 
    ![](assets/createdownloadreport.png)
 
-   Você também pode adicionar colunas personalizadas a esses relatórios para exibir mais dados para seus requisitos personalizados.
+   Você também pode adicionar Colunas personalizadas a esses relatórios para exibir mais dados para seus requisitos personalizados.
 
-   Para adicionar colunas personalizadas ao Download, Publish ou relatório de Expiração, siga estas etapas:
+   Para adicionar Colunas personalizadas ao Relatório de download, Publish ou Expiração, faça o seguinte:
 
-   1. Para exibir uma coluna personalizada, toque/clique em **[!UICONTROL Adicionar]** em [!UICONTROL Colunas personalizadas].
+   1. Para exibir uma coluna personalizada, clique em **[!UICONTROL Adicionar]** em [!UICONTROL Colunas Personalizadas].
    1. Especifique o nome da coluna no campo **[!UICONTROL Nome da Coluna]**.
-   1. Selecione a propriedade para a qual a coluna precisa ser mapeada, usando o seletor de propriedades.
+   1. Selecione a propriedade para a qual a coluna precisa ser mapeada, usando um seletor de propriedades.
 
       ![](assets/property-picker.png)
 Como alternativa, digite o caminho no campo caminho da propriedade.
 
       ![](assets/property-path.png)
 
-      Para adicionar mais colunas personalizadas, toque/clique em **Adicionar** e repita as etapas 2 e 3.
+      Para adicionar mais Colunas Personalizadas, clique em **Adicionar** e repita as etapas 2 e 3.
 
-1. Toque/clique em **[!UICONTROL Criar]**. Uma mensagem notifica que a geração de relatório foi iniciada.
+1. Clique em **[!UICONTROL Criar]**. Uma mensagem notifica que a geração de relatório foi iniciada.
 
 ## Baixar relatórios {#download-reports}
 
-Para salvar e baixar um relatório como arquivo .csv, siga um destes procedimentos:
+Para salvar e baixar um relatório como um arquivo .csv, siga um destes procedimentos:
 
-* Selecione um relatório na página Relatórios de ativos e toque/clique em **[!UICONTROL Baixar]** na barra de ferramentas na parte superior.
+* Selecione um relatório na página Relatórios de ativos e clique em **[!UICONTROL Baixar]** na barra de ferramentas na parte superior.
 
 ![](assets/download-asset-report.png)
 
@@ -153,7 +149,7 @@ Para salvar e baixar um relatório como arquivo .csv, siga um destes procediment
 
 ## Excluir relatórios {#delete-reports}
 
-Para excluir um relatório existente, selecione o relatório na página **[!UICONTROL Relatórios de ativos]** e toque/clique em **[!UICONTROL Excluir]** na barra de ferramentas na parte superior.
+Para excluir um relatório existente, selecione o relatório na página **[!UICONTROL Relatórios de ativos]** e clique em **[!UICONTROL Excluir]** na barra de ferramentas na parte superior.
 
 >[!NOTE]
 >
