@@ -1,18 +1,14 @@
 ---
 title: Acelere os downloads do Brand Portal
-seo-title: Speed up the Brand Portal downloads
 description: Melhorar o desempenho de download do Brand Portal e dos links compartilhados.
-seo-description: Enhance download performance from Brand Portal and the shared links.
-uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: Vishabh Gupta
 topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
+source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -25,7 +21,7 @@ O Adobe Experience Manager Assets Brand Portal permite melhorar o desempenho de 
 
 >[!NOTE]
 >
->A velocidade de download varia para os usuários, pois depende de fatores como largura de banda da rede, latência do servidor e localização geográfica dos clientes.
+>A velocidade de download varia para os usuários porque depende de fatores como largura de banda da rede, latência do servidor e a localização geográfica dos clientes.
 
 Por padrão, a configuração **[!UICONTROL Download Rápido]** está habilitada, o que reduz significativamente o tempo necessário para baixar os arquivos de ativos desejados do Brand Portal.
 
@@ -89,15 +85,15 @@ Para baixar ativos mais rapidamente da Brand Portal:
 
 1. A caixa de diálogo **[!UICONTROL Download]** listando todos os ativos selecionados é aberta.
 
-   Para preservar a hierarquia de pastas do Brand Portal ao baixar ativos, marque a caixa de seleção **[!UICONTROL Criar pasta separada para cada ativo]**.
+   Para preservar a hierarquia de pastas do Brand Portal ao baixar ativos, marque a caixa de seleção **[!UICONTROL `Create separate folder for each asset`]**.
 
-   O botão de download reflete a contagem dos itens selecionados. Quando terminar de aplicar as regras, clique em **[!UICONTROL Baixar itens]**. Para saber mais sobre como aplicar regras, consulte [baixar ativos](../using/brand-portal-download-assets.md#download-assets).
+   O botão de download reflete a contagem dos itens selecionados. Quando terminar de aplicar as regras, clique em **[!UICONTROL Baixar itens]**. Para saber mais sobre como aplicar as regras, consulte [baixar ativos](../using/brand-portal-download-assets.md#download-assets).
 
    ![caixa de diálogo de download](assets/download-dialog-box-new.png)
 
 1. Por padrão, a configuração **[!UICONTROL Download Rápido]** está habilitada nas **[!UICONTROL Configurações de Download]**. Portanto, aparece uma caixa de confirmação para fazer o download de ativos usando o IBM® Aspera Connect.
 
-   Se você estiver baixando os ativos pela primeira vez e não tiver o IBM® Aspera Connect instalado no seu navegador ou a versão existente estiver desatualizada, será solicitado que você instale o acelerador de download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+   Se você fez o download de ativos pela primeira vez e não tem o IBM® Aspera Connect instalado no navegador, você será solicitado a instalá-lo. Se a versão existente estiver desatualizada, você também será solicitado a instalar o [Acelerador de download Aspera](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all).
 
    ![](assets/aspera-not-launched.png)
 
@@ -184,7 +180,7 @@ O Microsoft® Edge é executado no Modo Protegido Aprimorado (EPM), impedindo a 
 
 ![](assets/switchapps-msedge.png)
 
-Para usar a funcionalidade de download acelerado no Microsoft® Edge, remova o site do Brand Portal da lista de sites confiáveis.
+Para usar a funcionalidade de download acelerado no Microsoft® Edge, remova o site da Brand Portal da lista Site confiável.
 
 1. Abra o Painel de Controle (**[!UICONTROL Tecla Window + X]** e selecione **[!UICONTROL Painel de Controle]**).
 1. Ir para **[!UICONTROL Rede e Internet]** > **[!UICONTROL Opções da Internet]**. Clique na guia **[!UICONTROL Segurança]**.
@@ -193,7 +189,7 @@ Para usar a funcionalidade de download acelerado no Microsoft® Edge, remova o s
 
 ## Preferências de cliente do Aspera Connect {#aspera-connect-client-preferences}
 
-Há algumas preferências úteis que podem ser definidas na preferência do IBM® Aspera Connect Client clicando com o botão direito do mouse no ícone e selecionando **[!UICONTROL Preferências]**.
+Algumas preferências úteis podem ser definidas na preferência do cliente IBM® Aspera Connect clicando com o botão direito do mouse no ícone e selecionando **[!UICONTROL Preferências]**.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -201,7 +197,7 @@ Você pode definir o local de download padrão.
 
 ![](assets/aspera-preferences.png)
 
-Além disso, o cliente Aspera Connect pode ser marcado para iniciar automaticamente na inicialização do sistema, de modo que o cliente Connect esteja em execução e disponível para que o download comece mais rápido.
+Além disso, o cliente Aspera Connect pode ser marcado para que seja iniciado automaticamente na inicialização do sistema. E o cliente Connect é executado e está disponível para que o download comece mais rápido.
 
 ![](assets/aspera-automaticallylaunch.png)
 
@@ -213,7 +209,7 @@ Se a aceleração de download não estiver funcionando para você, tente as segu
 
    Se as portas não estiverem OK, entre em contato com a equipe de rede e verifique se as Portas 33001 (TCP e UDP) não estão bloqueadas no firewall.
 
-1. Se as portas estiverem OK, verifique se a rede não está lenta, medindo a largura de banda disponível usando [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Se as portas estiverem OK, verifique se a rede não está lenta medindo a largura de banda disponível usando [https://www.speedtest.net/](https://www.speedtest.net/).
 
    Se a largura de banda for de poucos (1-10 Mbps) ou em Kbps, use as Preferências Aspera e tente limitar a largura de banda igual à disponível.
 

@@ -1,14 +1,10 @@
 ---
 title: Origem de ativos no Brand Portal
-seo-title: Asset Sourcing in Brand Portal
 description: Obtenha um insight sobre o recurso de origem de ativos lançado no Adobe Experience Manager Assets Brand Portal.
-seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 sub-product: assets
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
@@ -17,7 +13,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -26,7 +22,7 @@ ht-degree: 1%
 
 # Visão geral da origem do ativo {#overview-asset-sourcing-in-bp}
 
-A **Origem de ativos** permite que os usuários do Experience Manager Assets (administradores/usuários não administradores) criem novas pastas com uma propriedade adicional de **Contribuição de ativos**, garantindo que a nova pasta criada seja aberta para o envio de ativos pelos usuários do Brand Portal. Isso dispara automaticamente um fluxo de trabalho que cria duas subpastas adicionais, chamadas **COMPARTILHADAS** e **NOVAS**, na pasta **Contribuição** recém-criada. Em seguida, o administrador define o requisito carregando um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição, bem como um conjunto de ativos de linha de base, na pasta **SHARED** para garantir que os usuários do BP tenham as informações de referência de que precisam. O administrador pode conceder aos usuários ativos do Brand Portal acesso à pasta de contribuição antes de publicar a pasta **Contribuição** recém-criada na Brand Portal. Quando o usuário terminar de adicionar conteúdo à pasta **NEW**, ele poderá publicar a pasta de contribuição de volta no ambiente do autor do Experience Manager. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no Experience Manager Assets.
+A **Origem de ativos** permite que os usuários do Experience Manager Assets (administradores/usuários não administradores) criem novas pastas com uma propriedade adicional de **Contribuição de ativos**, garantindo que a nova pasta criada seja aberta para o envio de ativos pelos usuários do Brand Portal. Isso aciona automaticamente um fluxo de trabalho, o que cria duas subpastas adicionais, chamadas **COMPARTILHADAS** e **NOVAS**, na pasta **Contribuição** recém-criada. O administrador define o requisito carregando um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição. Eles carregam um conjunto de ativos da linha de base para a pasta **SHARED**, fornecendo aos usuários do Brand Portal as informações de referência necessárias. O administrador pode conceder aos usuários ativos do Brand Portal acesso à pasta de contribuição antes de publicar a pasta **Contribuição** recém-criada na Brand Portal. Quando o usuário terminar de adicionar o conteúdo à pasta **NEW**, ele poderá publicar a pasta de contribuição de volta no ambiente do autor do Experience Manager. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no Experience Manager Assets.
 
 Além disso, toda a funcionalidade existente permanece inalterada. Os usuários do Brand Portal podem exibir, pesquisar e baixar ativos da pasta contribuição e de outras pastas permitidas. Além disso, os administradores podem compartilhar a pasta de contribuição, modificar propriedades e adicionar ativos a coleções.
 
@@ -47,13 +43,13 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 >
 >Por padrão, o recurso Origem de ativos está habilitado no Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 e versões posteriores.
 >
->As configurações existentes continuarão a funcionar nas versões anteriores.
+>As configurações existentes continuam a funcionar nas versões anteriores.
 
 >[!NOTE]
 >
->Há um problema conhecido no Experience Manager Assets 6.5.4. Os usuários do Brand Portal não podem publicar ativos da pasta de contribuição para o Experience Manager Assets ao atualizar para o Adobe Developer Console.
+>Há um problema conhecido no Experience Manager Assets 6.5.4. Os usuários do Brand Portal não podem publicar ativos da pasta de contribuição no Experience Manager Assets ao atualizar para o Adobe Developer Console.
 >
->O problema é corrigido no Experience Manager Assets 6.5.5. Você pode atualizar sua instância do Experience Manager Assets para o service pack mais recente e [atualizar suas configurações](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=pt-BR#upgrade-integration-65) no Adobe Developer Console.
+>O problema é corrigido no Experience Manager Assets 6.5.5. Você pode atualizar sua instância do Experience Manager Assets para o service pack mais recente e [atualizar suas configurações](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) no Adobe Developer Console.
 
 <!--
 
@@ -112,26 +108,26 @@ Uma pasta de contribuição só pode ser compartilhada com os usuários ativos d
 
 >[!NOTE]
 >
->O formato do arquivo CSV é igual ao formato compatível no Admin Console para importação de usuários em massa. Email, nome e sobrenome são obrigatórios.
+>O formato do arquivo CSV é igual ao formato aceito no Admin Console para importação de usuários em massa. Email, nome e sobrenome são obrigatórios.
 
-Os administradores podem adicionar novos usuários ao Admin Console. Consulte [Gerenciar usuários](brand-portal-adding-users.md) para obter informações detalhadas. Depois de adicionar usuários ao Admin Console, esses usuários podem ser adicionados ao arquivo de configuração de usuário do Brand Portal e, em seguida, receber permissão para acessar a pasta de contribuição.
+Os administradores podem adicionar novos usuários ao Admin Console. Vá para [Gerenciar Usuários](brand-portal-adding-users.md) para obter informações detalhadas. Depois de adicionar usuários ao Admin Console, eles podem ser adicionados ao arquivo de configuração de usuário do Brand Portal e receber permissão para acessar a pasta de contribuição.
 
 **Para carregar a lista de usuários do Brand Portal:**
 
 1. Faça logon na sua instância do Experience Manager Assets.
-1. No painel **Ferramentas**, navegue até **[!UICONTROL Assets]** > **[!UICONTROL Usuários do Brand Portal]**.
+1. No painel [!UICONTROL Ferramentas], navegue até **[!UICONTROL Assets]** > **[!UICONTROL Usuários do Brand Portal]**.
 
 1. A janela Brand Portal Upload Contributors é aberta.
-Procure no computador local e carregue o **arquivo de configuração (.csv)** contendo a lista de usuários ativos do Brand Portal.
+Navegue pelo computador local e carregue um **arquivo de configuração (.csv)** contendo a lista de usuários ativos do Brand Portal.
 1. Clique em **[!UICONTROL Salvar]**.
 
    ![](assets/upload-user-list2.png)
 
 
-Os administradores podem fornecer acesso a usuários específicos nesta lista de usuários enquanto configuram uma pasta de contribuição. Somente os usuários atribuídos a uma pasta de contribuição terão acesso à pasta de contribuição e publicarão ativos do Brand Portal na Experience Manager Assets.
+Os administradores podem fornecer acesso a usuários específicos nesta lista de usuários enquanto configuram uma pasta de contribuição. Somente os usuários atribuídos a uma pasta de contribuição têm acesso à pasta de contribuição e publicam ativos do Brand Portal na Experience Manager Assets.
 
 ## Consulte também: {#reference-articles}
 
-* [Configurar e publicar pasta de contribuição no Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
+* [Configurar e publicar uma pasta de contribuição para o Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
 * [Pasta de contribuição do Publish para o Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
