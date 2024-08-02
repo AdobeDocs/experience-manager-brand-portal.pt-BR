@@ -1,19 +1,16 @@
 ---
 title: Compartilhar ativos como um link
-seo-title: Share assets as a link
-description: Os administradores do Adobe Experience Manager Assets Brand Portal podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualizar e compartilhar somente os ativos compartilhados com eles.
-seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
-uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
+description: Saiba como os administradores do Adobe Experience Manager Assets Brand Portal podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualizar e compartilhar somente os ativos compartilhados com eles.
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 5%
+source-wordcount: '1063'
+ht-degree: 6%
 
 ---
 
@@ -33,7 +30,7 @@ Veja a seguir as etapas para compartilhar ativos como um link:
 
 1. Faça logon no seu locatário do Brand Portal. Por padrão, a exibição **[!UICONTROL Arquivos]** é aberta, contendo todos os ativos e pastas publicados.
 
-1. Selecione os ativos ou pastas que deseja compartilhar ou navegue até a exibição **[!UICONTROL Coleções]** para compartilhar as coleções criadas.
+1. Selecione os ativos ou pastas a serem compartilhados ou navegue até a exibição **[!UICONTROL Coleções]** para compartilhar as coleções criadas.
 
    ![selecionar vários ativos](assets/select-assets-new.png)
 
@@ -52,7 +49,7 @@ Veja a seguir as etapas para compartilhar ativos como um link:
    * No campo **[!UICONTROL Expiration]**, use o seletor de datas para especificar uma data e hora de expiração para o link. Por padrão, a data de expiração é definida como 7 dias a partir da data em que você compartilha o link.
    * Habilite a caixa de seleção **[!UICONTROL Permitir download do arquivo original]** para permitir que os destinatários baixem a representação original.
 
-   Os ativos compartilhados por meio do link expiram após ultrapassarem a data e a hora especificadas no campo **[!UICONTROL Expiration]**. Para obter informações sobre o comportamento de ativos expirados e alterações nas atividades permitidas com base nas funções de usuário no Brand Portal, consulte [Gerenciar direitos digitais dos ativos](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Os ativos compartilhados por meio do link expiram após ultrapassarem a data e a hora especificadas no campo **[!UICONTROL Expiration]**. Para obter detalhes sobre comportamento de ativos expirados e alterações de atividades baseadas em função no Brand Portal, consulte [Gerenciar direitos digitais dos ativos](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
@@ -84,7 +81,7 @@ Para baixar os ativos compartilhados:
 
    ![caixa de diálogo de download](assets/download-dialog-box-new.png)
 
-1. Por padrão, a configuração **[!UICONTROL Download Rápido]** está habilitada nas **[!UICONTROL Configurações de Download]**. Portanto, uma caixa de confirmação aparece para continuar o download usando o IBM Aspera Connect.
+1. Por padrão, a configuração **[!UICONTROL Download Rápido]** está habilitada nas **[!UICONTROL Configurações de Download]**. Portanto, aparece uma caixa de confirmação para continuar o download usando o IBM® Aspera Connect.
 
    Para continuar usando o **[!UICONTROL Download Rápido]**, clique em **[!UICONTROL Permitir]**.
 
@@ -94,11 +91,11 @@ Para baixar os ativos compartilhados:
    >
    >Uma pasta separada é criada para cada ativo ao baixar os ativos de um link compartilhado.
    >
-   >Se uma pasta, coleção ou mais de 20 ativos forem selecionados para download, a caixa de diálogo **[!UICONTROL Download]** será ignorada e todas as representações de ativos acessíveis ao usuário, exceto as representações dinâmicas, serão baixadas em uma pasta zip que contém uma pasta separada para cada ativo.
+   >Se uma pasta, coleção ou mais de 20 ativos forem selecionados, a caixa de diálogo **[!UICONTROL Download]** será ignorada. Além disso, todas as representações de ativos acessíveis (exceto as dinâmicas) são baixadas em uma pasta zip com pastas separadas para cada ativo.
 
    >[!NOTE]
    >
-   >As representações originais não serão baixadas usando o link compartilhado se o usuário que compartilhou os ativos como um link não for [autorizado pelo administrador a ter acesso às representações originais](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+   >Se o administrador não tiver autorizado o usuário que compartilhou os ativos, o link compartilhado não baixará as representações originais. Consulte também [autorizado pelo administrador a ter acesso às representações originais](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
 
 >[!NOTE]
@@ -204,7 +201,7 @@ Para cancelar o compartilhamento de ativos compartilhados anteriormente como um 
 
 1. Ao fazer logon no Brand Portal, a exibição **[!UICONTROL Arquivo]** é aberta por padrão. Para exibir os ativos que você compartilhou como links, navegue até a exibição **[!UICONTROL Links Compartilhados]**.
 
-1. Revise os links compartilhados na lista exibida.
+1. Revise os links que você compartilhou na lista exibida.
 
    ![](assets/shared-links.png)
 

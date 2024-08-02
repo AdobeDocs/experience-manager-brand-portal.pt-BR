@@ -1,19 +1,15 @@
 ---
-title: Administrar configurações de locatários gerais
-seo-title: Administer general tenant configurations
+title: Administrar Configurações Gerais de Locatários
 description: Configure a aceleração de download, a criação de coleção pública inteligente, a criação de coleção pública e permita que os usuários administradores excluam ativos em locatários.
-seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
-uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -25,30 +21,30 @@ O Experience Manager Assets Brand Portal permite que as organizações configure
 * Exclusão de ativos por administradores
 * Criação de coleção pública por usuários não administradores
 * Criação de coleção pública inteligente por usuários não administradores
-* Hierarquia principal de pastas compartilhadas visível para usuários não administradores
+* A hierarquia pai das pastas compartilhadas é visível para usuários não administradores
 
 Essas configurações foram fornecidas como **[!UICONTROL Configurações gerais]** no painel de ferramentas administrativas.
 
 ![](assets/general-config.png)
 
-**A**   Configuração que permite aos administradores excluir ativos do Brand Portal. (O padrão está ativado)
+**A** - Configuração que permite aos administradores excluir ativos da Brand Portal. (O padrão está ativado)
 
-**B**   Configuração para permitir que usuários não administradores criem coleções públicas. (O padrão está ativado)
+**B** - Configuração para permitir que usuários não administradores criem coleções públicas. (O padrão está ativado)
 
-**C**   Configuração para permitir que usuários não administradores criem coleções públicas inteligentes. (O padrão está ativado)
+**C** - Configuração para permitir que usuários não administradores criem coleções públicas inteligentes. (O padrão está ativado)
 
-**D** Configuração para exibir a hierarquia de pastas (da raiz) compartilhadas para usuários não administradores (Editores, Visualizadores, Usuários Convidados). (O padrão está desativado)
+**D** - Configuração para exibir a hierarquia de pastas (da raiz) de pastas compartilhadas para usuários não administradores (Editores, Visualizadores, Usuários Convidados). (O padrão está desativado)
 
-## Habilitar/ desabilitar configurações gerais {#enable-disable-general-configurations}
+## Ativar ou desativar configurações gerais {#enable-disable-general-configurations}
 
-Para ativar/desativar cada uma dessas configurações:
+Para ativar ou desativar cada uma dessas configurações:
 
 1. Efetue login com privilégios de administrador.
 1. Selecione o logotipo do Experience Manager para acessar as ferramentas administrativas na barra de ferramentas na parte superior.
 1. No painel de ferramentas administrativas, selecione **[!UICONTROL Geral]** para abrir a página **[!UICONTROL Configurações Gerais]**.
-1. Use a respectiva chave de alternância para ativar/ desativar qualquer uma das configurações gerais.
+1. Use o respectivo switch para ativar ou desativar qualquer uma das configurações gerais.
 1. **[!UICONTROL Salve]** as alterações.
-1. Faça logout para permitir que as alterações entrem em vigor.
+1. Faça logout para que as alterações entrem em vigor.
 
 ## Permitir que usuários administradores excluam ativos do Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
 

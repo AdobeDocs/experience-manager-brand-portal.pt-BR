@@ -7,9 +7,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ As Perguntas frequentes do Brand Portal se concentram nas consultas e problemas 
 
 **Pergunta: o ponto de extremidade OAuth herdado existente (`https://legacy-oauth.cloud.adobe.io/login`) não está funcionando. Qual pode ser o motivo possível?**
 
-**Resposta:** A configuração OAuth herdada está obsoleta. Atualize as instâncias do autor do Experience Manager Assets para o pacote de serviços mais recente e configure-o por meio do Adobe Developer Console. Consulte [Configurar o Experience Manager Assets com o Brand Portal](configure-aem-assets-with-brand-portal.md) para obter detalhes. No entanto, para que a configuração OAuth herdada funcione até você atualizar, atualize o ponto de extremidade OAuth herdado para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Resposta:** A configuração OAuth herdada está obsoleta. Atualize as instâncias do autor do Experience Manager Assets para o service pack mais recente e configure-o por meio do Adobe Developer Console. Consulte [Configurar o Experience Manager Assets com o Brand Portal](configure-aem-assets-with-brand-portal.md) para obter detalhes. No entanto, para que a configuração OAuth herdada funcione até você atualizar, atualize o ponto de extremidade OAuth herdado para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 **Pergunta: não consigo publicar os ativos da pasta de contribuição do Brand Portal para o Experience Manager Assets depois de atualizar para o Adobe Developer Console. Minha instância de autor está no Experience Manager Assets 6.5.4. Qual pode ser o motivo possível?**
 
-**Resposta:** Sim, há um problema conhecido ao publicar os ativos da pasta de contribuição no Experience Manager Assets 6.5.4 via Adobe Developer Console.
+**Resposta:** Sim, há um problema conhecido ao publicar os ativos da pasta de contribuição no Experience Manager Assets 6.5.4 por meio do Adobe Developer Console.
 
 O problema é corrigido no Experience Manager Assets 6.5.5. Você pode atualizar sua instância do Experience Manager Assets para o service pack mais recente e [atualizar suas configurações](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) no Adobe Developer Console.
 

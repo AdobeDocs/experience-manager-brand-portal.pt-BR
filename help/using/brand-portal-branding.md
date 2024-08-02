@@ -1,18 +1,14 @@
 ---
 title: Personalizar papel de parede, cabeçalho e mensagens de e-mail
-seo-title: Customize wallpaper, header, and email message
 description: Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida aos usuários. Você pode escolher uma imagem de fundo (wallpaper) específica para a página de logon do Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar os emails de compartilhamento de ativos para corresponder à marca do cliente.
-seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
-uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -30,7 +26,6 @@ Na ausência de uma imagem de papel de parede personalizada, um papel de parede 
    ![](assets/aemlogo.png)
 
 1. No painel de ferramentas administrativas, clique em **[!UICONTROL Identidade Visual]**.
-
 
    ![](assets/admin-tools-panel-10.png)
 
@@ -87,7 +82,7 @@ O cabeçalho é exibido em várias páginas do Brand Portal depois de fazer logo
 
 1. Para carregar uma imagem de cabeçalho, clique no ícone **[!UICONTROL Escolher Imagem]** e escolha **[!UICONTROL Carregar]**.
 
-   Para usar uma imagem existente do Brand Portal, escolha **[!UICONTROL Selecionar a partir de uma existente]**.
+   Para usar uma imagem existente do Brand Portal, escolha **[!UICONTROL Selecionar existente]**.
 
    ![](assets/choose_wallpaperimage-1.png)
 

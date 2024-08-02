@@ -1,18 +1,14 @@
 ---
 title: Notas de versão
-seo-title: Release Notes
 description: Saiba mais sobre recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2024.02.0 do Adobe Experience Manager Assets Brand Portal.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1429'
 ht-degree: 2%
 
 ---
@@ -42,8 +38,8 @@ Esta versão inclui as seguintes correções de erros:
 
 * Não é possível baixar ativos digitais protegidos por DRM na localidade turca.
 * Não é possível abrir e baixar os relatórios existentes que contêm ativos com título de várias linhas.
-* Ao baixar ativos usando o botão [!UICONTROL Baixar] da barra de ações, você baixará no máximo 1000 ativos.
-* Nome incorreto de ativos do tipo PSD ao visualizar na Árvore de conteúdo.
+* Ao baixar ativos usando o botão [!UICONTROL Baixar] da barra de ações, são baixados no máximo 1000 ativos.
+* Nome incorreto de ativos do tipo PSD ao visualizar na árvore de conteúdo.
 * A opção [!UICONTROL Excluir representação] da página de detalhes do ativo não está funcionando.
 * Título e tamanho dos ativos desalinhados na janela pop-up de download.
 * Ao criar um relatório, os rótulos não são localizados.
@@ -66,7 +62,7 @@ Esta versão inclui as seguintes correções de erros:
 
 * O formato [!UICONTROL Data e Hora] é inconsistente ao trabalhar em uma localidade diferente do inglês.
 
-* Durante a pesquisa de ativos, o botão [!UICONTROL Excluir] está ausente.
+* Durante uma pesquisa de ativos, o botão [!UICONTROL Excluir] está ausente.
 
 * Se o campo [!UICONTROL Título] contiver símbolos multibyte em [!UICONTROL Compartilhamento de Link], o relatório não poderá ser baixado.
 
@@ -142,7 +138,8 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 >[!IMPORTANT]
 >
->As notificações por push no AEM Assets Brand Portal serão descontinuadas a partir de 1º de dezembro de 2022. Em vez de notificações Pulse, você continuará recebendo notificações por email para os seguintes eventos:
+>As notificações por push no AEM Assets Brand Portal serão descontinuadas a partir de 1º de dezembro de 2022. Em vez de notificações Pulse, você continua recebendo notificações por email para os seguintes eventos:
+>
 >* Compartilhamento de ativos por meio de link
 >* Solicitando fluxo de trabalho de acesso
 >* Compartilhamento da pasta de contribuição
@@ -158,7 +155,7 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 * Quando a NUI não processa um ativo no Experience Manager, o Brand Portal exibe um status de importação de ativo impreciso.
 * Quando a ação de visualização falha, não há notificação para comunicar a falha.
-* Valor impreciso da propriedade totalUploadedSize para cada ativo corrigido.
+* O valor impreciso da propriedade `totalUploadedSize` para cada ativo é fixo.
 * Quando você clica em **Baixar todos os itens** e há um grande número de representações disponíveis para um ativo, o Brand Portal baixa um arquivo .ZIP inválido.
 * A tradução de algumas cadeias de caracteres é truncada na interface do usuário do Brand Portal.
 
@@ -174,7 +171,7 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 * Ao baixar uma pasta ou coleção que inclui ativos com tags de cores, um arquivo XML também é baixado.
 * Ao baixar um vídeo que inclui representações, o Brand Portal cria um arquivo .ZIP inválido.
-* Ao criar predefinições e ativos no AEM, publicá-los no Brand Portal e selecionar representações dinâmicas ao baixar os ativos, não é possível extrair o arquivo .ZIP baixado.
+* Ao criar predefinições e ativos no autor de AEM e, em seguida, publicá-los no Brand Portal, é possível selecionar representações dinâmicas ao baixar os ativos. No entanto, não é possível extrair o arquivo .ZIP baixado. Esse problema impede o acesso ao conteúdo baixado.
 * Problemas ao baixar ativos de vídeo de determinadas pastas disponíveis no Brand Portal.
 * Ao compartilhar o URL da pasta Contribuição por email, as funções de Visualizador e Editor enfrentam problemas ao acessar a pasta principal por meio da navegação estrutural.
 * O relatório de publicação de origem exibe uma hora inicial de trabalho incorreta.
@@ -374,12 +371,12 @@ A interface do usuário do Brand Portal está disponível nos seguintes idiomas:
 
 ## Plataformas certificadas {#certified-platforms}
 
-Para determinar quais plataformas estão certificadas para execução com esta versão do Brand Portal, consulte a coluna **Suporte para interface otimizada para toque** na tabela na seção **Navegadores com suporte para criação de interface do usuário** de [Requisitos técnicos](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Para ver quais plataformas estão certificadas para esta versão do Brand Portal, verifique a coluna **Suporte para interface otimizada para toque** na seção **Navegadores com Suporte para Criação da Interface do Usuário** de [Requisitos Técnicos](https://experienceleague.adobe.com/br/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements).
 
 ## Links {#links}
 
 * [Página de produto do Adobe Experience Manager em adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Documentação do Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Documentação do Assets Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
 
 ## Acesso e suporte do produto (sites restritos) {#product-access-and-support-restricted-sites}
 

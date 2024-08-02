@@ -1,17 +1,13 @@
 ---
 title: Compartilhar pastas
-seo-title: Share folders
-description: O Brand Portal não é compatível com a assimilação de ativos, portanto, os ativos devem ser publicados no Brand Portal a partir de uma instância pré-configurada do Experience Manager Assets Author. Os ativos publicados não podem ser acessados por usuários não administradores do Brand Portal, a menos que estejam configurados ao configurar a replicação com a instância do Experience Manager e precisem ser compartilhados com eles.
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
+description: O Brand Portal exige que os ativos sejam publicados de uma instância pré-configurada do Experience Manager Assets Author. Usuários não administradores podem acessar ativos publicados somente se configurados durante a configuração de replicação com o Experience Manager e os ativos devem ser compartilhados com eles.
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -32,17 +28,17 @@ A seguir, é descrito o fluxo de trabalho de compartilhamento de pastas e o aces
 
 ### Compartilhar pastas com grupos de usuários no Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Os direitos de acesso aos ativos de uma pasta dependem dos direitos de acesso em sua pasta principal, independentemente das configurações das pastas secundárias. Esse comportamento é controlado por [ACLs](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) no AEM, já que as pastas secundárias herdam ACLs de suas pastas principais. Por exemplo, se uma pasta A contiver a pasta B, que contém a pasta C, um grupo de usuários (ou usuários) com direitos de acesso à pasta A também terá os mesmos direitos de acesso à pasta B e à pasta C. A pasta B, que é a pasta filho de A, herdará suas ACLs, e a pasta C, que é a pasta filho de B, herdará suas ACLs.
+Os direitos de acesso aos ativos de uma pasta dependem dos direitos de acesso em sua pasta principal, independentemente das configurações das pastas secundárias. [As ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) no AEM controlam esse comportamento, com pastas filho herdando ACLs de suas pastas pai. Por exemplo, suponha que a pasta A contenha a pasta B, que contém a pasta C. Em seguida, um grupo de usuários (ou usuários) com direitos de acesso na pasta A também têm os mesmos direitos de acesso na pasta B e na pasta C. A pasta B, que é a pasta filho de A, herda suas ACLs, e a pasta C, que é a pasta filho de B, herda suas ACLs.
 
-Da mesma forma, os grupos de usuários (ou usuários) que têm permissões para acessar somente a pasta B têm as mesmas permissões de acesso na pasta C, mas não na pasta A. É, portanto, recomendável que as organizações organizem seu conteúdo de modo que a maioria dos ativos expostos seja colocada na pasta filho e que o acesso das crianças à pasta raiz possa ser restrito.
+Da mesma forma, os grupos de usuários (ou usuários) que têm permissões para acessar somente a pasta B têm as mesmas permissões de acesso na pasta C, mas não na pasta A. O Adobe recomenda organizar o conteúdo para que os ativos mais expostos sejam colocados em pastas secundárias, permitindo que o acesso seja restrito das pastas secundárias até a pasta raiz.
 
 ### Publicação de pasta pública {#public-folder-publish}
 
-A menos que a opção **[!UICONTROL Publish de Pasta Pública]** esteja selecionada durante a configuração da replicação do Brand Portal, os usuários não administradores (como Editores e Visualizadores) não terão acesso aos ativos publicados do AEM Assets para o Brand Portal.
+Usuários não administradores (como Editores e Visualizadores) podem acessar ativos publicados do AEM Assets para o Brand Portal somente se a opção **[!UICONTROL Pasta pública do Publish]** estiver selecionada durante a configuração de replicação do Brand Portal.
 
 ![](assets/assetbpreplication.png)
 
-Se a opção **[!UICONTROL Publish de Pasta Pública]** estiver desabilitada, os administradores precisarão compartilhar esses ativos especificamente com usuários não administradores usando o recurso de compartilhamento.
+Se a opção **[!UICONTROL Publish de Pasta Pública]** estiver desabilitada, os administradores precisarão compartilhar esses ativos especificamente com usuários não administradores que usam o recurso de compartilhamento.
 
 >[!NOTE]
 >
@@ -50,9 +46,9 @@ Se a opção **[!UICONTROL Publish de Pasta Pública]** estiver desabilitada, os
 
 ## Acesso a pastas compartilhadas {#access-to-shared-folders}
 
-A matriz a seguir discute os direitos de acesso e os direitos de compartilhar/cancelar o compartilhamento de ativos para várias funções de usuário:
+A matriz a seguir discute os direitos de acesso e os direitos para compartilhar ou cancelar o compartilhamento de ativos para várias funções de usuário:
 
-|               | Acesso a todas as pastas publicadas do AEM Assets para o Brand Portal | Acesso a pastas compartilhadas | Compartilhar/cancelar compartilhamento de direitos da pasta |
+|               | Acesso a todas as pastas publicadas do AEM Assets para o Brand Portal | Acesso a pastas compartilhadas | Compartilhar ou cancelar o compartilhamento de direitos da pasta |
 |---------------|-----------|-----------|------------|
 | Administrador | Sim | Sim | Sim |
 | Editor | Não* | Sim, somente se compartilhado com eles ou com o grupo ao qual pertencem | Sim, somente para as pastas compartilhadas com eles ou com o grupo ao qual pertencem |
@@ -65,11 +61,11 @@ A matriz a seguir discute os direitos de acesso e os direitos de compartilhar/ca
 
 ### Acesso de usuário não administrador a pastas compartilhadas {#non-admin-user-access-to-shared-folders}
 
-Usuários não administradores podem acessar somente as pastas compartilhadas com eles no Brand Portal. No entanto, a forma como essas pastas são exibidas no portal quando fazem logon depende das configurações de **[!UICONTROL Habilitar Hierarquia de Pastas]**.
+Usuários não administradores podem acessar somente as pastas compartilhadas com eles no Brand Portal. No entanto, a forma como essas pastas são exibidas no portal quando fazem logon depende das configurações da **[!UICONTROL Habilitar Hierarquia de Pastas]**.
 
 **Se a configuração estiver desabilitada**
 
-Usuários não administradores veem todas as pastas compartilhadas com eles na página de aterrissagem ao fazer logon na Brand Portal.
+Usuários não administradores podem ver todas as pastas compartilhadas com eles na página de aterrissagem ao fazer logon na Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -77,7 +73,7 @@ Usuários não administradores veem todas as pastas compartilhadas com eles na p
 
 Os usuários não administradores veem a árvore de pastas (começando pela pasta raiz) e as pastas compartilhadas organizadas nas respectivas pastas principais, ao fazer logon na Brand Portal.
 
-Essas pastas principais são as pastas virtuais e nenhuma ação pode ser executada nelas. Você pode reconhecer essas pastas virtuais com um ícone de cadeado.
+Essas pastas principais são pastas virtuais e nenhuma ação pode ser executada nelas. Você pode reconhecer essas pastas virtuais com um ícone de cadeado.
 
 Nenhuma tarefa de ação está visível ao passar o cursor sobre elas ou selecioná-las na **[!UICONTROL Exibição de Cartão]**, ao contrário das pastas compartilhadas. O botão **[!UICONTROL Visão Geral]** é mostrado ao selecionar uma pasta virtual na **[!UICONTROL Exibição de Coluna]** e na **[!UICONTROL Exibição de Lista]**.
 
@@ -95,7 +91,7 @@ Para compartilhar uma pasta com usuários no Brand Portal, siga estas etapas:
 
    ![](assets/selectorrail.png)
 
-1. No sideral à esquerda, selecione **[!UICONTROL Arquivos]**.
+1. No painel lateral à esquerda, selecione **[!UICONTROL Arquivos]**.
 
    ![](assets/access_files.png)
 
