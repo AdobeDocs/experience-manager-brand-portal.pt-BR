@@ -1,38 +1,55 @@
 ---
 title: Notas de versão
-description: Saiba mais sobre recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2024.02.0 do Adobe Experience Manager Assets Brand Portal.
+description: Saiba mais sobre recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2024.10.0 do Adobe Experience Manager Assets Brand Portal.
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1535'
 ht-degree: 2%
 
 ---
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos na versão 2024.02.0 do Adobe Experience Manager Assets Brand Portal.
+Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos na versão 2024.10.0 do Adobe Experience Manager Assets Brand Portal.
 
 ## Informações da versão {#release-information}
 
 | Produto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versão | 2024.02.0 |
-| Data | Fevereiro de 2024 |
+| Versão | 2024.10.0 |
+| Data | Outubro de 2024 |
 
 ## Visão geral {#overview}
 
 O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ele ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não-conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos corporativos aprovados — a qualquer momento e em qualquer lugar.
 
-## Novidades em 2024.02.0 {#whats-new-in-2024.02.0}
+## Novidades em 2024.10.0 {#whats-new-in-2024.10.0}
 
 ### Problemas Críticos Corrigidos {#critical-issues-fixed}
 
 #### Correções de erros {#bug-fixes}
+
+Esta versão inclui as seguintes correções de erros:
+
+* As notificações por email para eventos de importação de origem não estão sendo enviadas.
+* Ao usar o filtro de pesquisa, o Brand Portal exibe pastas duplicadas na janela Filtro de pesquisa.
+* O download de coleções que contêm ativos não licenciados com caracteres especiais nos nomes não está funcionando.
+* Ao navegar para o [!UICONTROL Editor de Formulário de Pesquisa], os rótulos não são localizados.
+* Os rótulos não estão localizados na janela de compartilhamento de links.
+* Não é possível baixar o vídeo com caracteres especiais no nome.
+* A publicação e o cancelamento da publicação dos ativos de [!DNL Adobe Experience Manager Assets] no Brand Portal não estão funcionando adequadamente.
+* Não é possível reproduzir vídeos baixados da Brand Portal.
+
+## Versões anteriores
+
+### Versão de fevereiro de 2024 {#feb-2024}
+
+**Correções de erros e aprimoramentos**
 
 Esta versão inclui as seguintes correções de erros:
 
@@ -44,8 +61,6 @@ Esta versão inclui as seguintes correções de erros:
 * Título e tamanho dos ativos desalinhados na janela pop-up de download.
 * Ao criar um relatório, os rótulos não são localizados.
 * Os administradores de suporte eram chamados de administradores no Brand Portal.
-
-## Versões anteriores
 
 ### Versão de outubro de 2023 {#oct-2023}
 
