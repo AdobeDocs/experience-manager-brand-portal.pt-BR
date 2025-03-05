@@ -6,9 +6,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1603'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Para editar um formulário de esquema de metadados, faça o seguinte:
 A guia **[!UICONTROL Criar Formulário]** lista itens que você pode usar no formulário de esquema. A guia **[!UICONTROL Configurações]** fornece os atributos de cada item selecionado na guia **[!UICONTROL Formulário de compilação]**. A tabela a seguir lista os itens de formulário disponíveis na guia **[!UICONTROL Criar Formulário]**:
 
 | Nome do componente | Descrição |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----|----|
 | **[!UICONTROL Cabeçalho da seção]** | Adicione um cabeçalho de seção para obter uma lista de componentes comuns. |
 | **[!UICONTROL Texto em linha única]** | Adicione uma propriedade de texto de linha única. Ele é armazenado como uma string. |
 | **[!UICONTROL TextoDeVáriosValores]** | Adicione uma propriedade de texto de vários valores. Ele é armazenado como uma matriz de sequência. |
@@ -87,8 +87,9 @@ A guia **[!UICONTROL Criar Formulário]** lista itens que você pode usar no for
 | **[!UICONTROL Campo oculto]** | Adicione um campo oculto. Ele é enviado como um parâmetro POST quando o ativo é salvo. |
 | **[!UICONTROL Ativo Referenciado Por]** | Adicione este componente para exibir uma lista de ativos referenciados pelo ativo. |
 | **[!UICONTROL Referenciando Ativo]** | Adicionar para exibir uma lista de ativos que fazem referência ao ativo. |
-| **[!UICONTROL Classificação de ativos]** | Classificação média de um ativo adicionado do Experience Manager Assets antes de ele ser publicado no Brand Portal. |
 | **[!UICONTROL Metadados contextuais]** | Adicione para controlar a exibição de outras guias de metadados na página Propriedades dos ativos. |
+
+<!--| **[!UICONTROL Asset Rating]** |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal. |-->
 
 >[!NOTE]
 >
@@ -106,7 +107,7 @@ A seguir estão os valores válidos para essa propriedade:
 
 — `./jcr:content/metadata/dc:title`: armazena o valor no nó de metadados do ativo como a propriedade `dc:title`.
 
-— `./jcr:created`: exibe a propriedade jcr no nó do ativo. Se você configurou essas propriedades nas propriedades de exibição, o Adobe recomenda que você as marque como Desativar edição, pois elas estão protegidas. Caso contrário, o erro &quot;Falha ao modificar o Assets&quot; ocorre ao salvar as propriedades do ativo.
+— `./jcr:created`: exibe a propriedade jcr no nó do ativo. Se você tiver configurado essas propriedades nas propriedades de exibição, a Adobe recomenda marcá-las como Desativar edição, pois elas estão protegidas. Caso contrário, o erro &quot;Falha ao modificar o Assets&quot; ocorre ao salvar as propriedades do ativo.
 
 * **[!UICONTROL Espaço reservado]**: use esta propriedade para fornecer ao usuário todas as informações relevantes sobre a propriedade de metadados.
 * **[!UICONTROL Obrigatório]**: use esta propriedade para marcar uma propriedade de metadados como obrigatória na página Propriedades.
@@ -115,7 +116,7 @@ A seguir estão os valores válidos para essa propriedade:
 * **[!UICONTROL Descrição]**: use essa propriedade para adicionar uma descrição curta para o componente de metadados.
 * **[!UICONTROL Ícone Excluir]**: clique neste ícone para excluir um componente do formulário de esquema.
 
-![](assets/delete_icon_editmetadataschemaform.png)
+  ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
@@ -129,7 +130,7 @@ O formulário de esquema padrão inclui as guias **[!UICONTROL Básico]** e **[!
 
 * Para adicionar uma nova guia em um formulário de esquema, clique em **[!UICONTROL +]**. Por padrão, a nova guia tem o nome &quot;Sem nome-1&quot;. Você pode modificar o nome na guia **[!UICONTROL Configurações]**.
 
-![](assets/add-tab-metadata-form.png)
+  ![](assets/add-tab-metadata-form.png)
 
 * Para excluir uma guia, clique em **[!UICONTROL x]**. Clique em **[!UICONTROL Salvar]** para salvar as alterações.
 
