@@ -10,10 +10,10 @@ topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
 audience: author, marketer
-version: 6.5
+version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 # Visão geral da origem do ativo {#overview-asset-sourcing-in-bp}
 
-A **Origem de ativos** permite que os usuários do Experience Manager Assets (administradores/usuários não administradores) criem novas pastas com uma propriedade adicional de **Contribuição de ativos**, garantindo que a nova pasta criada seja aberta para o envio de ativos pelos usuários do Brand Portal. Isso aciona automaticamente um fluxo de trabalho, o que cria duas subpastas adicionais, chamadas **COMPARTILHADAS** e **NOVAS**, na pasta **Contribuição** recém-criada. O administrador define o requisito carregando um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição. Eles carregam um conjunto de ativos da linha de base para a pasta **SHARED**, fornecendo aos usuários do Brand Portal as informações de referência necessárias. O administrador pode conceder aos usuários ativos do Brand Portal acesso à pasta de contribuição antes de publicar a pasta **Contribuição** recém-criada na Brand Portal. Quando o usuário terminar de adicionar o conteúdo à pasta **NEW**, ele poderá publicar a pasta de contribuição de volta no ambiente do autor do Experience Manager. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no Experience Manager Assets.
+A **Origem de ativos** permite que os usuários do Experience Manager Assets (administradores/usuários não administradores) criem novas pastas com uma propriedade adicional de **Contribuição de ativos**, garantindo que a nova pasta criada seja aberta para o envio de ativos pelos usuários do Brand Portal. Isso aciona automaticamente um fluxo de trabalho, o que cria duas subpastas adicionais, chamadas **COMPARTILHADAS** e **NOVAS**, na pasta **Contribuição** recém-criada. O administrador define o requisito carregando um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição. Eles carregam um conjunto de ativos da linha de base para a pasta **SHARED**, fornecendo aos usuários do Brand Portal as informações de referência necessárias. O administrador pode conceder aos usuários ativos do Brand Portal acesso à pasta de contribuição antes de publicar a pasta **Contribuição** recém-criada na Brand Portal. Quando o usuário terminar de adicionar conteúdo à pasta **NEW**, poderá publicar a pasta de contribuição de volta no ambiente de criação do Experience Manager. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no Experience Manager Assets.
 
 Além disso, toda a funcionalidade existente permanece inalterada. Os usuários do Brand Portal podem exibir, pesquisar e baixar ativos da pasta contribuição e de outras pastas permitidas. Além disso, os administradores podem compartilhar a pasta de contribuição, modificar propriedades e adicionar ativos a coleções.
 
@@ -32,7 +32,7 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 
 ## Pré-requisitos {#prerequisites}
 
-* Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 ou superior.
+* Instância do Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 ou superior.
 * Verifique se a instância do Experience Manager Assets está configurada com o Brand Portal. Consulte [Configurar Experience Manager Assets com Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
@@ -41,7 +41,7 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 
 >[!NOTE]
 >
->Por padrão, o recurso Origem de ativos está habilitado no Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 e versões posteriores.
+>Por padrão, o recurso Origem de ativos está habilitado no Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 e posterior.
 >
 >As configurações existentes continuam a funcionar nas versões anteriores.
 
@@ -108,9 +108,9 @@ Uma pasta de contribuição só pode ser compartilhada com os usuários ativos d
 
 >[!NOTE]
 >
->O formato do arquivo CSV é igual ao formato aceito no Admin Console para importação de usuários em massa. Email, nome e sobrenome são obrigatórios.
+>O formato do arquivo CSV é igual ao formato compatível com o Admin Console para importação de usuários em massa. Email, nome e sobrenome são obrigatórios.
 
-Os administradores podem adicionar novos usuários ao Admin Console. Vá para [Gerenciar Usuários](brand-portal-adding-users.md) para obter informações detalhadas. Depois de adicionar usuários ao Admin Console, eles podem ser adicionados ao arquivo de configuração de usuário do Brand Portal e receber permissão para acessar a pasta de contribuição.
+Os administradores podem adicionar novos usuários no Admin Console. Vá para [Gerenciar Usuários](brand-portal-adding-users.md) para obter informações detalhadas. Depois de adicionar usuários na Admin Console, eles podem ser adicionados ao arquivo de configuração de usuário do Brand Portal e receber permissão para acessar a pasta de contribuição.
 
 **Para carregar a lista de usuários do Brand Portal:**
 
@@ -130,4 +130,4 @@ Os administradores podem fornecer acesso a usuários específicos nesta lista de
 
 * [Configurar e publicar uma pasta de contribuição para o Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Pasta de contribuição do Publish para o Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Publicar pasta de contribuição para o Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
