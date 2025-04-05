@@ -5,7 +5,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 4%
@@ -33,9 +33,9 @@ A configuração do Adobe Experience Manager Assets com Brand Portal habilita a 
 >
 >A configuração do Experience Manager Assets com Brand Portal é compatível com o Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 e superior.
 
-O Experience Manager Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal na Cloud Manager. O fluxo de trabalho de ativação cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS da instância as a Cloud Service do Experience Manager Assets.
+O Experience Manager Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal na Cloud Manager. O fluxo de trabalho de ativação cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS da instância do Experience Manager Assets as a Cloud Service.
 
-No entanto, o Experience Manager Assets (no local e managed service) é configurado manualmente com o Brand Portal usando o Adobe Developer Console, que obtém um token Adobe Identity Management Services (IMS) para autorização do locatário do Brand Portal.
+No entanto, o Experience Manager Assets (no local e managed service) é configurado manualmente com o Brand Portal usando o Adobe Developer Console, que obtém um token do Adobe Identity Management Services (IMS) para autorização do locatário do Brand Portal.
 
 Para obter mais informações, consulte [configurando o Experience Manager Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -52,7 +52,7 @@ A tabela a seguir lista as tarefas que os usuários nessas funções podem execu
 
 |  | **Navegar** | **Pesquisar** | **Download** | **Compartilhar pastas** | **Compartilhar uma coleção** | **Compartilhar ativos como um link** | **Acesso às Ferramentas Administrativas** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **Usuário convidado** | ✓ µ* | ✓ µ* | ✓ µ* | x | x | x | x |
+| **Usuário convidado** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Visualizador** | ✓ | ✓ | ✓ | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrador** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -97,7 +97,7 @@ Usuário do Brand Portal definido no [!DNL Admin Console] que tem acesso ao Bran
 
 ### Editor {#editor}
 
-Um usuário com a função de Editor pode executar todas as tarefas que um Visualizador pode executar. Além disso, o e o Editor podem exibir os arquivos e pastas compartilhados por um administrador. O usuário com a função de um Editor também pode compartilhar conteúdo (arquivos, pastas, coleções) com outros.
+Um usuário com a função de Editor pode executar todas as tarefas que um Visualizador pode executar. Além disso, um Editor pode visualizar os arquivos e pastas que um administrador compartilha. O usuário com a função de um Editor também pode compartilhar conteúdo (arquivos, pastas, coleções) com outros.
 
 Além das tarefas que um Visualizador pode executar, um Editor pode executar as seguintes tarefas adicionais:
 
@@ -109,7 +109,7 @@ Além das tarefas que um Visualizador pode executar, um Editor pode executar as 
 
 ### Administrador {#administrator}
 
-Um administrador inclui um usuário marcado como administrador do sistema ou administrador de produto do Brand Portal no [!UICONTROL Admin Console]. Um administrador pode adicionar e remover administradores e usuários do sistema, definir predefinições, enviar e-mails aos usuários e exibir relatórios de uso do portal e de armazenamento.
+Um administrador inclui um usuário marcado como administrador do sistema ou administrador de produto do Brand Portal na [!UICONTROL Admin Console]. Um administrador pode adicionar e remover administradores e usuários do sistema, definir predefinições, enviar e-mails aos usuários e exibir relatórios de uso do portal e de armazenamento.
 
 >[!NOTE]
 >
@@ -136,7 +136,7 @@ A partir do Brand Portal 6.4.3, as organizações podem ter um URL alternativo (
 Se o nome do locatário tiver mais de 32 caracteres, um alias de locatário precisará ser criado.
 Observe que somente o prefixo do URL do Brand Portal pode ser personalizado, e não o URL inteiro. Por exemplo, uma organização com o domínio existente `geomettrix.brand-portal.adobe.com` pode obter a criação de `geomettrixinc.brand-portal.adobe.com` mediante solicitação.
 
-No entanto, a instância do Autor AEM pode ser [configurada](../using/configure-aem-assets-with-brand-portal.md) somente com a URL da ID do locatário e não com a URL do alias do locatário (alternativo).
+No entanto, a instância do Autor do AEM pode ser [configurada](../using/configure-aem-assets-with-brand-portal.md) somente com a URL da ID do locatário e não com a URL do alias do locatário (alternativo).
 
 >[!NOTE]
 >
@@ -156,7 +156,7 @@ Para solicitar acesso, faça o seguinte:
 
    A página [!UICONTROL Solicitar Acesso] é aberta.
 
-1. Para solicitar acesso à Brand Portal de uma organização, você deve ter um [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] ou [!UICONTROL Federated ID] válido.
+1. Para solicitar acesso à Brand Portal de uma organização, você deve ter uma [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] ou [!UICONTROL Federated ID] válida.
 
    Na página [!UICONTROL Solicitar Acesso], entre usando sua ID (cenário 1) ou crie uma [!UICONTROL Adobe ID] (cenário 2):
 
@@ -164,12 +164,12 @@ Para solicitar acesso, faça o seguinte:
 
    **Cenário 1**
 
-   1. Se você tiver um [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] ou [!UICONTROL Federated ID], clique em **[!UICONTROL Entrar]**.
+   1. Se você tiver uma [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] ou [!UICONTROL Federated ID], clique em **[!UICONTROL Entrar]**.
 A página [!UICONTROL Entrar] é aberta.
 
    1. Forneça suas credenciais do [!UICONTROL Adobe ID] e clique em **[!UICONTROL Entrar]**.
 
-      ![entrar no Adobe](assets/bplogin_request_access_3.png)
+      ![entrada no Adobe](assets/bplogin_request_access_3.png)
 
    Você será redirecionado para a página [!UICONTROL Solicitar Acesso].
 
@@ -199,11 +199,11 @@ Os administradores de produtos do Brand Portal recebem solicitações de acesso 
 Para conceder acesso, os administradores de produtos precisam clicar na notificação relevante na área de notificação do Brand Portal e, em seguida, clicar em **[!UICONTROL Conceder acesso]**.
 Como alternativa, os administradores de produtos podem seguir o link fornecido no email de solicitação de acesso para visitar o Adobe [!UICONTROL Admin Console] e adicionar o usuário à configuração de produto relevante.
 
-Você será redirecionado para a página inicial [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Use o Adobe [!UICONTROL Admin Console] para criar usuários e atribuí-los a perfis de produtos (conhecidos anteriormente como configurações de produtos), que são exibidos como grupos no Brand Portal. Para obter mais informações sobre como adicionar usuários no [!UICONTROL Admin Console], consulte [Adicionar um usuário](brand-portal-adding-users.md#add-a-user) (siga as Etapas 4 a 7 no procedimento para adicionar um usuário).
+Você foi redirecionado para a página inicial do [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Use o Adobe [!UICONTROL Admin Console] para criar usuários e atribuí-los a perfis de produtos (conhecidos anteriormente como configurações de produtos), que são exibidos como grupos no Brand Portal. Para obter mais informações sobre como adicionar usuários no [!UICONTROL Admin Console], consulte [Adicionar um usuário](brand-portal-adding-users.md#add-a-user) (siga as Etapas 4 a 7 no procedimento para adicionar um usuário).
 
 ## Idiomas do Brand Portal {#brand-portal-language}
 
-Você pode alterar o idioma do Brand Portal de Adobe [!UICONTROL Configurações de Experience Cloud].
+Você pode alterar o idioma do Brand Portal em Adobe [!UICONTROL Configurações do Experience Cloud].
 
 ![Notificação de solicitação de acesso](assets/BPLang.png)
 
@@ -213,7 +213,7 @@ Para alterar o idioma:
 
    ![Editar Perfil](assets/EditBPProfile.png)
 
-1. Na página [!UICONTROL Configurações de Experience Cloud], selecione um idioma no menu suspenso [!UICONTROL Idioma].
+1. Na página [!UICONTROL Configurações do Experience Cloud], selecione um idioma no menu suspenso [!UICONTROL Idioma].
 
 ## Notificação de manutenção do Brand Portal {#brand-portal-maintenance-notification}
 
