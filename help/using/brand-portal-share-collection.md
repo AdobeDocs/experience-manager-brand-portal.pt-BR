@@ -19,7 +19,7 @@ Uma coleção representa um grupo de ativos relacionados armazenados juntos no A
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-As coleções são compartilhadas como link por meio de um email. Todos com acesso ao link de compartilhamento podem abrir a coleção. No entanto, os e-mails compartilhados podem ser encaminhados a qualquer pessoa. Além disso, os [links compartilhados](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) são temporários e acessíveis apenas por um período limitado. Como alternativa, os usuários podem ser convidados como membros permanentes para coleções. Há os seguintes tipos de usuários para as coleções:
+As coleções são compartilhadas como link por meio de um email. Todos com acesso ao link de compartilhamento podem abrir a coleção. No entanto, os e-mails compartilhados podem ser encaminhados a qualquer pessoa. Além disso, os [links compartilhados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) são temporários e acessíveis apenas por um período limitado. Como alternativa, os usuários podem ser convidados como membros permanentes para coleções. Há os seguintes tipos de usuários para as coleções:
 
 * **Os administradores** podem compartilhar ou cancelar o compartilhamento de uma coleção com usuários autorizados do Brand Portal. Eles podem convidar outros usuários para uma coleção específica e definir sua função nessa coleção. Além disso, os administradores podem criar coleções públicas.
 

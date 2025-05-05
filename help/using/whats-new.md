@@ -97,7 +97,7 @@ A migração não afeta seu conjunto de dados, ativos, usuários ou quaisquer co
 
 ### Artigos de referência {#reference-articles}
 
-* [Introdução aos perfis da Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
+* [Introdução aos perfis da Adobe](https://helpx.adobe.com/br/enterprise/kb/introducing-adobe-profiles.html)
 
 * [Gerenciar perfis da Adobe](https://helpx.adobe.com/br/enterprise/using/manage-adobe-profiles.html)
 

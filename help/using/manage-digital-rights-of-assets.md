@@ -71,7 +71,7 @@ Para obter mais informações sobre o compartilhamento de links, consulte [Compa
 
 Os ativos licenciados estão sujeitos à aceitação de um contrato de licença antes de baixar da Brand Portal. Este contrato para ativos licenciados vem quando você baixa o ativo diretamente da Brand Portal ou por meio de um link compartilhado. Expirados ou não, todos os usuários podem exibir ativos protegidos por licença. No entanto, o download e o uso de ativos licenciados expirados são limitados. Para saber mais sobre o comportamento de ativos licenciados expirados e atividades permitidas com base em funções de usuário, consulte [permissões de uso de ativos expirados](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Os ativos protegidos por licença têm um [contrato de licença anexado](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) a eles, o que é feito com a configuração da propriedade de metadados do ativo em [!DNL Experience Manager Assets].
+Os ativos protegidos por licença têm um [contrato de licença anexado](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/drm) a eles, o que é feito com a configuração da propriedade de metadados do ativo em [!DNL Experience Manager Assets].
 
 Um ativo é considerado protegido se contiver uma das seguintes propriedades de metadados (ou ambas):
 

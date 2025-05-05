@@ -81,7 +81,7 @@ Para desfazer a publicação de um esquema de metadados do Brand Portal:
 
 ## Aspectos de pesquisa do Publish para o Brand Portal {#publish-search-facets-to-brand-portal}
 
-Os formulários de pesquisa fornecem a capacidade de [pesquisa facetada](../using/brand-portal-search-facets.md) para usuários no Brand Portal. Os aspectos de pesquisa conferem maior granularidade às pesquisas no Brand Portal. Todos os [predicados adicionados](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/search-facets) no formulário de pesquisa estão disponíveis para os usuários como aspectos de pesquisa em filtros de pesquisa.
+Os formulários de pesquisa fornecem a capacidade de [pesquisa facetada](../using/brand-portal-search-facets.md) para usuários no Brand Portal. Os aspectos de pesquisa conferem maior granularidade às pesquisas no Brand Portal. Todos os [predicados adicionados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/search-facets) no formulário de pesquisa estão disponíveis para os usuários como aspectos de pesquisa em filtros de pesquisa.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)

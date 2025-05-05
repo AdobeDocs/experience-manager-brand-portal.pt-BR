@@ -127,8 +127,8 @@ Um administrador pode executar todas as tarefas que um Editor pode executar. Est
 Além das tarefas acima, um Autor no AEM Assets pode executar as seguintes tarefas:
 
 * [Configurar o AEM Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
-* [Publicar pastas no Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [Publicar coleções no Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [Publicar pastas no Brand Portal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Publicar coleções no Brand Portal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Alias alternativo para o URL do Brand Portal {#tenant-alias-for-portal-url}
 

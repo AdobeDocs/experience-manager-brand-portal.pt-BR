@@ -45,7 +45,7 @@ Este guia do usuário documenta insights para ofertas e fluxos de trabalho princ
 | [Formatos de arquivo não suportados](brand-portal-supported-formats.md) | Formatos de arquivo suportados no Brand Portal para visualização e download. |
 | [Publicar ativos no Brand Portal](brand-portal-sharing-folders.md) | Como publicar pastas, coleções, links, predefinições, esquema, aspectos e tags no Brand Portal. |
 | [Origem de ativos no Brand Portal](brand-portal-asset-sourcing.md) | Como configurar a Origem de ativos no AEM Assets, fazer upload de ativos no Brand Portal e publicar a pasta de contribuição de volta no AEM Assets. |
-| [Vídeos de recursos do Brand Portal](https://experienceleague.adobe.com/?lang=pt-br&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Saiba como usar o Experience Manager Assets Brand Portal com a ajuda de tutoriais em vídeo. |
+| [Vídeos de recursos do Brand Portal](https://experienceleague.adobe.com/pt-br?lang=pt-br&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Saiba como usar o Experience Manager Assets Brand Portal com a ajuda de tutoriais em vídeo. |
 
 ### Recursos úteis
 

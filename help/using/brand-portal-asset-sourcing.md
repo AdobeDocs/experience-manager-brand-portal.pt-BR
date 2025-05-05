@@ -49,7 +49,7 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 >
 >Há um problema conhecido no Experience Manager Assets 6.5.4. Os usuários do Brand Portal não podem publicar ativos da pasta de contribuição no Experience Manager Assets ao atualizar para o Adobe Developer Console.
 >
->O problema é corrigido no Experience Manager Assets 6.5.5. Você pode atualizar sua instância do Experience Manager Assets para o service pack mais recente e [atualizar suas configurações](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) no Adobe Developer Console.
+>O problema é corrigido no Experience Manager Assets 6.5.5. Você pode atualizar sua instância do Experience Manager Assets para o service pack mais recente e [atualizar suas configurações](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) no Adobe Developer Console.
 
 <!--
 
