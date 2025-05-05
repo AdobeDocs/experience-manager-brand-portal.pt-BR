@@ -43,10 +43,13 @@ Entre em uma instância de autor do AEM com privilégios administrativos e acess
 1. Especifique:
 
    * **[!UICONTROL Título]**
+
      *(obrigatório)* Um título de exibição para a marca.
    * **[!UICONTROL Nome]**
+
      *(obrigatório)* Um nome para a marca. Se não for especificado, um nome de nó válido será criado a partir do Título. Consulte [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Descrição**
+
      *(opcional)* Uma descrição da marca.
    * **Caminho da Marca**
 Caminho JCR da tag.
