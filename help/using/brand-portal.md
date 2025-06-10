@@ -5,10 +5,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 4%
+source-wordcount: '1613'
+ht-degree: 6%
 
 ---
 
@@ -33,7 +33,13 @@ A configuração do Adobe Experience Manager Assets com Brand Portal habilita a 
 >
 >A configuração do Experience Manager Assets com Brand Portal é compatível com o Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 e superior.
 
-O Experience Manager Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal na Cloud Manager. O fluxo de trabalho de ativação cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS da instância do Experience Manager Assets as a Cloud Service.
+>[!IMPORTANT]
+>
+> * O Brand Portal está em manutenção no momento.
+> * Você pode entrar em contato com seu representante da Adobe com detalhes do caso de uso e requisitos específicos para ativar o Brand Portal usando o Cloud Manager.
+> * O Brand Portal não está disponível com o Assets Prime ou o Assets Ultimate. No entanto, os clientes existentes do Assets Cloud Services que já têm acesso ao Brand Portal podem mantê-lo ao fazer a transição para o Assets Ultimate.
+
+<!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
 No entanto, o Experience Manager Assets (no local e managed service) é configurado manualmente com o Brand Portal usando o Adobe Developer Console, que obtém um token do Adobe Identity Management Services (IMS) para autorização do locatário do Brand Portal.
 
@@ -117,9 +123,9 @@ Um administrador inclui um usuário marcado como administrador do sistema ou adm
 
 Um administrador pode executar todas as tarefas que um Editor pode executar. Estas são as tarefas adicionais que um administrador pode executar:
 
-* [Gerenciar usuários, grupos e funções de usuário](brand-portal-adding-users.md)
+* [Gerenciar usuários, grupos e funções de usuários](brand-portal-adding-users.md)
 * [Personalizar papel de parede, cabeçalhos de página e emails](brand-portal-branding.md)
-* [Usar aspectos de pesquisa personalizados](brand-portal-search-facets.md)
+* [Usar aspetos personalizados de pesquisa](brand-portal-search-facets.md)
 * [Usar esquema de metadados](brand-portal-metadata-schemas.md)
 * [Aplicar predefinições de imagens ou representações dinâmicas](brand-portal-image-presets.md)
 * [Trabalhar com relatórios](brand-portal-reports.md)

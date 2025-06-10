@@ -6,10 +6,10 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d93a009d556a2330d000331a69ce7b6a2881f49d
-workflow-type: ht
-source-wordcount: '6576'
-ht-degree: 100%
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+workflow-type: tm+mt
+source-wordcount: '6357'
+ht-degree: 99%
 
 ---
 
@@ -97,7 +97,7 @@ A migração não afeta seu conjunto de dados, ativos, usuários ou quaisquer co
 
 ### Artigos de referência {#reference-articles}
 
-* [Introdução aos perfis da Adobe](https://helpx.adobe.com/br/enterprise/kb/introducing-adobe-profiles.html)
+* [Introdução aos perfis da Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
 
 * [Gerenciar perfis da Adobe](https://helpx.adobe.com/br/enterprise/using/manage-adobe-profiles.html)
 
@@ -163,31 +163,40 @@ O Brand Portal 2021.06.0 é uma versão interna que inclui correções para os p
 
 O Brand Portal 2021.02.0 aprimora o AEM Assets as a Cloud Service com o fluxo de trabalho de ativação e o recurso Origem de ativos. Ele também melhora a experiência de download de ativos e inclui correções críticas. Ele também permite que os administradores configurem o comportamento de download padrão de pastas, coleções e download em massa de ativos no nível do locatário. O **[!UICONTROL Relatório de uso]** do Brand Portal também foi modificado para refletir os usuários ativos do Brand Portal.
 
-### Ativar o Brand Portal no AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
+>[!IMPORTANT]
+>
+> * O Brand Portal está em manutenção no momento.
+> * Você pode entrar em contato com seu representante da Adobe com detalhes do caso de uso e requisitos específicos para ativar o Brand Portal usando o Cloud Manager.
+> * O Brand Portal não está disponível com o Assets Prime ou o Assets Ultimate. No entanto, os clientes existentes do Assets Cloud Services que já têm acesso ao Brand Portal podem mantê-lo ao fazer a transição para o Assets Ultimate.
 
-O AEM Assets as a Cloud Service agora está qualificado para ter uma instância pré-configurada do Brand Portal. O usuário do Cloud Manager pode ativar o Brand Portal na instância do AEM Assets as a Cloud Service.
+<!--
 
-Anteriormente, o AEM Assets as a Cloud Service era configurado manualmente com o Brand Portal usando o Adobe Developer Console.
+### Activate Brand Portal on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-O usuário do Cloud Manager aciona o fluxo de trabalho de ativação que cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS da instância do AEM Assets as a Cloud Service.
+AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
-Para ativar o Brand Portal na sua instância do AEM Assets as a Cloud Service:
+Earlier, AEM Assets as a Cloud Service was manually configured with Brand Portal using Adobe Developer Console.
 
-1. Faça logon no Adobe Cloud Manager e navegue até **[!UICONTROL Ambientes]**.
-1. Selecione os ambientes (um por um) na lista. Depois de encontrar o ambiente associado ao Brand Portal, clique no botão **[!UICONTROL Ativar Brand Portal]** para iniciar o fluxo de trabalho de ativação.
-1. Depois que o locatário do Brand Portal for ativado, o status mudará para Ativado.
+The Cloud Manager user triggers the activation workflow that creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance. 
 
-![Exibir status](assets/create-environment5.png)
+To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
-Consulte [ativar o Brand Portal no AEM Assets as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+1. Log in to Adobe Cloud Manager and navigate to **[!UICONTROL Environments]**.
+1. Select the environments (one by one) from the list. Once you find the environment associated with Brand Portal, click on the **[!UICONTROL Activate Brand Portal]** button to begin the activation workflow. 
+1. Once the Brand Portal tenant is activated, the status changes to Activated.
 
-### Origem de ativos no AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
+![View Status](assets/create-environment5.png)
 
-O recurso Origem de ativos agora está disponível no AEM Assets as a Cloud Service. Por padrão, o recurso é habilitado para todos os usuários do Cloud Service. Os usuários com permissão do Brand Portal podem contribuir para a Origem de ativos fazendo o upload de novos ativos para as pastas de contribuição e publicando a pasta de contribuição do Brand Portal para a instância do AEM Assets as a Cloud Service. Os administradores podem revisar e aprovar contribuições de usuários do Brand Portal antes de distribuí-las a outros usuários.
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
-Anteriormente, a Origem de ativos só estava disponível no AEM Assets (no local e em serviços gerenciados).
+### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-Consulte [Origem de ativos no Brand Portal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. The feature is by default enabled for all the cloud service users. The permitted Brand Portal users can contribute to Asset Sourcing by uploading new assets to the contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. Administrators can review and approve contributions from Brand Portal users before distributing them to other users.     
+
+Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
+
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+-->
 
 ### Download de ativo {#asset-download-setting}
 
