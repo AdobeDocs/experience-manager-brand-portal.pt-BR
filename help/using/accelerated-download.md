@@ -33,7 +33,7 @@ Para baixar os arquivos mais rapidamente, verifique o seguinte:
 
 * Navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Download]** e verifique se a configuração **[!UICONTROL Download Rápido]** está habilitada em **[!UICONTROL Configurações de Download]**.
 * Verifique se a porta 33001 (TCP e UDP) está aberta no firewall.
-* **Instale o IBM® Aspera Connect 3.9.9** na extensão do seu navegador usando privilégios de administrador ([Downloads do IBM® Aspera Connect](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
+* **Instale o IBM® Aspera Connect 3.9.9** na extensão do seu navegador usando privilégios de administrador ([Downloads do IBM® Aspera Connect](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)).
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Para baixar ativos mais rapidamente da Brand Portal:
 
 1. Por padrão, a configuração **[!UICONTROL Download Rápido]** está habilitada nas **[!UICONTROL Configurações de Download]**. Portanto, aparece uma caixa de confirmação para fazer o download de ativos usando o IBM® Aspera Connect.
 
-   Se você fez o download de ativos pela primeira vez e não tem o IBM® Aspera Connect instalado no navegador, você será solicitado a instalá-lo. Se a versão existente estiver desatualizada, você também será solicitado a instalar o [Acelerador de download Aspera](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all).
+   Se você fez o download de ativos pela primeira vez e não tem o IBM® Aspera Connect instalado no navegador, você será solicitado a instalá-lo. Se a versão existente estiver desatualizada, você também será solicitado a instalar o [Acelerador de download Aspera](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all).
 
    ![](assets/aspera-not-launched.png)
 
