@@ -9,9 +9,9 @@ user-guide-description: Use o Experience Manager Assets Brand Portal para atende
 feature: Brand Portal
 role: User
 source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
    + [Acesso de convidado ao Brand Portal](/help/using/guest-access.md)
    + [Noções básicas do Brand Portal com o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-brand-portal/using/home)
    + [Navegar por ativos no Brand Portal](/help/using/browse-assets-brand-portal.md)
-+ Publicar do Experience Manager Assets para o Brand Portal {#publish}
++ Publicar de Experience Manager Assets para Brand Portal {#publish}
    + [Configurar o Experience Manager Assets com o Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)
    + [Publicar ativos no Brand Portal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
    + [Publicar pastas no Brand Portal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
