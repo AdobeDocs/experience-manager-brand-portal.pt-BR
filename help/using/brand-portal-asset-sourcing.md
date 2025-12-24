@@ -27,7 +27,7 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 
 ![Origem de ativos do Brand Portal](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/32894/?captions=por_br&quality=12)
 
 ## Pré-requisitos {#prerequisites}
 
