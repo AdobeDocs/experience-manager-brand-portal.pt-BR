@@ -31,8 +31,8 @@ Para visualizar, reproduzir e baixar vídeos, o Brand Portal expõe as duas conf
 
 * [Configuração híbrida do Dynamic Media](#configure-dm-hybrid-settings)
 Se a instância do Experience Manager Author estiver sendo executada no modo Dynamic Media - Híbrido.
-* [Configuração do Dynamic Media [!DNL Scene7] 2}
-Se a instância do Experience Manager Author estiver em execução no modo Dynamic Media - ](#configure-dm-scene7-settings).
+* [&#128279;](#configure-dm-scene7-settings)Configuração do Dynamic Media [!DNL Scene7] 2&rbrace;
+Se a instância do Experience Manager Author estiver em execução no modo Dynamic Media - .
 **[!DNL Scene7]**
 Defina qualquer uma dessas configurações com base nas configurações definidas na instância do autor do Experience Manager com a qual o locatário do Brand Portal é replicado.
 
