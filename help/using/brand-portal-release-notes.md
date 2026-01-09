@@ -1,38 +1,49 @@
 ---
 title: Notas de versão
-description: Obtenha um insight dos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos na versão 2024.10.0 do Adobe Experience Manager Assets Brand Portal.
+description: Obtenha um insight dos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos na versão 2026.01.01 do Adobe Experience Manager Assets Brand Portal.
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
-workflow-type: ht
-source-wordcount: '1533'
-ht-degree: 100%
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+workflow-type: tm+mt
+source-wordcount: '1595'
+ht-degree: 96%
 
 ---
 
 # Notas de versão {#release-notes}
 
-Obtenha um insight dos novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2024.10.0 do Adobe Experience Manager Assets Brand Portal.
+Obtenha um insight dos novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2026.01.01 do Adobe Experience Manager Assets Brand Portal.
 
 ## Informações da versão {#release-information}
 
 | Produto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versão | 2024.10.0 |
-| Data | Outubro de 2024 |
+| Versão | 2026.01.01 |
+| Data | Janeiro de 2026 |
 
 ## Visão geral {#overview}
 
 O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade e segurança ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos. Ele ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de colocação de ativos no mercado e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos aprovados pela empresa, a qualquer hora e em qualquer lugar.
 
-## Novidades na versão 2024.10.0 {#whats-new-in-2024.10.0}
+## Novidades em 2026.01.01 {#whats-new-in-2026.01.01}
 
 ### Problemas críticos corrigidos {#critical-issues-fixed}
 
-#### Correções de erros {#bug-fixes}
+#### Aprimoramentos {#enhancements}
+
+Esta versão inclui os seguintes aprimoramentos:
+
+* No painel Ferramentas administrativas > Configuração do Dynamic Media, agora você pode usar o botão **[!UICONTROL Redefinir]** para limpar todas as alterações, redefinir a senha e restaurar a configuração para seu estado padrão.
+
+* O Brand Portal valida a pasta de origem para garantir que ela contenha pelo menos um ativo antes de publicar no AEM, ajudando a impedir publicações incompletas.
+
+## Versões anteriores
+
+### Versão de outubro de 2024 {#oct-2024}
+
+**Correções de erros e aprimoramentos**
 
 Esta versão inclui as seguintes correções de erros:
 
@@ -45,15 +56,13 @@ Esta versão inclui as seguintes correções de erros:
 * A publicação e o cancelamento da publicação dos ativos do [!DNL Adobe Experience Manager Assets] no Brand Portal não estão funcionando adequadamente.
 * Não é possível reproduzir vídeos baixados do Brand Portal.
 
-## Versões anteriores
-
 ### Versão de fevereiro de 2024 {#feb-2024}
 
 **Correções de erros e aprimoramentos**
 
 Esta versão inclui as seguintes correções de erros:
 
-* Não é possível baixar ativos digitais protegidos por DRM no idioma turco.
+* Não é possível baixar ativos digitais protegidos por DRM na localidade turca.
 * Não é possível abrir e baixar os relatórios existentes que contêm ativos com título de várias linhas.
 * Ao baixar ativos usando o botão [!UICONTROL Baixar] da barra de ações, são baixados no máximo 1000 ativos.
 * Nome incorreto de ativos do tipo PSD ao exibir na árvore de conteúdo.
@@ -75,7 +84,7 @@ Esta versão inclui as seguintes correções de erros:
 
 * Não é possível salvar os predicados [!UICONTROL Data] e [!UICONTROL Opções] na [!UICONTROL Coleção inteligente].
 
-* O formato [!UICONTROL Data e Hora] é inconsistente ao trabalhar em um idioma diferente do inglês.
+* O formato [!UICONTROL Data e Hora] é inconsistente ao trabalhar em localidade diferente do inglês.
 
 * Durante uma pesquisa de ativos, o botão [!UICONTROL Excluir] está ausente.
 
@@ -178,7 +187,7 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 **Novos recursos**
 
-O Brand Portal agora executa tarefas automáticas a cada doze horas para excluir todos os ativos do Brand Portal publicados no AEM. Como resultado, não é necessário excluir manualmente os ativos na pasta Contribuição para manter o tamanho da pasta abaixo do limite. 
+O Brand Portal agora executa processos automáticos a cada doze horas para excluir todos os ativos do Brand Portal publicados no AEM. Como resultado, não é necessário excluir manualmente os ativos na pasta Contribuição para manter o tamanho da pasta abaixo do limite. 
 
 **Problemas críticos corrigidos**
 
@@ -189,13 +198,13 @@ Esta versão inclui correções para os seguintes problemas críticos:
 * Ao criar predefinições e ativos no autor do AEM e publicá-los no Brand Portal, você pode selecionar renderizações dinâmicas ao baixar os ativos. No entanto, não é possível extrair o arquivo .ZIP baixado. Esse problema impede o acesso ao conteúdo baixado.
 * Problemas ao baixar ativos de vídeo de determinadas pastas disponíveis no Brand Portal.
 * Ao compartilhar o URL da pasta Contribuição por email, as funções de Visualizador e Editor enfrentam problemas ao acessar a pasta principal por meio da navegação estrutural.
-* O relatório de publicação de origem exibe uma hora de início de trabalho incorreta.
+* O relatório de publicação de origem exibe uma hora incorreta de início do processo.
 
 ### Versão de fevereiro de 2022 {#feb-2022}
 
 **Novos recursos**
 
-* O tempo limite de sessão para usuários convidados foi reduzido de 2 horas para 15 minutos.
+* O tempo-limite de sessão para usuários convidados foi reduzido de 2 horas para 15 minutos.
 * A opção adicional **[!UICONTROL Exibir páginas]** foi removida para PDFs de várias páginas, pois o usuário agora pode exibir as páginas do PDF no Visualizador da Adobe Document Cloud.
 * Os usuários não podem pesquisar, navegar ou abrir pastas. A interface do usuário reflete a mensagem de erro: `Failed to load data`.
 * O painel **[!UICONTROL Representações]** não lista todas as representações estáticas dos ativos publicados no Brand Portal.

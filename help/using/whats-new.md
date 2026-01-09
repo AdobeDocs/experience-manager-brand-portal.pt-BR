@@ -1,14 +1,13 @@
 ---
 title: Novidades no Experience Manager Assets Brand Portal
-description: Saiba mais sobre os novos recursos e aprimoramentos do Experience Manager Assets Brand Portal versão 2024.10.0.
+description: Saiba mais sobre os novos recursos e aprimoramentos do Experience Manager Assets Brand Portal versão 2026.01.01.
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
-workflow-type: ht
-source-wordcount: '6373'
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+workflow-type: tm+mt
+source-wordcount: '6400'
 ht-degree: 100%
 
 ---
@@ -16,6 +15,10 @@ ht-degree: 100%
 # Novidades no Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 O Adobe Experience Manager Assets Brand Portal ajuda a adquirir, controlar e distribuir com facilidade e segurança os ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o prazo para comercialização de ativos no mercado e reduz o risco de não conformidade e acesso não autorizado. A Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja aqui uma prévia dos novos recursos e aprimoramentos.
+
+## O que mudou na versão 2026.01.01 {#what-changed-in-January-2026}
+
+O Brand Portal 2026.01.01 é uma versão interna que inclui correções para os problemas críticos. Consulte as [Notas de versão do Brand Portal](brand-portal-release-notes.md) mais recentes.
 
 ## O que mudou na versão 2024.10.0 {#what-changed-in-October-2024}
 
@@ -51,18 +54,18 @@ O Brand Portal 2022.08.0 é uma versão interna que inclui correções para os p
 
 ## O que mudou na versão 2022.05.0 {#what-changed-in-May-2022}
 
-O Brand Portal agora executa tarefas automaticamente a cada doze horas para excluir todos os ativos do Brand Portal publicados no AEM. Como resultado, não é necessário excluir manualmente os ativos na pasta Contribuição para manter o tamanho da pasta abaixo do limite. Você também pode monitorar o status das tarefas de exclusão executadas automaticamente usando a opção **[!UICONTROL Ferramentas]** > **[!UICONTROL Status de contribuição de ativos]** > **[!UICONTROL Relatórios de exclusão]** no Brand Portal. O relatório de uma tarefa fornece os seguintes detalhes:
+O Brand Portal agora executa processos automaticamente a cada doze horas para excluir todos os ativos do Brand Portal publicados no AEM. Como resultado, não é necessário excluir manualmente os ativos na pasta Contribuição para manter o tamanho da pasta abaixo do limite. Você também pode monitorar o status dos processos de exclusão executados automaticamente usando a opção **[!UICONTROL Ferramentas]** > **[!UICONTROL Status de contribuição de ativos]** > **[!UICONTROL Relatórios de exclusão]** no Brand Portal. O relatório de um processo fornece os seguintes detalhes:
 
-* Hora de início do trabalho
-* Hora de término do trabalho
-* Status do trabalho
-* Total de ativos incluídos em um trabalho
-* Total de ativos excluídos com êxito em um trabalho
-* Armazenamento total disponibilizado como resultado da execução do trabalho
+* Hora de início do processo
+* Hora de término do processo
+* Status do processo
+* Total de ativos incluídos em um processo
+* Total de ativos excluídos com êxito em um processo
+* Armazenamento total disponibilizado como resultado da execução do processo
 
 ![Relatório de exclusão](assets/deletion-reports.png)
 
-Você também pode detalhar ainda mais para exibir os detalhes de cada ativo incluído em um trabalho de exclusão. Detalhes como título do ativo, tamanho, autor, status de exclusão e hora da exclusão são incluídos no relatório.
+Você também pode detalhar ainda mais para exibir os detalhes de cada ativo incluído em um processo de exclusão. Detalhes como título do ativo, tamanho, autor, status de exclusão e hora da exclusão são incluídos no relatório.
 
 ![Relatório de exclusão detalhado](assets/deletion-reports-detailed.png)
 
@@ -97,7 +100,7 @@ A migração não afeta seu conjunto de dados, ativos, usuários ou quaisquer co
 
 ### Artigos de referência {#reference-articles}
 
-* [Introdução aos perfis da Adobe](https://helpx.adobe.com/br/enterprise/kb/introducing-adobe-profiles.html)
+* [Introdução aos perfis da Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
 
 * [Gerenciar perfis da Adobe](https://helpx.adobe.com/br/enterprise/using/manage-adobe-profiles.html)
 
@@ -187,7 +190,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +198,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Download de ativo {#asset-download-setting}
@@ -723,7 +726,7 @@ O Brand Portal 6.4.1 é uma versão de atualização da plataforma. Ele apresent
 
 ![](assets/columnmoredetail.png)
 
-* A Exibição de lista agora exibe nomes de arquivos de ativos na primeira coluna por padrão. Também exibe informações sobre local, tipo de ativo, dimensões, tamanho, classificação e publicação. As novas **Configurações de exibição** podem ser usadas para configurar a quantidade de detalhes a serem mostrados na Exibição de lista.
+* A Exibição de lista agora exibe nomes de arquivos de ativos na primeira coluna por padrão. Também exibe informações sobre localidade, tipo de ativo, dimensões, tamanho, classificação e publicação. As novas **Configurações de exibição** podem ser usadas para configurar a quantidade de detalhes a serem mostrados na Exibição de lista.
 
 * Experiência aprimorada de detalhes de ativos com capacidade de navegar para frente e para trás entre ativos usando os novos botões de navegação e exibir a contagem de ativos.
 
