@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+source-git-commit: 0ef13db15f5282364cf8f2ca86ebefdfe6caca37
 workflow-type: tm+mt
-source-wordcount: '6400'
-ht-degree: 100%
+source-wordcount: '6645'
+ht-degree: 98%
 
 ---
 
@@ -100,17 +100,17 @@ A migração não afeta seu conjunto de dados, ativos, usuários ou quaisquer co
 
 ### Artigos de referência {#reference-articles}
 
-* [Introdução aos perfis da Adobe](https://helpx.adobe.com/br/enterprise/kb/introducing-adobe-profiles.html)
+* [Introdução aos perfis do Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
 
-* [Gerenciar perfis da Adobe](https://helpx.adobe.com/br/enterprise/using/manage-adobe-profiles.html)
+* [Gerenciar perfis do Adobe](https://helpx.adobe.com/br/enterprise/using/manage-adobe-profiles.html)
 
-* [Atualização da experiência de logon para usuários e administradores](https://helpx.adobe.com/br/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
+* [Atualização da experiência de Logon para usuários e administradores](https://helpx.adobe.com/br/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
 * [Restrição de logon durante a migração](https://helpx.adobe.com/br/enterprise/kb/account-temporarily-unavailable.html)
 
 * [Gerenciar usuários no Admin Console](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html)
 
-* [Gerenciar perfis de produtos para usuários empresariais](https://helpx.adobe.com/br/enterprise/using/manage-product-profiles.html#assign-users)
+* [Gerenciar perfis de produto para usuários corporativos](https://helpx.adobe.com/br/enterprise/using/manage-product-profiles.html#assign-users)
 
 * [Confiança de domínio](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
@@ -190,7 +190,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -198,7 +198,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Download de ativo {#asset-download-setting}
@@ -379,7 +379,8 @@ Com base na configuração, o fluxo de trabalho de download permanece constante 
 
 No Brand Portal 6.4.6, o canal de autorização entre o AEM Assets e o Brand Portal foi alterado. O Brand Portal agora é compatível com o AEM Assets as a Cloud Service, AEM Assets 6.3 e superior. No AEM Assets 6.3 e posterior, o Brand Portal foi configurado inicialmente na interface clássica usando o gateway OAuth legado. Esse gateway emprega a troca de tokens JWT para obter um token de acesso IMS para autorização. O AEM Assets agora é configurado com o Brand Portal por meio do Adobe Developer Console, que obtém um token IMS para autorização do seu locatário do Brand Portal.
 
-<!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
+<!-- 
+The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
 
 <!--
@@ -391,23 +392,25 @@ No Brand Portal 6.4.6, o canal de autorização entre o AEM Assets e o Brand Por
 | **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
 | **AEM 6.2** | | 
 
-   -->
+-->
 
 As etapas para configurar o AEM Assets com o Brand Portal são diferentes dependendo da sua versão do AEM e se você está configurando pela primeira vez ou atualizando as configurações existentes:
 
-<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+<!--
+| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
 | **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-
 -->
 
 
-<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+<!-- 
+AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
 * AEM 6.5.4.0 and above
 * AEM 6.4.8.0 and above
-* AEM 6.3.3.8 and above -->
+* AEM 6.3.3.8 and above 
+-->
 
 | **Versão do AEM** | **Nova configuração** | **Atualizar configuração** |
 |---|---|---|
@@ -512,7 +515,7 @@ O Brand Portal 6.4.3 apresenta um alias alternativo para URLs de acesso, uma nov
 
 ### Navegação na hierarquia de pastas para não administradores
 
-Agora, os administradores podem configurar como as pastas são exibidas para usuários não administradores (Editores, Visualizadores e Usuários convidados) no logon. A configuração [Habilitar hierarquia de pasta](../using/brand-portal-general-configuration.md) foi adicionada em **Configurações gerais**, no painel de ferramentas administrativas. Se a configuração estiver:
+Agora, os administradores podem configurar como as pastas são exibidas para usuários não administradores (Editores, Visualizadores e Usuários convidados) no logon. [A configuração Habilitar Hierarquia de Pasta](../using/brand-portal-general-configuration.md) foi adicionada em **Configurações Gerais**, no painel de ferramentas administrativas. Se a configuração estiver:
 
 * **habilitada**, a árvore de pastas que começa na pasta raiz estará visível para usuários não administradores. Sendo assim, concede a eles uma experiência de navegação semelhante aos administradores.
 * **desabilitada**, somente as pastas compartilhadas são exibidas na página de destino.
@@ -917,7 +920,7 @@ Os administradores podem criar e gerenciar três tipos de relatórios: ativos ba
 
 ### Metadados adicionais {#additional-metadata}
 
-O Brand Portal 6.3.1 introduz metadados adicionais, que estão no mesmo nível do AEM Assets 6.3. Você pode usar o formulário Editor de esquema para controlar os metadados que devem estar visíveis na página Propriedades de ativos. Os metadados dos ativos não são visíveis para usuários de compartilhamento de links externos, que só podem visualizar e baixar ativos usando o URL de compartilhamento de links.
+O Brand Portal 6.3.1 apresenta metadados adicionais, que estão em conformidade com o AEM Assets 6.3. Você pode usar o formulário Editor de esquemas para controlar os metadados que devem estar visíveis na página Propriedades do Assets. Os metadados dos ativos não são visíveis para usuários de compartilhamento de links externos, que só podem visualizar e baixar ativos usando o URL de compartilhamento de links.
 
 ![](assets/additionsinmetadata.png)
 
