@@ -6,10 +6,10 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: f483ac280a5e89ca25305eae09380d70ad661752
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 5%
+source-wordcount: '1957'
+ht-degree: 11%
 
 ---
 
@@ -43,17 +43,17 @@ Os administradores podem habilitar as **[!UICONTROL Configurações de Download]
 
 As configurações disponíveis são:
 
-* **[!UICONTROL Download Rápido]**
+* **[!UICONTROL Download rápido]**
 
   Ele fornece download acelerado dos recursos usando o IBM® Aspera Connect. Por padrão, a configuração **[!UICONTROL Download Rápido]** está habilitada nas **[!UICONTROL Configurações de Download]**.
 
-* **[!UICONTROL Representações Personalizadas]**
+* **[!UICONTROL Representações personalizadas]**
 
   Permite o download de representações personalizadas e (ou) dinâmicas dos ativos.
 
   Todas as representações de ativos que não sejam o ativo original e as representações geradas pelo sistema são chamadas de representações personalizadas. Inclui representações estáticas e dinâmicas disponíveis para o ativo. Qualquer usuário pode criar uma representação estática personalizada no Experience Manager Assets, enquanto apenas o administrador pode criar representações dinâmicas personalizadas. Consulte [como aplicar predefinições de imagem ou representações dinâmicas](../using/brand-portal-image-presets.md).
 
-* **[!UICONTROL Representações do Sistema]**
+* **[!UICONTROL Representações do sistema]**
 
   Permite o download de representações geradas pelo sistema dos ativos.
 
@@ -85,7 +85,7 @@ Faça logon no seu locatário do Brand Portal como administrador e navegue até 
 
 >[!NOTE]
 >
->Se um usuário for adicionado a vários grupos e se um desses grupos tiver restrições, as restrições se aplicam ao usuário.
+>Se um usuário for adicionado a vários grupos e se um desses grupos tiver restrições, as restrições se aplicarão ao usuário.
 
 Com base na configuração, o fluxo de trabalho de download permanece constante para ativos independentes, vários ativos, pastas que contêm ativos, ativos licenciados ou não licenciados e o download de ativos usando o link de compartilhamento.
 
@@ -116,11 +116,11 @@ Os usuários do Brand Portal podem baixar vários ativos, pastas contendo ativos
 
 Se o usuário tiver acesso às representações, ele receberá a caixa de diálogo **[!UICONTROL Download]** aprimorada com os seguintes recursos:
 
-* Visualize todas as representações disponíveis de qualquer ativo na lista de downloads.
+* Exibir todas as representações disponíveis de qualquer ativo na lista de downloads.
 * Exclua representações de ativos que não são necessários para o download.
-* Aplique o mesmo conjunto de representações a todos os tipos de ativos semelhantes com um só clique.
-* Aplique um conjunto diferente de representações para tipos de ativos diferentes.
-* Crie uma pasta separada para cada ativo.
+* Aplicar o mesmo conjunto de representações a todos os tipos de ativos semelhantes com um só clique.
+* Aplicar um conjunto diferente de representações para tipos de ativos diferentes.
+* Criar uma pasta separada para cada ativo.
 * Baixar ativos selecionados e suas representações.
 
 ![caixa de diálogo de download](assets/download-dialog-box.png)
@@ -156,7 +156,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos na inter
      >
      >Se os ativos baixados também incluírem ativos licenciados, você será redirecionado para a página **[!UICONTROL Gerenciamento de Copyright]**. Nesta página, selecione os ativos, clique em **[!UICONTROL Concordar]** e em **[!UICONTROL Baixar]**. Se você optar por discordar, os ativos licenciados não serão baixados.
      > 
-     >Os ativos protegidos por licença têm um [contrato de licença anexado](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/drm) a eles, o que é feito com a configuração da [propriedade de metadados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/drm) do ativo no Experience Manager Assets.
+     >Os ativos protegidos por licença têm um [contrato de licença anexado](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) a eles, o que é feito com a configuração da [propriedade de metadados](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) do ativo no Experience Manager Assets.
 
 
      ![ativo licenciado](assets/licensed-asset-new.png)
@@ -185,7 +185,8 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos na inter
 
    Se não quiser usar o IBM® Aspera Connect, clique em **[!UICONTROL Negar]**. Se o **[!UICONTROL Download Rápido]** for negado ou falhar, o sistema preencherá uma mensagem de Erro. Clique no botão **[!UICONTROL Download Normal]** para continuar baixando os ativos.
 
-<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+<!-- 
+   removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
@@ -209,7 +210,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos na inter
 >
 >O Brand Portal é compatível com a configuração do Dynamic Media nos modos Híbrido e Scene7.
 >
->(*Se a instância do autor do Experience Manager Assets estiver em execução no **Modo Híbrido do Dynamic Media***)
+>(*Se a instância do autor do Experience Manager Assets estiver em execução no **modo Híbrido do Dynamic Media***)
 >
 >Para visualizar ou baixar representações dinâmicas, ative a mídia dinâmica. Verifique se a representação TIFF da Pirâmide do ativo existe na instância do autor do Experience Manager Assets em que os ativos foram publicados. Quando um ativo é publicado do Experience Manager Assets para o Brand Portal, sua representação em Pyramid tiff também é publicada.
 
@@ -217,7 +218,8 @@ Se o [administrador não tiver autorizado você a acessar as representações or
 
 ![mensagem-sem-acesso](assets/no-access-message.png)
 
-<!-- This issue has been resolved, check with engineering.
+<!-- 
+This issue has been resolved, check with engineering.
 >[!NOTE]
 >
 >Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
@@ -241,7 +243,7 @@ Veja a seguir as etapas para baixar representações de ativos na página de det
 
    Selecione representações específicas que você deseja baixar e clique em **[!UICONTROL Baixar itens]**.
 
-   ![painel de representações](assets/renditions-panel.png)
+   ![renditions-panel](assets/renditions-panel.png)
 
 
 1. Por padrão, a configuração **[!UICONTROL Download Rápido]** está habilitada nas **[!UICONTROL Configurações de Download]**. Portanto, aparece uma caixa de confirmação para permitir o download acelerado usando o IBM® Aspera Connect.
@@ -250,7 +252,8 @@ Veja a seguir as etapas para baixar representações de ativos na página de det
 
    Se você negar o uso do **[!UICONTROL Download Rápido]**, o sistema preencherá uma mensagem de Erro. Clique no botão **[!UICONTROL Download Normal]** para continuar baixando os ativos.
 
-<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+<!-- 
+removed the known issue from step 3 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -275,7 +278,8 @@ Veja a seguir as etapas para baixar representações de ativos na página de det
 >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-<!-- Backup of content before updating the new feature docs.
+<!-- 
+Backup of content before updating the new feature docs.
 ## Configure asset download {#configure-download}
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 

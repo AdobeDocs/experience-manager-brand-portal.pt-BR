@@ -6,10 +6,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 5%
+source-wordcount: '1617'
+ht-degree: 6%
 
 ---
 

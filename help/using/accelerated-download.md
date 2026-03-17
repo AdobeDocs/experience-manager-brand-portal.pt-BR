@@ -6,9 +6,9 @@ topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1078'
 ht-degree: 3%
 
 ---
@@ -213,7 +213,9 @@ Se a aceleração de download não estiver funcionando para você, tente as segu
 
    Se a largura de banda for de poucos (1-10 Mbps) ou em Kbps, use as Preferências Aspera e tente limitar a largura de banda igual à disponível.
 
-   <!-- The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
-   (login:  asperaweb , password:  demoaspera ) -->
+   <!-- 
+   The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
+   (login:  asperaweb , password:  demoaspera ) 
+   -->
 
 1. Se nenhuma das etapas de solução de problemas acima funcionar, desmarque a opção Ativar aceleração de download e use o download normal.
