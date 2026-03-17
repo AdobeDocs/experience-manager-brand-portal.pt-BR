@@ -156,7 +156,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos na inter
      >
      >Se os ativos baixados também incluírem ativos licenciados, você será redirecionado para a página **[!UICONTROL Gerenciamento de Copyright]**. Nesta página, selecione os ativos, clique em **[!UICONTROL Concordar]** e em **[!UICONTROL Baixar]**. Se você optar por discordar, os ativos licenciados não serão baixados.
      > 
-     >Os ativos protegidos por licença têm um [contrato de licença anexado](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) a eles, o que é feito com a configuração da [propriedade de metadados](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) do ativo no Experience Manager Assets.
+     >Os ativos protegidos por licença têm um [contrato de licença anexado](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/drm) a eles, o que é feito com a configuração da [propriedade de metadados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/drm) do ativo no Experience Manager Assets.
 
 
      ![ativo licenciado](assets/licensed-asset-new.png)
