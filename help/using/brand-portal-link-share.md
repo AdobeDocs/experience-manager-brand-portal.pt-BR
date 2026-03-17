@@ -7,10 +7,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 6%
+source-wordcount: '969'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,8 @@ Os administradores do Adobe Experience Manager Assets Brand Portal podem compart
 
 O compartilhamento de ativos por meio de um link é uma maneira conveniente de disponibilizá-los a terceiros, pois os destinatários não precisam fazer logon no Brand Portal para acessar os ativos.
 
-<!-- Link sharing access is restricted to editors and administrators. 
+<!-- 
+Link sharing access is restricted to editors and administrators. 
 -->
 
 Para obter mais informações, consulte [Gerenciamento de usuários, grupos e funções de usuário](../using/brand-portal-adding-users.md#manage-user-roles).
@@ -65,7 +66,7 @@ Veja a seguir as etapas para compartilhar ativos como um link:
 
 ## Baixar ativos em links compartilhados {#download-assets-from-shared-links}
 
-Clique no link no email para acessar o ativo compartilhado. A página Compartilhamento de link AEM é aberta.
+Clique no link no email para acessar o ativo compartilhado. A página Compartilhamento de link da AEM é aberta.
 
 Para baixar os ativos compartilhados:
 
@@ -131,67 +132,67 @@ A matriz a seguir lista os formatos de ativos para os quais o Brand Portal ofere
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
-| TIFF | ✓ | ✕ µ |
+| TIFF | ✓ | ✕ |
 | JPEG | ✓ | ✓ |
-| BMP | ✓ | ✕ µ |
+| BMP | ✓ | ✕ |
 | PNM* | ND | ND |
 | PGM* | ND | ND |
 | PBM* | ND | ND |
 | PPM* | ND | ND |
-| PSD | ✓ | ✕ µ |
-| EPS | ND | ✕ µ |
-| DNG | ✓ | ✕ µ |
-| PICT | ✓ | ✕ µ |
-| PSB* | ✓ | ✕ µ |
+| PSD | ✓ | ✕ |
+| EPS | ND | ✕ |
+| DNG | ✓ | ✕ |
+| PICT | ✓ | ✕ |
+| PSB* | ✓ | ✕ |
 | JPG | ✓ | ✓ |
-| IA | ✓ | ✕ µ |
-| DOC | ✕ µ | ✕ µ |
-| DOCX | ✕ µ | ✕ µ |
-| ODT* | ✕ µ | ✕ µ |
-| PDF | ✓ | ✕ µ |
-| HTML | ✕ µ | ✕ µ |
-| RTF | ✕ µ | ✕ µ |
-| TXT | ✓ | ✕ µ |
-| XLS | ✕ µ | ✕ µ |
-| XLSX | ✕ µ | ✕ µ |
-| ODS | ✕ µ | ✕ µ |
-| PPT | ✓ | ✕ µ |
-| PPTX | ✕ µ | ✕ µ |
-| ODP | ✕ µ | ✕ µ |
-| INDD | ✓ | ✕ µ |
-| PS | ✕ µ | ✕ µ |
-| QXP | ✕ µ | ✕ µ |
-| EPUB | ✓ | ✕ µ |
-| AAC | ✕ µ | ✕ µ |
-| MIDI | ✕ µ | ✕ µ |
-| 3GP | ✕ µ | ✕ µ |
-| MP3 | ✕ µ | ✕ µ |
-| MP4 | ✕ µ | ✕ µ |
-| OGA | ✕ µ | ✕ µ |
-| OGG | ✕ µ | ✕ µ |
-| RA | ✕ µ | ✕ µ |
-| WAV | ✕ µ | ✕ µ |
-| WMA | ✕ µ | ✕ µ |
-| DVI | ✕ µ | ✕ µ |
-| FLV | ✕ µ | ✕ µ |
-| M4V | ✕ µ | ✕ µ |
-| MPG | ✕ µ | ✕ µ |
-| OGV | ✕ µ | ✕ µ |
-| MOV | ✕ µ | ✕ µ |
-| WMV | ✕ µ | ✕ µ |
-| SWF | ✕ µ | ✕ µ |
-| TGZ | ND | ✕ µ |
-| JAR | ✓ | ✕ µ |
-| RAR | ND | ✕ µ |
-| TAR | ND | ✕ µ |
-| ZIP | ✓ | ✕ µ |
+| IA | ✓ | ✕ |
+| DOC | ✕ | ✕ |
+| DOCX | ✕ | ✕ |
+| ODT* | ✕ | ✕ |
+| PDF | ✓ | ✕ |
+| HTML | ✕ | ✕ |
+| RTF | ✕ | ✕ |
+| TXT | ✓ | ✕ |
+| XLS | ✕ | ✕ |
+| XLSX | ✕ | ✕ |
+| ODS | ✕ | ✕ |
+| PPT | ✓ | ✕ |
+| PPTX | ✕ | ✕ |
+| ODP | ✕ | ✕ |
+| INDD | ✓ | ✕ |
+| PS | ✕ | ✕ |
+| QXP | ✕ | ✕ |
+| EPUB | ✓ | ✕ |
+| AAC | ✕ | ✕ |
+| MIDI | ✕ | ✕ |
+| 3GP | ✕ | ✕ |
+| MP3 | ✕ | ✕ |
+| MP4 | ✕ | ✕ |
+| OGA | ✕ | ✕ |
+| OGG | ✕ | ✕ |
+| RA | ✕ | ✕ |
+| WAV | ✕ | ✕ |
+| WMA | ✕ | ✕ |
+| DVI | ✕ | ✕ |
+| FLV | ✕ | ✕ |
+| M4V | ✕ | ✕ |
+| MPG | ✕ | ✕ |
+| OGV | ✕ | ✕ |
+| MOV | ✕ | ✕ |
+| WMV | ✕ | ✕ |
+| SWF | ✕ | ✕ |
+| TGZ | ND | ✕ |
+| JAR | ✓ | ✕ |
+| RAR | ND | ✕ |
+| TAR | ND | ✕ |
+| ZIP | ✓ | ✕ |
 
 A legenda a seguir explica os símbolos usados na matriz:
 
 | Símbolo | Significado |
 |---|---|
 | ✓ | Este formato de arquivo é compatível com este recurso |
-| ✕ µ | Este formato de arquivo não dá suporte a este recurso |
+| ✕ | Este formato de arquivo não dá suporte a este recurso |
 | ND | Este recurso não se aplica a este formato de arquivo |
 | &#42; | Esse recurso exige suporte complementar para esse formato de arquivo na instância de autor do AEM, mas não no Brand Portal depois que os ativos são publicados no Brand Portal |
 
