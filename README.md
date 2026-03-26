@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARQUIVADO
 
-Este repositório migrou para <https://github.com/Adobe-Enterprise-Docs/experience-manager-brand-portal.en>
+Este repositório migrou para <https://github.com/Adobe-Enterprise-Docs/experience-manager-brand-portal.pt-BR>
