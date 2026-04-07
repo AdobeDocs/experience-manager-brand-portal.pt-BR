@@ -6,10 +6,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: ce9cf89dc3fdfe1f147096b42233aa3f599dcf43
+source-git-commit: 3800baf10e1186b8f49fc7eb6afcb0edfb29769a
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 2%
+source-wordcount: '1379'
+ht-degree: 1%
 
 ---
 
@@ -31,9 +31,8 @@ Para visualizar, reproduzir e baixar vídeos, o Brand Portal expõe as duas conf
 
 * [Configuração híbrida do Dynamic Media](#configure-dm-hybrid-settings)
 Se a instância do Experience Manager Author estiver sendo executada no modo Dynamic Media - Híbrido.
-* [&#128279;](#configure-dm-scene7-settings)Configuração do Dynamic Media [!DNL Scene7] 2&rbrace;
-Se a instância do Experience Manager Author estiver em execução no modo Dynamic Media - .
-**[!DNL Scene7]**
+* Configuração do [Dynamic Media [!DNL Scene7] &#x200B;](#configure-dm-scene7-settings)
+Se a instância do Experience Manager Author estiver em execução no modo Dynamic Media - **[!DNL Scene7]**.
 Defina qualquer uma dessas configurações com base nas configurações definidas na instância do autor do Experience Manager com a qual o locatário do Brand Portal é replicado.
 
 >[!NOTE]
@@ -62,7 +61,7 @@ Para trabalhar com vídeos dinâmicos no Brand Portal, certifique-se de:
 
 * **Configurar o Dynamic Media Cloud Services na instância de autor do Experience Manager**
 
-  Com base no modo Dynamic Media (modo Scene7 ou modo Híbrido) em que o Experience Manager Author está sendo executado, defina o [Dynamic Media Cloud Services (modo [!DNL Scene7])](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) ou o [Dynamic Media Cloud Services (modo Híbrido)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) no Experience Manager Author em **Tools** | **Serviços na nuvem** | **Dynamic Media**.
+  Com base no modo Dynamic Media (modo Scene7 ou modo Híbrido) em que o Experience Manager Author está sendo executado, defina o [Dynamic Media Cloud Services (modo [!DNL Scene7])](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) ou o [Dynamic Media Cloud Services (modo Híbrido)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) no Experience Manager Author em **Tools** | **Cloud Services** | **Dynamic Media**.
 
 * **Configurar o Dynamic Media no Brand Portal**
 
@@ -84,7 +83,7 @@ Para trabalhar com vídeos dinâmicos no Brand Portal, certifique-se de:
   |--- |--- |
   | ND | 130.248.160.68, 20.94.203.130 |
   | EMEA | 185.34.189.3, 51.132.146.75 |
-  | APAC | 63.140.44.54 |
+  | APAC | 172.82.240.74, 172.82.240.75 |
 
   Para incluir na lista de permissões esses IPs de saída, consulte [Preparar sua conta para um serviço de teste seguro](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
 
