@@ -1,19 +1,31 @@
 ---
-title: Usar aspectos de pesquisa personalizados
+title: Usar aspetos personalizados de pesquisa
 description: Os administradores podem adicionar predicados de pesquisa ao painel Filtros para personalizar a pesquisa e tornar a funcionalidade de pesquisa versátil.
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/SYuZB0vfNFNK55QKcIQeROLmufoUIXMrgtXEPGkTo8A
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 7%
+source-wordcount: 1363
+ht-degree: 9%
 
 ---
 
-# Usar aspectos de pesquisa personalizados {#use-custom-search-facets}
+# Usar aspetos personalizados de pesquisa {#use-custom-search-facets}
 
 Os administradores podem adicionar predicados de pesquisa ao painel [!UICONTROL Filtros] para personalizar a pesquisa e tornar a funcionalidade de pesquisa versátil.
 
@@ -23,11 +35,11 @@ Você pode usar vários predicados de pesquisa para personalizar o painel **[!UI
 
 >[!NOTE]
 >
->O Experience Manager Assets permite que as organizações [publiquem os formulários de pesquisa personalizados do AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) na Brand Portal, em vez de recriar o mesmo formulário no Brand Portal.
+>O Experience Manager Assets permite que as organizações [publiquem os formulários de pesquisa personalizados do Autor do AEM](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) no Brand Portal, em vez de recriar o mesmo formulário no Brand Portal.
 
 ## Adicionar um predicado de pesquisa ao painel Filtros {#add-a-search-predicate}
 
-1. Para acessar as ferramentas administrativas, clique no logotipo Experience Manager na barra de ferramentas na parte superior.
+1. Para acessar as ferramentas administrativas, clique no logotipo do Experience Manager na barra de ferramentas na parte superior.
 
    ![](assets/aemlogo.png)
 
@@ -60,7 +72,7 @@ Você pode usar vários predicados de pesquisa para personalizar o painel **[!UI
 
    >[!NOTE]
    >
-   >Ao marcar a caixa de seleção **[!UICONTROL Pesquisa parcial]**, **[!UICONTROL Ignorar maiúsculas e minúsculas]** é selecionado por padrão.
+   >Ao marcar a caixa de seleção **[!UICONTROL Pesquisa parcial]**, **[!UICONTROL Não diferenciar maiúsculas e minúsculas]** é selecionado por padrão.
 
 1. No campo **[!UICONTROL Nome da Propriedade]**, abra o seletor de propriedades e selecione a propriedade com base na qual a pesquisa será realizada. Como alternativa, insira um nome para a propriedade. Por exemplo, insira `jcr :content/metadata/dc:title` ou `./jcr:content/metadata/dc:title`.
 
@@ -85,10 +97,10 @@ Semelhante à maneira como você adiciona um predicado de **[!UICONTROL Propried
 
 | **Nome do predicado** | **Descrição** | **Propriedades** |
 |-------|-------|----------|
-| **[!UICONTROL Navegador de caminhos]** | O predicado de pesquisa para pesquisar ativos em um local específico. **Observação:** *Para um usuário conectado, o Navegador de Caminho no Filtro mostra somente a estrutura de conteúdo das pastas (e seus antecessores) compartilhadas com o usuário.* <br> Usuários administradores podem pesquisar ativos em qualquer pasta navegando até essa pasta usando o Navegador de Caminhos. <br> Enquanto usuários não administradores podem pesquisar ativos em uma pasta (acessível a eles) navegando até essa pasta no Navegador de Caminhos. | <ul><li>Rótulo do campo</li><li>Caminho</li><li>Descrição</li></ul> |
+| **[!UICONTROL Navegador de caminhos]** | O predicado de pesquisa para pesquisar ativos em um local específico. **Observação:** *Para um usuário conectado, o Navegador de Caminho no Filtro mostra somente a estrutura de conteúdo das pastas (e seus antecessores) compartilhadas com o usuário.* <br> Os usuários administradores podem pesquisar ativos em qualquer pasta navegando até essa pasta usando o Navegador de caminho. <br> Já os usuários não administradores podem pesquisar ativos em uma pasta (acessível a eles) navegando até essa pasta no Navegador de caminho. | <ul><li>Rótulo do campo</li><li>Caminho</li><li>Descrição</li></ul> |
 | **[!UICONTROL Propriedade]** | Pesquise ativos com base em uma propriedade de metadados específica. **Observação:** *Ao selecionar Pesquisa Parcial, a opção Ignorar Maiúsculas e Minúsculas está selecionada por padrão*. | <ul><li>Rótulo do campo</li><li>Espaço reservado</li><li>Nome de propriedade</li><li>Pesquisa parcial</li><li>Ignorar diferença entre maiúsculas e minúsculas</li><li> Descrição</li></ul> |
 | **[!UICONTROL Propriedade de Vários Valores]** | Semelhante a um predicado de propriedade, mas permite vários valores de entrada, separados por um delimitador (o padrão é uma vírgula), os ativos que correspondem a qualquer um dos valores de entrada são retornados em resultados. | <ul><li>Rótulo do campo</li><li>Espaço reservado</li><li>Nome da propriedade</li><li>Suporte do delimitador</li><li>Ignorar diferença entre maiúsculas e minúsculas</li><li>Descrição</li></ul> |
-| **[!UICONTROL Tags]** | O predicado de pesquisa para pesquisar ativos com base em tags. Você pode configurar a propriedade Caminho para preencher várias tags na lista Tags. Talvez os administradores precisem alterar o valor do caminho, por exemplo, [!UICONTROL /`etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]. Será necessário se eles publicarem o Formulário de pesquisa de AEM, onde o caminho não inclui informações do locatário, por exemplo, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Caminho</li><li>Descrição</li></ul> |
+| **[!UICONTROL Tags]** | O predicado de pesquisa para pesquisar ativos com base em tags. Você pode configurar a propriedade Caminho para preencher várias tags na lista Tags. Talvez os administradores precisem alterar o valor do caminho, por exemplo, [!UICONTROL /`etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]. Será necessário se eles publicarem o Formulário de pesquisa da AEM, onde o caminho não inclui informações do locatário, por exemplo, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Caminho</li><li>Descrição</li></ul> |
 | **[!UICONTROL Caminho]** | O predicado de pesquisa para pesquisar ativos em um local específico. | <ul><li>Rótulo do campo</li><li>Caminho</li><li>Descrição</li></ul> |
 | **[!UICONTROL Data relativa]** | O predicado de pesquisa para pesquisar ativos com base na data relativa de sua criação. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Data relativa</li></ul> |
 | **[!UICONTROL Intervalo]** | O predicado de pesquisa para pesquisar ativos que estão dentro de um intervalo especificado de valores de propriedade. No painel Filtros, você pode especificar valores de propriedade mínimos e máximos para o intervalo. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Descrição</li></ul> |
@@ -105,14 +117,14 @@ Semelhante à maneira como você adiciona um predicado de **[!UICONTROL Propried
 
 >[!NOTE]
 >
->* Não use o **[!UICONTROL Predicado de opções]**, o **[!UICONTROL Predicado de status do Publish]** e o **[!UICONTROL Predicado de classificação]**, pois esses predicados não são funcionais no Brand Portal.
+>* Não use o **[!UICONTROL Predicado de opções]**, **[!UICONTROL Predicado do status de publicação]** e **[!UICONTROL Predicado de classificação]**, pois esses predicados não são funcionais no Brand Portal.
 >* O predicado de tipo de pasta `(nt:folder type)` não tem suporte no Brand Portal e pode causar problemas de desempenho. Se estiver presente em um Formulário de pesquisa personalizado publicado, poderá ser excluído editando o Formulário de pesquisa.
 
 ## Excluir um predicado de pesquisa {#delete-a-search-predicate}
 
 Para excluir um predicado de pesquisa, siga estas etapas:
 
-1. Clique no logotipo Adobe para acessar as ferramentas administrativas.
+1. Clique no logotipo do Adobe para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 

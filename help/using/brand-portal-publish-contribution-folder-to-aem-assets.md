@@ -1,19 +1,25 @@
 ---
 title: Fazer upload de ativos e publicar a pasta Contribuição do Brand Portal na Experience Manager Assets
-description: Obtenha informações sobre como fazer upload de novos ativos e publicar a pasta de contribuição do Brand Portal para o Experience Manager Assets.
+description: Obtenha uma insight para fazer upload de novos ativos e publicar a pasta de contribuição do Brand Portal para o Experience Manager Assets.
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/u5hGJpkNkUSrnC50ydHo4iERbyBn9uu4FItvZa-N34M
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 0%
+source-wordcount: 1469
+ht-degree: 10%
 
 ---
 
-# Pasta de contribuição do Publish para o Experience Manager Assets {#using-asset-souring-in-bp}
+# Publicar pasta de contribuição no Experience Manager Assets {#using-asset-souring-in-bp}
 
 Os usuários do Brand Portal com permissões apropriadas podem fazer upload de vários ativos, ou pastas contendo vários ativos, para a pasta contribuição. No entanto, os usuários do Brand Portal só podem fazer upload de ativos para a pasta **NOVO**. A pasta **SHARED** destina-se à distribuição de ativos de linha de base (conteúdo de referência) que são usados pelos usuários do Brand Portal ao criar novos ativos para contribuição.
 
@@ -21,7 +27,7 @@ Um usuário do Brand Portal com permissão para acessar a pasta contribuição p
 
 * [Baixar requisitos de ativos](#download-asset-requirements)
 * [Fazer upload de novos ativos para a pasta de contribuição](#uplad-new-assets-to-contribution-folder)
-* [Pasta de contribuição do Publish para o Experience Manager Assets](#publish-contribution-folder-to-aem)
+* [Publicar pasta de contribuição no Experience Manager Assets](#publish-contribution-folder-to-aem)
 
 ## Baixar requisitos de ativos {#download-asset-requirements}
 
@@ -100,9 +106,9 @@ O painel do Brand Portal reflete todas as pastas existentes permitidas ao usuár
 Depois de fazer upload de todos os ativos ou pastas para a NOVA pasta, publique a pasta de contribuição para o Experience Manager Assets.
 
 
-## Pasta de contribuição do Publish para o Experience Manager Assets {#publish-contribution-folder-to-aem}
+## Publicar pasta de contribuição no Experience Manager Assets {#publish-contribution-folder-to-aem}
 
-Os usuários do Brand Portal podem publicar a pasta de contribuição no Experience Manager Assets sem precisar acessar a instância do autor do Experience Manager.
+Os usuários do Brand Portal podem publicar a pasta de contribuição no Experience Manager Assets sem precisar acessar a instância de autor do Experience Manager.
 
 Verifique se você passou pelos requisitos de ativos e carregou os ativos recém-criados na pasta **NOVO** da pasta de contribuição.
 
@@ -111,7 +117,7 @@ Verifique se você passou pelos requisitos de ativos e carregou os ativos recém
 1. Faça logon na sua instância do Brand Portal.
 
 1. Selecione uma pasta de contribuição no painel do Brand Portal.
-1. Clique em **[!UICONTROL Publish para AEM]**.
+1. Clique em **[!UICONTROL Publicar no AEM]**.
 
    ![](assets/export.png)
 
@@ -155,25 +161,25 @@ Os administradores podem usar dois relatórios para exibir o status das pastas d
 
 ## Exclusão automática de ativos publicados no Experience Manager Assets da pasta Contribuição {#automatically-delete-published-assets-from-contribution-folder}
 
-O Brand Portal agora executa tarefas automáticas a cada doze horas para verificar todas as pastas de Contribuição e excluir todos os ativos publicados no AEM. Como resultado, não é necessário excluir manualmente os ativos na pasta Contribuição para manter o tamanho da pasta abaixo do [limite](#upload-new-assets-to-contribution-folder). Você também pode monitorar o status dos trabalhos de exclusão executados automaticamente nos últimos sete dias. O relatório de uma tarefa fornece os seguintes detalhes:
+O Brand Portal agora executa processos automáticos a cada doze horas para verificar todas as pastas de contribuição e excluir todos os ativos publicados no AEM. Como resultado, não é necessário excluir manualmente os ativos na pasta Contribuição para manter o tamanho da pasta abaixo do [limite](#upload-new-assets-to-contribution-folder). Você também pode monitorar o status dos trabalhos de exclusão executados automaticamente nos últimos sete dias. O relatório de um processo fornece os seguintes detalhes:
 
-* Hora de início do trabalho
-* Hora de término do trabalho
-* Status do trabalho
-* Total de ativos incluídos em um trabalho
-* Total de ativos excluídos com êxito em um trabalho
-* Armazenamento total disponibilizado como resultado da execução do trabalho
+* Hora de início do processo
+* Hora de término do processo
+* Status do processo
+* Total de ativos incluídos em um processo
+* Total de ativos excluídos com êxito em um processo
+* Armazenamento total disponibilizado como resultado da execução do processo
 
   ![Relatório de exclusão](assets/deletion-reports.png)
 
-Também é possível fazer drill-down adicional para exibir os detalhes de cada ativo incluído em um job de deleção. Detalhes como título do ativo, tamanho, autor, status de exclusão e tempo de exclusão são incluídos no relatório.
+Você também pode detalhar ainda mais para exibir os detalhes de cada ativo incluído em um processo de exclusão. Detalhes como título do ativo, tamanho, autor, status de exclusão e hora da exclusão são incluídos no relatório.
 
 ![Relatório de exclusão detalhado](assets/deletion-reports-detailed.png)
 
 >[!NOTE]
 >
-> * Os clientes podem solicitar ao Suporte ao cliente do Adobe que desative e reative o recurso de exclusão automática de trabalho ou altere a frequência de sua execução.
-> * Esse recurso está disponível com o Experience Manager 6.5.13.0 e versões posteriores.
+> * Os clientes podem solicitar que o Suporte ao cliente da Adobe desative e reative o recurso de exclusão automática de trabalho ou altere a frequência de sua execução.
+> * Este recurso está disponível com o Experience Manager 6.5.13.0 e versões posteriores.
 
 ### Exibir e baixar relatórios de exclusão {#view-delete-jobs}
 
@@ -183,7 +189,7 @@ Para exibir e baixar relatórios de um job de deleção:
 
 1. Selecione um trabalho e clique em **[!UICONTROL Exibir]** para exibir o relatório.
 
-   Visualize os detalhes de cada ativo incluído em um trabalho de exclusão. Detalhes como título do ativo, tamanho, autor, status de exclusão e tempo de exclusão são incluídos no relatório. Clique em **[!UICONTROL Baixar]** para baixar o relatório do trabalho no formato CSV.
+   Visualize os detalhes de cada ativo incluído em um trabalho de exclusão. Detalhes como título do ativo, tamanho, autor, status de exclusão e hora da exclusão são incluídos no relatório. Clique em **[!UICONTROL Baixar]** para baixar o relatório do trabalho no formato CSV.
 
    O status de exclusão de um ativo no relatório pode ter os seguintes valores possíveis:
 

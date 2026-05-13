@@ -2,10 +2,18 @@
 title: Guia do Adobe Experience Manager Assets Brand Portal
 description: Use o Experience Manager Assets Brand Portal para atender às necessidades de marketing distribuindo com segurança os ativos de marca e de produto aprovados para agências externas, parceiros, equipes internas e revendedores para download.
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/-IsbLpGrq16MLj74ma34fxV3ac9EKMNBMny7taDO6ZQ
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+workflow-type: tm+mt
+source-wordcount: 439
+ht-degree: 98%
 
 ---
 
@@ -45,8 +53,8 @@ Este guia do usuário documenta insights para ofertas e fluxos de trabalho princ
 | [Formatos de arquivo não suportados](brand-portal-supported-formats.md) | Formatos de arquivo suportados no Brand Portal para visualização e download. |
 | [Publicar ativos no Brand Portal](brand-portal-sharing-folders.md) | Como publicar pastas, coleções, links, predefinições, esquema, aspectos e tags no Brand Portal. |
 | [Origem de ativos no Brand Portal](brand-portal-asset-sourcing.md) | Como configurar a Origem de ativos no AEM Assets, fazer upload de ativos no Brand Portal e publicar a pasta de contribuição de volta no AEM Assets. |
-| [Vídeos de recursos do Brand Portal](https://experienceleague.adobe.com/pt-br?lang=pt-br&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Saiba como usar o Experience Manager Assets Brand Portal com a ajuda de tutoriais em vídeo. |
+| [Vídeos de recursos do Brand Portal](https://experienceleague.adobe.com/pt-br?lang=pt-br&tag=Brand+Portal#recommended/solutions/experience-manager) | Saiba como usar o Experience Manager Assets Brand Portal com a ajuda de tutoriais em vídeo. |
 
 ### Recursos úteis
 
-* [Compreensão do Brand Portal com o AEM Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-brand-portal/using/home)
+* [Noções básicas sobre o Brand Portal com o AEM Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-brand-portal/using/home)

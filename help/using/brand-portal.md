@@ -5,10 +5,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
+TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 6%
+source-wordcount: 1714
+ht-degree: 14%
 
 ---
 
@@ -35,9 +48,9 @@ A configuração do Adobe Experience Manager Assets com Brand Portal habilita a 
 
 >[!IMPORTANT]
 >
-> * O Brand Portal está no modo de manutenção. Todas as inovações de produtos estão disponíveis no [Content Hub](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
+> * O Brand Portal está no modo de manutenção. Todas as inovações de produtos estão disponíveis no [Centro de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
 > * Se ainda precisar ativar o Brand Portal, entre em contato com o representante da Adobe com detalhes do caso de uso e outros requisitos específicos.
-> * O Brand Portal não está disponível com o [Assets Prime](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/assets-prime) ou o [Assets Ultimate](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). No entanto, os clientes existentes do Assets as a Cloud Service, que já têm acesso ao Brand Portal, podem continuar a usá-lo ao fazerem a transição para o Assets Ultimate.
+> * O Brand Portal não está disponível com o [Assets Prime](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/assets-prime) ou o [Assets Ultimate](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). No entanto, os clientes do Assets as a Cloud Service que já tiverem acesso ao Brand Portal poderão continuar usando-o ao fazer a transição para o Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
@@ -156,7 +169,7 @@ Os usuários podem solicitar acesso ao Brand Portal na tela de logon. Essas soli
 
 Para solicitar acesso, faça o seguinte:
 
-1. Na página de login do Brand Portal, selecione **[!UICONTROL Clique aqui]** correspondente a **[!UICONTROL Precisa de Acesso?]**. No entanto, para entrar na sessão de convidado, selecione a **[!UICONTROL Clique aqui]** correspondente a **[!UICONTROL Acesso de convidado?]**.
+1. Na página de logon do Brand Portal, selecione **[!UICONTROL Clique aqui]**, correspondente a **[!UICONTROL Precisa de Acesso?]**. No entanto, para entrar na sessão de convidado, selecione a **[!UICONTROL Clique aqui]** correspondente a **[!UICONTROL Acesso de convidado?]**.
 
    ![tela de logon do Brand Portal](assets/bp-login-requestaccess.png)
 

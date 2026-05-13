@@ -6,10 +6,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 0%
+source-wordcount: 1361
+ht-degree: 3%
 
 ---
 
@@ -46,7 +59,7 @@ Para pesquisar ativos no Brand Portal:
 
    *Pesquisa de ativos usando o Omnisearch*
 
-Para saber mais sobre o comportamento da pesquisa com ativos com tags inteligentes, acesse [entender os resultados e o comportamento da pesquisa](https://experienceleague.adobe.com/br/docs/experience-manager-65/content/assets/using/search-assets).
+Para saber mais sobre o comportamento da pesquisa com ativos com tags inteligentes, acesse [entender os resultados e o comportamento da pesquisa](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/using/search-assets).
 
 ## Pesquisar usando aspectos no painel Filtros {#search-using-facets-in-filters-panel}
 
@@ -81,7 +94,7 @@ Por exemplo, use os seguintes filtros padrão:
    * **[!UICONTROL Classificação média]** para procurar ativos com base na classificação dos ativos.
    * **[!UICONTROL Orientação]** para procurar ativos com base na orientação (horizontal, vertical, quadrada) dos ativos.
    * **[!UICONTROL Estilo]** para procurar ativos com base no estilo (colorido, monocromático) dos ativos.
-   * **[!UICONTROL Formato de vídeo]** para procurar ativos de vídeo com base em seu formato (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
+   * **[!UICONTROL Formato de vídeo]** para procurar ativos de vídeo com base em seus formatos (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
 
    Você pode usar [aspectos de pesquisa personalizados](../using/brand-portal-search-facets.md) no painel Filtros editando o Formulário de Pesquisa subjacente.
 
@@ -113,7 +126,7 @@ Você pode permitir pesquisas que não diferenciam maiúsculas de minúsculas no
 
    >[!NOTE]
    >
-   >Ao marcar a caixa de seleção **[!UICONTROL Pesquisa parcial]**, **[!UICONTROL Ignorar maiúsculas e minúsculas]** é selecionado por padrão.
+   >Ao marcar a caixa de seleção **[!UICONTROL Pesquisa parcial]**, **[!UICONTROL Não diferenciar maiúsculas e minúsculas]** é selecionado por padrão.
 
    ![](assets/wildcard-prop-1.png)
 
