@@ -24,7 +24,7 @@ ht-degree: 2%
 
 Saiba como publicar tags do Experience Manager Assets na Brand Portal.
 
-As tags são úteis na organização de ativos e melhoram a capacidade de pesquisa dos ativos aos quais estão associadas. As tags podem ser consideradas palavras-chave ou rótulos (metadados) anexados a ativos, que permitem que os ativos sejam rapidamente encontrados como resultado de uma pesquisa. Para saber como atribuir tags a ativos na Experience Manager Assets, consulte [usar tags para organizar ativos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+As tags são úteis na organização de ativos e melhoram a capacidade de pesquisa dos ativos aos quais estão associadas. As tags podem ser consideradas palavras-chave ou rótulos (metadados) anexados a ativos, que permitem que os ativos sejam rapidamente encontrados como resultado de uma pesquisa. Para saber como atribuir tags a ativos na Experience Manager Assets, consulte [usar tags para organizar ativos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 As tags (associadas a ativos e coleções na AEM) são publicadas automaticamente na Brand Portal quando os ativos (e coleções) com tags associadas são publicados na Brand Portal. As tags publicadas são úteis para permitir que as pesquisas localizem os ativos associados.
 
@@ -53,7 +53,7 @@ Faça logon em uma instância de Autor do AEM com privilégios administrativos e
    * **[!UICONTROL Título]**
      *(obrigatório)* Um título de exibição para a marca.
    * **[!UICONTROL Nome]**
-     *(obrigatório)* Um nome para a marca. Se não for especificado, um nome de nó válido será criado a partir do Título. Consulte [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
+     *(obrigatório)* Um nome para a marca. Se não for especificado, um nome de nó válido será criado a partir do Título. Consulte [TagID](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Descrição**
      *(opcional)* Uma descrição da marca.
    * **Caminho da marca**
@@ -69,7 +69,7 @@ Caminho JCR da tag.
 
 1. **Anexe a marca a um ativo (ou coleção)**.
 
-   Selecione um ativo (ou coleção) e anexe a tag desejada usando a seção Propriedades ou a seção Gerenciar tags desse ativo. Para saber mais sobre como atribuir tags a ativos na AEM Assets, acesse [usar tags para organizar ativos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+   Selecione um ativo (ou coleção) e anexe a tag desejada usando a seção Propriedades ou a seção Gerenciar tags desse ativo. Para saber mais sobre como atribuir tags a ativos na AEM Assets, acesse [usar tags para organizar ativos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 1. **Publicar ativos (ou coleções) no Brand Portal**.\
    Ao publicar um ativo (ou coleção) no Brand Portal, a tag anexada também está disponível no Brand Portal.
