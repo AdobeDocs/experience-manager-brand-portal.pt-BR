@@ -6,24 +6,30 @@ content-type: reference
 topic-tags: brand-portal
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: ce3a7a5232f32c86b4930f9079bed5f04d001d8f
+TQID: https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 0%
+source-wordcount: 953
+ht-degree: 6%
 
 ---
 
 # Solucionar problemas na publicação paralela no Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-O Brand Portal está configurado com o Experience Manager Assets para ter os ativos de marca aprovados assimilados (ou publicados) facilmente da instância de autor do Experience Manager Assets. Depois de [configurado](../using/configure-aem-assets-with-brand-portal.md), o Autor do Experience Manager usa um agente de replicação para replicar um ou mais ativos selecionados para o Brand Portal Cloud Service para uso aprovado pelos usuários do Brand Portal. Vários agentes de replicação são usados no Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 e posteriores para permitir a publicação paralela de alta velocidade.
+O Brand Portal está configurado com o Experience Manager Assets para ter os ativos de marca aprovados assimilados (ou publicados) facilmente da instância de autor do Experience Manager Assets. Depois de [configurado](../using/configure-aem-assets-with-brand-portal.md), o Experience Manager Author usa um agente de replicação para replicar um ou mais ativos selecionados para o Brand Portal Cloud Service, para que os usuários da Brand Portal aprovem o uso. Vários agentes de replicação são usados no Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 e posterior para permitir publicação paralela em alta velocidade.
 
 >[!NOTE]
 >
->Para garantir uma configuração bem-sucedida do Experience Manager Assets Brand Portal com Experience Manager Assets, o Adobe recomenda o upgrade para o Experience Manager 6.4.1.0. Uma limitação no Experience Manager 6.4 gera um erro ao configurar o Experience Manager Assets com o Brand Portal e a replicação falha.
+>Para garantir a configuração bem-sucedida do Experience Manager Assets Brand Portal com o Experience Manager Assets, a Adobe recomenda atualizar para o Experience Manager 6.4.1.0. Uma limitação no Experience Manager 6.4 fornece um erro ao configurar o Experience Manager Assets com o Brand Portal e a replicação falha.
 
-Ao configurar um serviço de nuvem para o Brand Portal em **[!UICONTROL /etc/cloudservice]**, todos os usuários e tokens necessários são gerados automaticamente e salvos no repositório. A configuração do serviço em nuvem é criada, os usuários do serviço necessários para a replicação e os agentes de replicação para replicar o conteúdo também são criados. Ele cria quatro agentes de replicação. Portanto, ao publicar vários ativos do Experience Manager para o Brand Portal, os ativos são enfileirados e distribuídos entre os agentes de replicação por meio do Round Robin.
+Ao configurar um serviço de nuvem para o Brand Portal em **[!UICONTROL /etc/cloudservice]**, todos os usuários e tokens necessários são gerados automaticamente e salvos no repositório. A configuração do serviço em nuvem é criada, os usuários do serviço necessários para a replicação e os agentes de replicação para replicar o conteúdo também são criados. Ele cria quatro agentes de replicação. Portanto, ao publicar vários ativos do Experience Manager no Brand Portal, os ativos são enfileirados e distribuídos entre os agentes de replicação por meio do Round Robin.
 
-No entanto, a publicação pode falhar intermitentemente devido a: grandes trabalhos de sling, aumento da E/S de Rede e **[!UICONTROL Disco]** na instância do Autor do Experience Manager ou desempenho lento da instância do Autor do Experience Manager. O Adobe recomenda testar a conexão com um ou mais agentes de replicação antes de você começar a publicar.
+No entanto, a publicação pode falhar intermitentemente devido a: grandes trabalhos de sling, aumento da E/S de Rede e do **[!UICONTROL Disco]** na instância do Experience Manager Author ou desempenho lento da instância do Experience Manager Author. A Adobe recomenda testar a conexão com um ou mais agentes de replicação antes de você começar a publicar.
 
 ![](assets/test-connection.png)
 
@@ -35,7 +41,7 @@ Para validar as configurações de publicação:
 1. Verifique se o agente de replicação foi criado
 1. Testar conexão
 
-**Registros finais ao criar o Cloud Service**
+**Logs finais ao criar o Cloud Service**
 
 Verifique os logs finais. Verifique se o agente de replicação foi criado ou não. Se a criação do agente de replicação falhar, edite o Cloud Service fazendo pequenas alterações nele. Valide e verifique novamente se o agente de replicação foi criado ou não. Caso contrário, edite novamente o serviço.
 
@@ -62,11 +68,11 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 A publicação geralmente falha com um erro &quot;401 não autorizado&quot; porque o usuário (por exemplo, `mac-<tenantid>-replication`) não tem a chave privada mais recente e nenhum outro erro é relatado nos logs do agente de replicação. Você pode evitar a solução de problemas e criar uma configuração. Para que a nova configuração funcione corretamente, limpe o seguinte da configuração do autor do Experience Manager:
 
 1. Ir para `localhost:4502/crx/de/` (considerando que você está executando a instância de autor em `localhost:4502:`)
-i. Excluir `/etc/replication/agents.author/mp_replication`
+i) Excluir `/etc/replication/agents.author/mp_replication`
 ii) Excluir `/etc/cloudservices/mediaportal/<config_name>`
 
-1. Vá para localhost:4502/useradmin:\
-   i. Procurar usuário `mac-<tenantid>replication`
+1. Ir para localhost:4502/useradmin:\
+   i) Procurar usuário `mac-<tenantid>replication`
 ii) Excluir este usuário
 
 Agora, o sistema está todo limpo. Agora, você pode tentar criar uma configuração de serviço em nuvem e ainda usar o aplicativo JWT existente. Não há necessidade de criar um aplicativo, mas de atualizar a chave pública da configuração de nuvem recém-criada.
@@ -128,7 +134,7 @@ Para resolver esse problema, a Adobe recomenda salvar e fechar manualmente a con
 
 ## Configure agentes de replicação para evitar erro de tempo limite de conexão {#connection-timeout}
 
-Normalmente, o trabalho de publicação falha com um erro de tempo limite se houver várias solicitações pendentes na fila de replicação. Para resolver esse problema, verifique se os agentes de replicação estão configurados para evitar o tempo limite.
+Normalmente, o trabalho de publicação falha com um erro de tempo limite se houver várias solicitações pendentes na fila de replicação. Para resolver esse problema, verifique se os agentes de replicação estão configurados para evitar o tempo-limite.
 
 Para configurar os agentes de replicação:
 
@@ -137,6 +143,6 @@ Para configurar os agentes de replicação:
 1. Na página Replicação, clique em **[!UICONTROL `Agents on author`]**. Você pode ver os quatro agentes de replicação do seu locatário do Brand Portal.
 1. Clique na URL do agente de replicação e em **[!UICONTROL Editar]**.
 1. Em Configurações do Agente, clique na guia **[!UICONTROL Estendido]**.
-1. Marque a caixa de seleção **[!UICONTROL Fechar Conexão]**.
+1. Marque a caixa de seleção **[!UICONTROL Fechar conexão]**.
 1. Repita as etapas de 4 a 7 para configurar todos os quatro agentes de replicação.
 1. Reinicie o servidor.

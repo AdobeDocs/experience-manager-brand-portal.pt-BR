@@ -7,10 +7,15 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
-source-wordcount: '1500'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+workflow-type: tm+mt
+source-wordcount: 1513
+ht-degree: 97%
 
 ---
 
@@ -25,11 +30,11 @@ As Perguntas frequentes do Brand Portal se concentram nas dúvidas e problemas d
 
 **Resposta:** a configuração OAuth legada está obsoleta. Atualize as instâncias de criação do Experience Manager Assets para o pacote de serviços mais recente e configure-o por meio do Adobe Developer Console. Consulte [Configurar o Experience Manager Assets com o Brand Portal](configure-aem-assets-with-brand-portal.md) para obter detalhes. No entanto, para que a configuração OAuth legada funcione até você fazer o upgrade, atualize o ponto de acesso OAuth legado para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Pergunta: não consigo publicar os ativos da pasta de contribuição do Brand Portal no Experience Manager Assets depois de atualizar para o Adobe Developer Console. Minha instância de criação está no Experience Manager Assets 6.5.4. Qual pode ser o motivo?**
+**Pergunta: não consigo publicar os ativos da pasta de contribuição do Brand Portal no Experience Manager Assets depois de atualizar para o Adobe Developer Console. Minha instância de autor está no Experience Manager Assets 6.5.4. Qual pode ser o motivo?**
 
 **Resposta:** sim, há um problema conhecido ao publicar os ativos da pasta de contribuição no Experience Manager Assets 6.5.4 por meio do Adobe Developer Console.
 
-O problema foi corrigido no Experience Manager Assets 6.5.5. Você pode atualizar sua instância do Experience Manager Assets para o pacote de serviços mais recente e [atualizar as configurações](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) no Adobe Developer Console.
+O problema é corrigido no Experience Manager Assets 6.5.5. Você pode atualizar sua instância do Experience Manager Assets para o service pack mais recente e [atualizar suas configurações](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) no Adobe Developer Console.
 
 
 **Pergunta: não vejo o conteúdo da pasta de contribuição publicado do Brand Portal no Experience Manager Assets. Qual pode ser o motivo?**
@@ -39,7 +44,7 @@ O problema foi corrigido no Experience Manager Assets 6.5.5. Você pode atualiza
 Esse problema pode ocorrer quando você configura um locatário do Brand Portal em várias instâncias de criação do Experience Manager Assets. Por exemplo, o administrador configura o mesmo locatário do Brand Portal na instância de criação do Experience Manager Assets de um ambiente de produção e preparo. Nesse caso, a publicação de ativos é acionada no Brand Portal, mas a instância de criação do Experience Manager Assets falha ao importar o ativo porque o agente de replicação não recebe o token solicitado.
 
 
-**Pergunta: não consigo publicar ativos do Experience Manager Assets no Brand Portal. O log de replicação indica que a conexão atingiu o tempo limite. Há uma correção rápida?**
+**Pergunta: não consigo publicar ativos do Experience Manager Assets no Brand Portal. O log de replicação indica que a conexão expirou. Há uma correção rápida?**
 
 **Resposta:** geralmente, a publicação falha com um erro de tempo-limite se houver várias solicitações pendentes na fila de replicação. Para resolver esse problema, verifique se os agentes de replicação estão configurados para evitar o tempo-limite.
 
@@ -140,13 +145,13 @@ Os usuários do Brand Portal acessam a pasta de **Contribuição** e fazem o upl
 
 
 
-**Pergunta: onde posso ver o status dos trabalhos de importação e publicação?**
+**Pergunta: onde posso ver o status dos processos de importação e publicação?**
 
-**Resposta:** no Experience Manager Assets, você pode ver o status de uma importação na página de trabalho **assíncrono**. No Brand Portal, você pode ver o status de um trabalho de publicação em **[!UICONTROL Ferramentas > Status de contribuição do ativo]**.
+**Resposta:** no Experience Manager Assets, você pode ver o status de uma importação na página de processo **assíncrono**. No Brand Portal, você pode ver o status de um processo de publicação em **[!UICONTROL Ferramentas > Status de contribuição do ativo]**.
 
 
 
-**Pergunta: qual é a frequência de um trabalho de importação que é executado periodicamente no Experience Manager?**
+**Pergunta: qual é a frequência de um processo de importação que é executado periodicamente no Experience Manager?**
 
 **Resposta:** no Experience Manager Assets, a sondagem é executada a cada cinco minutos.
 
@@ -172,7 +177,7 @@ Os usuários do Brand Portal acessam a pasta de **Contribuição** e fazem o upl
 
 **Pergunta: o que acontece se uma pasta for publicada do Experience Manager Assets para o Brand Portal que está em fluxo?**
 
-**Resposta:** no Experience Manager Assets, os logs são mantidos sempre que uma pasta é publicada no Brand Portal. No momento da publicação, todos os ativos que não são publicados no Brand Portal são adicionados a uma fila de replicação. Nenhum ativo adicionado à pasta após o acionamento do trabalho de publicação é publicado no Brand Portal. Quando um usuário do Experience Manager Assets publica a pasta novamente, somente os ativos que não foram publicados anteriormente (existentes na fila de replicação) são publicados no Brand Portal. Esse processo é verdadeiro para qualquer pasta publicada do Experience Manager Assets para o Brand Portal e para a pasta COMPARTILHADO em uma pasta de Contribuição.
+**Resposta:** no Experience Manager Assets, os logs são mantidos sempre que uma pasta é publicada no Brand Portal. No momento da publicação, todos os ativos que não são publicados no Brand Portal são adicionados a uma fila de replicação. Nenhum ativo adicionado à pasta após o acionamento do processo de publicação é publicado no Brand Portal. Quando um usuário do Experience Manager Assets publica a pasta novamente, somente os ativos que não foram publicados anteriormente (existentes na fila de replicação) são publicados no Brand Portal. Esse processo é verdadeiro para qualquer pasta publicada do Experience Manager Assets para o Brand Portal e para a pasta COMPARTILHADO em uma pasta de Contribuição.
 
 **Pergunta: com quem devo entrar em contato para fazer perguntas?**
 

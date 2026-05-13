@@ -5,10 +5,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 0ef13db15f5282364cf8f2ca86ebefdfe6caca37
+TQID: https://experienceleague.adobe.com/-mH8aSfC9V8seE8ynUPNeJeE2Jt79S6etcyDlK14jL0
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085id: e17747bc-9b7b-44e6-a443-f54229a02620
+subfeature_v2: id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: d17d085a-e808-49dd-b9a6-85a996b999bdid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '6645'
-ht-degree: 98%
+source-wordcount: 6645
+ht-degree: 97%
 
 ---
 
@@ -100,7 +106,7 @@ A migração não afeta seu conjunto de dados, ativos, usuários ou quaisquer co
 
 ### Artigos de referência {#reference-articles}
 
-* [Introdução aos perfis do Adobe](https://helpx.adobe.com/br/enterprise/kb/introducing-adobe-profiles.html)
+* [Introdução aos perfis do Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
 
 * [Gerenciar perfis do Adobe](https://helpx.adobe.com/br/enterprise/using/manage-adobe-profiles.html)
 
@@ -190,7 +196,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -198,7 +204,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Download de ativo {#asset-download-setting}
@@ -515,7 +521,7 @@ O Brand Portal 6.4.3 apresenta um alias alternativo para URLs de acesso, uma nov
 
 ### Navegação na hierarquia de pastas para não administradores
 
-Agora, os administradores podem configurar como as pastas são exibidas para usuários não administradores (Editores, Visualizadores e Usuários convidados) no logon. [A configuração Habilitar Hierarquia de Pasta](../using/brand-portal-general-configuration.md) foi adicionada em **Configurações Gerais**, no painel de ferramentas administrativas. Se a configuração estiver:
+Agora, os administradores podem configurar como as pastas são exibidas para usuários não administradores (Editores, Visualizadores e Usuários convidados) no logon. A configuração [Habilitar hierarquia de pasta](../using/brand-portal-general-configuration.md) foi adicionada em **Configurações gerais**, no painel de ferramentas administrativas. Se a configuração estiver:
 
 * **habilitada**, a árvore de pastas que começa na pasta raiz estará visível para usuários não administradores. Sendo assim, concede a eles uma experiência de navegação semelhante aos administradores.
 * **desabilitada**, somente as pastas compartilhadas são exibidas na página de destino.
@@ -768,13 +774,13 @@ O Brand Portal 6.4.1 é uma versão de atualização da plataforma. Ele apresent
 
 ### Recursos aprimorados de relatórios
 
-**Introdução do relatório Compartilhamento de links**
+**Relatório de compartilhamento de link introduzido**
 Um novo relatório, para fornecer informações sobre links compartilhados, foi introduzido. O relatório Compartilhamento de links lista todos os URLs para os ativos compartilhados com usuários internos e externos. Ele gera relatórios para usuários em toda a organização no período especificado. Também informa quando o link foi compartilhado, por quem e quando expira.
 
 ![](assets/navigatereport.png)
 
-**Ponto de entrada modificado para acessar o Relatório de uso**
-O Relatório de uso agora está consolidado com outros relatórios e pode ser exibido no console Relatórios de ativos. Para acessar o console Relatórios de ativos, navegue até **Criar/gerenciar relatórios** no painel de ferramentas administrativas.
+**O ponto de entrada foi modificado para acessar o Relatório de Uso**
+O Relatório de uso agora está consolidado com outros relatórios e pode ser visualizado no console Relatórios de ativos. Para acessar o console Relatórios de ativos, navegue até **Criar/gerenciar relatórios** no painel de ferramentas administrativas.
 
 ![](assets/accessassetreport.png)
 

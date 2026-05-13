@@ -6,10 +6,16 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 0%
+source-wordcount: 1051
+ht-degree: 3%
 
 ---
 
@@ -40,7 +46,7 @@ Para entrar no Brand Portal anonimamente, selecione **[!UICONTROL Clique aqui]**
 Uma sessão de usuário convidado permanece ativa por 15 minutos.
 Este processo preserva o estado da **[!UICONTROL Lightbox]** por 15 minutos a partir da hora de início da sessão. Depois disso, a sessão de convidado atual é reiniciada, fazendo com que o estado Lightbox seja perdido.
 
-Por exemplo, um usuário convidado faz logon no Brand Portal às 1500 horas e adiciona ativos à **[!UICONTROL Lightbox]** para download às 15:05 horas. Se o usuário não baixar a coleção **[!UICONTROL Lightbox]** (ou seus ativos) antes das 15h15 (dentro de 15 minutos da entrada), ele terá que reiniciar a sessão. A **[!UICONTROL Lightbox]** está vazia, o que significa que os ativos carregados não estarão mais disponíveis se a sessão tiver sido perdida.
+Por exemplo, um usuário convidado faz logon no Brand Portal às 1500 horas e adiciona ativos à **[!UICONTROL Lightbox]** para download às 15:05 horas. Se o usuário não baixar a coleção **[!UICONTROL Lightbox]** (ou seus ativos) antes de 15:15 horas (dentro de 15 minutos de entrada), ele terá que reiniciar a sessão. A **[!UICONTROL Lightbox]** está vazia, o que significa que os ativos carregados não estarão mais disponíveis se a sessão tiver sido perdida.
 
 ## Sessões de convidado simultâneas permitidas {#concurrent-guest-sessions-allowed}
 

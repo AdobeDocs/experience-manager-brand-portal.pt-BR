@@ -1,5 +1,5 @@
 ---
-title: Gerenciar direitos digitais dos ativos
+title: Gerenciar direitos digitais de ativos
 description: O licenciamento de ativos e a definição da expiração de ativos e links compartilhados garantem o uso controlado desses ativos e os protege.
 contentOwner: bdhar
 topic-tags: download-install
@@ -7,16 +7,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/3ZH-bkACyy-0XGHZu4uxJCXGgAKCoD4JmcCd1vBBxLA
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 3%
+source-wordcount: 904
+ht-degree: 4%
 
 ---
 
-# Gerenciar direitos digitais dos ativos {#manage-digital-rights-of-assets}
+# Gerenciar direitos digitais de ativos {#manage-digital-rights-of-assets}
 
-Garantir a distribuição e o uso seguros dos ativos criativos e do material da marca é vital para proteger sua marca. Esse processo pode ser aplicado associando uma data de expiração (e hora) aos ativos aprovados publicados do AEM para a Brand Portal ou licenciando esses ativos para uso condicional. Além disso, o Brand Portal permite especificar uma data de expiração para os links para os ativos compartilhados da Brand Portal.
+Garantir a distribuição e o uso seguros dos ativos criativos e do material da marca é vital para proteger sua marca. Esse processo pode ser empregado associando uma data de expiração (e hora) aos ativos aprovados publicados do AEM para a Brand Portal ou licenciando esses ativos para uso condicional. Além disso, o Brand Portal permite especificar uma data de expiração para os links para os ativos compartilhados da Brand Portal.
 
 Leia para saber como os ativos estão protegidos no Brand Portal e entender as permissões de uso associadas.
 
@@ -71,12 +75,12 @@ Para obter mais informações sobre o compartilhamento de links, consulte [Compa
 
 Os ativos licenciados estão sujeitos à aceitação de um contrato de licença antes de baixar da Brand Portal. Este contrato para ativos licenciados vem quando você baixa o ativo diretamente da Brand Portal ou por meio de um link compartilhado. Expirados ou não, todos os usuários podem exibir ativos protegidos por licença. No entanto, o download e o uso de ativos licenciados expirados são limitados. Para saber mais sobre o comportamento de ativos licenciados expirados e atividades permitidas com base em funções de usuário, consulte [permissões de uso de ativos expirados](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Os ativos protegidos por licença têm um [contrato de licença anexado](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/drm) a eles, o que é feito com a configuração da propriedade de metadados do ativo em [!DNL Experience Manager Assets].
+Os ativos protegidos por licença têm um [contrato de licença anexado](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) a eles, o que é feito com a configuração da propriedade de metadados do ativo em [!DNL Experience Manager Assets].
 
 Um ativo é considerado protegido se contiver uma das seguintes propriedades de metadados (ou ambas):
 
 * `xmpRights:WebStatement`: esta propriedade se refere ao caminho da página que contém o contrato de licença do ativo. `xmpRights:WebStatement` deve ser um caminho válido no repositório.
-* `adobe_dam:restrictions`: o valor dessa propriedade é um HTML bruto que especifica o contrato de licença.
+* `adobe_dam:restrictions`: o valor dessa propriedade é uma HTML bruta que especifica o contrato de licença.
 
 
 Se optar por baixar ativos protegidos por licença, você será redirecionado para a página **[!UICONTROL Gerenciamento de Direitos Autorais]**, dependendo das propriedades dos metadados.

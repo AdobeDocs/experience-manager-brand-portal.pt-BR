@@ -1,18 +1,23 @@
 ---
-title: Experiência de login pela primeira vez
+title: Experiência do primeiro logon
 description: Todos os novos usuários do Experience Manager Assets Brand Portal, incluindo Administradores, têm a mesma experiência de logon pela primeira vez. Depois que um administrador adiciona você à conta da Brand Portal de sua organização, você é incluído automaticamente sem precisar aceitar um convite. Você recebe um email de boas-vindas com um link para acessar a conta da Brand Portal de sua organização.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 exl-id: 1f52045b-afb1-4501-878d-c327d394e258
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/hHVL1ersk74XAckuul6nwPhS-qaR1bi3sersJnnoO9g
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 0%
+source-wordcount: 282
+ht-degree: 2%
 
 ---
 
-# Experiência de login pela primeira vez {#first-time-login-experience}
+# Experiência do primeiro logon {#first-time-login-experience}
 
 Todos os novos usuários do Experience Manager Assets Brand Portal, incluindo Administradores, têm a mesma experiência de logon pela primeira vez. Depois que um administrador adiciona você à conta da Brand Portal de sua organização, você é incluído automaticamente sem precisar aceitar um convite. Você recebe um email de boas-vindas com um link para acessar a conta da Brand Portal de sua organização.
 

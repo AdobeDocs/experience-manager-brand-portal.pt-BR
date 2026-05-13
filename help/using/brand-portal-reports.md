@@ -6,10 +6,15 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
+TQID: https://experienceleague.adobe.com/4p-phv75ZqbWNLAxXeZ-QEpZxSTgv-oV8AEIbue9Zvw
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 0%
+source-wordcount: 1010
+ht-degree: 4%
 
 ---
 
@@ -35,7 +40,7 @@ Para exibir um relatório, siga estas etapas:
 
    >[!NOTE]
    >
-   >O relatório de uso é um relatório padrão gerado no Brand Portal. Ele não pode ser criado ou excluído. No entanto, você pode criar, baixar e excluir os relatórios de Download, Expiração, Publish, `Link Share` e logons de usuário.
+   >O relatório de uso é um relatório padrão gerado no Brand Portal. Ele não pode ser criado ou excluído. No entanto, você pode criar, baixar e excluir os relatórios de Download, Expiração, Publicação, `Link Share` e logons de usuário.
 
    Para exibir um relatório, clique no link do relatório. Como alternativa, selecione o relatório e clique no ícone Exibir na barra de ferramentas.
 
@@ -60,13 +65,13 @@ O relatório também exibe a capacidade permitida para cada uma dessas métricas
 
    ![](assets/expiration-report.png)
 
-   O relatório do **[!UICONTROL Publish]** lista e fornece informações sobre todos os ativos publicados do Experience Manager Assets para o Brand Portal em um intervalo de tempo especificado.
+   O relatório **[!UICONTROL Publicar]** lista e fornece informações sobre todos os ativos publicados do Experience Manager Assets para o Brand Portal em um intervalo de tempo especificado.
 
    ![](assets/publish-report.png)
 
    >[!NOTE]
    >
-   >O Relatório do Publish não exibe informações sobre fragmentos de conteúdo, pois eles não podem ser publicados na Brand Portal.
+   >O Relatório de publicação não exibe informações sobre fragmentos de conteúdo, pois eles não podem ser publicados na Brand Portal.
 
    O relatório **[!UICONTROL Compartilhamento de links]** lista todos os ativos compartilhados por meio de links da interface do Brand Portal em um intervalo de tempo específico. O relatório detalha quando o ativo foi compartilhado por meio de um link, qual usuário o compartilhou e a data de expiração do link. Ele também relata o número de links compartilhados para o locatário e os usuários. As colunas do Relatório de compartilhamento de link não são personalizáveis.
 
@@ -88,7 +93,7 @@ Os administradores podem gerar e gerenciar os seguintes relatórios padrão. Ap�
 * Publicação
 * Compartilhamento de link
 
-As colunas no relatório de Download, Expiração e Publish podem ser personalizadas para exibição. Para gerar um relatório, siga estas etapas:
+As colunas no relatório de Download, Expiração e Publicação podem ser personalizadas para exibição. Para gerar um relatório, siga estas etapas:
 
 1. Na barra de ferramentas na parte superior, clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
 
@@ -101,7 +106,7 @@ As colunas no relatório de Download, Expiração e Publish podem ser personaliz
 
    ![](assets/crete-report.png)
 
-1. Configurar detalhes do relatório. Especifique o título, a descrição, a estrutura de pastas (onde o relatório precisa ser executado e gerar estatísticas) e o intervalo de datas dos relatórios de **[!UICONTROL Download]**, **[!UICONTROL Expiração]** e **[!UICONTROL Publish]**.
+1. Configurar detalhes do relatório. Especifique título, descrição, estrutura de pasta (onde o relatório precisa ser executado e gerar estatísticas) e intervalo de datas para os relatórios **[!UICONTROL Download]**, **[!UICONTROL Expiração]** e **[!UICONTROL Publicar]**.
 
    ![](assets/create-report-page.png)
 
@@ -113,14 +118,14 @@ As colunas no relatório de Download, Expiração e Publish podem ser personaliz
    >
    >Gerar o relatório substitui os caracteres especiais `#` e `%` no título por um hífen (-).
 
-1. Clique em **[!UICONTROL Avançar]** para configurar as colunas dos relatórios de Download, Expiração e Publish.
+1. Clique em **[!UICONTROL Avançar]** para configurar as colunas dos relatórios de Download, Expiração e Publicação.
 1. Marque ou desmarque as caixas de seleção apropriadas, conforme necessário. Por exemplo, para exibir nomes de usuários (que baixaram ativos) no relatório **[!UICONTROL Download]**, selecione **[!UICONTROL Baixado por]**. A imagem a seguir ilustra a seleção das colunas padrão no relatório de Download.
 
    ![](assets/createdownloadreport.png)
 
    Você também pode adicionar Colunas personalizadas a esses relatórios para exibir mais dados para seus requisitos personalizados.
 
-   Para adicionar Colunas personalizadas ao Relatório de download, Publish ou Expiração, faça o seguinte:
+   Para adicionar Colunas personalizadas ao Relatório de download, publicação ou expiração, faça o seguinte:
 
    1. Para exibir uma coluna personalizada, clique em **[!UICONTROL Adicionar]** em [!UICONTROL Colunas Personalizadas].
    1. Especifique o nome da coluna no campo **[!UICONTROL Nome da Coluna]**.
