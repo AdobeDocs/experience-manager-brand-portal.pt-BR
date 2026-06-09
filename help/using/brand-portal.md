@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 870850fd29819d96017608f1db48d46b38c62bff
 workflow-type: tm+mt
-source-wordcount: 1714
-ht-degree: 14%
+source-wordcount: 1549
+ht-degree: 13%
 
 ---
 
@@ -50,11 +50,11 @@ A configuração do Adobe Experience Manager Assets com Brand Portal habilita a 
 >
 > * O Brand Portal está no modo de manutenção. Todas as inovações de produtos estão disponíveis no [Centro de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
 > * Se ainda precisar ativar o Brand Portal, entre em contato com o representante da Adobe com detalhes do caso de uso e outros requisitos específicos.
-> * O Brand Portal não está disponível com o [Assets Prime](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/assets-prime) ou o [Assets Ultimate](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). No entanto, os clientes do Assets as a Cloud Service que já tiverem acesso ao Brand Portal poderão continuar usando-o ao fazer a transição para o Assets Ultimate.
+> * O Brand Portal não está disponível com o [Assets Prime](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/assets-prime) ou o [Assets Ultimate](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). No entanto, os clientes existentes do Assets as a Cloud Service que já têm acesso ao Brand Portal podem continuar a usá-lo ao fazerem a transição para o Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
-No entanto, o Experience Manager Assets (no local e managed service) é configurado manualmente com o Brand Portal usando o Adobe Developer Console, que obtém um token do Adobe Identity Management Services (IMS) para autorização do locatário do Brand Portal.
+No entanto, o Experience Manager Assets (no local e managed services) é configurado manualmente com o Brand Portal usando o Adobe Developer Console, que obtém um token do Adobe Identity Management Services (IMS) para autorização do locatário do Brand Portal.
 
 Para obter mais informações, consulte [configurando o Experience Manager Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -92,7 +92,7 @@ A tabela a seguir lista as tarefas que os usuários nessas funções podem execu
 
 O Experience Manager Assets Brand Portal permite [acesso de convidado](#request-access-to-brand-portal) ao Brand Portal. Um usuário convidado não precisa de credenciais para entrar no portal e tem acesso às pastas e coleções públicas. Como usuário convidado, você pode navegar pelos detalhes do ativo e ter uma exibição completa do ativo dos membros de pastas e coleções públicas. Pesquise, baixe e adicione ativos públicos à coleção [!UICONTROL Lightbox].
 
-No entanto, a sessão de convidado o impede de criar coleções e pesquisas salvas, e as compartilha ainda mais. Os usuários em uma sessão de convidado não podem acessar configurações de pasta e coleções e não podem compartilhar ativos como link. Esta é uma lista de tarefas que um usuário convidado pode executar:
+No entanto, a sessão de convidado o impede de criar coleções e pesquisas salvas. Os usuários em uma sessão de convidado não podem acessar configurações de pasta e coleções e não podem compartilhar ativos como link. Esta é uma lista de tarefas que um usuário convidado pode executar:
 
 * [Procurar e acessar ativos públicos](browse-assets-brand-portal.md)
 
@@ -161,7 +161,7 @@ No entanto, a instância do Autor do AEM pode ser [configurada](../using/configu
 >
 >Para obter um alias para o nome do locatário em um URL de portal existente, as organizações precisam entrar em contato com o Suporte ao cliente com uma nova solicitação de criação de alias de locatário. Primeiro, verifique se o alias está disponível, depois crie o alias para processar essa solicitação.
 >
->Para substituir o alias antigo ou excluir o alias antigo, o mesmo processo precisa ser seguido.
+>Para substituir ou excluir o alias antigo, o mesmo processo precisa ser seguido.
 
 ## Solicitar acesso ao Brand Portal {#request-access-to-brand-portal}
 
@@ -222,7 +222,7 @@ Você foi redirecionado para a página inicial do [Adobe [!UICONTROL Admin Conso
 
 ## Idiomas do Brand Portal {#brand-portal-language}
 
-Você pode alterar o idioma do Brand Portal em Adobe [!UICONTROL Configurações do Experience Cloud].
+Você pode alterar o idioma do Brand Portal em Adobe [!UICONTROL Configurações da Experience Cloud].
 
 ![Notificação de solicitação de acesso](assets/BPLang.png)
 
@@ -232,7 +232,7 @@ Para alterar o idioma:
 
    ![Editar Perfil](assets/EditBPProfile.png)
 
-1. Na página [!UICONTROL Configurações do Experience Cloud], selecione um idioma no menu suspenso [!UICONTROL Idioma].
+1. Na página [!UICONTROL Configurações da Experience Cloud], selecione um idioma no menu suspenso [!UICONTROL Idioma].
 
 ## Notificação de manutenção do Brand Portal {#brand-portal-maintenance-notification}
 
