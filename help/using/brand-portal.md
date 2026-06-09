@@ -254,4 +254,4 @@ Você pode ignorar esta notificação e continuar usando o Brand Portal. Essa no
 * [Adobe Customer Support]()
 -->
 
-* [Fóruns do AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [Fóruns do AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=pt)
