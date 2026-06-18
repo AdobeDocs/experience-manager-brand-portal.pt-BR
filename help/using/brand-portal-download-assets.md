@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 1957
 ht-degree: 11%
@@ -39,7 +39,7 @@ O Adobe Experience Manager Assets Brand Portal melhora a experiência de downloa
 >
 >Se você não quiser usar o IBM® Aspera Connect e continuar com o processo normal de download, contate o administrador do Brand Portal para desativar a configuração **[!UICONTROL Download Rápido]**.
 
-## Configurar o download de ativos {#configure-download}
+## Configurar o download de ativos
 
 Os administradores do Brand Portal podem definir o download de ativos e as configurações de grupo de usuários para usuários do Brand Portal. Esse recurso permite que os usuários acessem e baixem representações de ativos na interface da Brand Portal.
 
@@ -295,7 +295,7 @@ removed the known issue from step 3 as it is fixed in 2022.02.0 release.
 
 <!-- 
 Backup of content before updating the new feature docs.
-## Configure asset download {#configure-download}
+## Configure asset download
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 
 
