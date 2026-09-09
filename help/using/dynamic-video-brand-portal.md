@@ -22,10 +22,10 @@ subfeature_v2:
   - id: ee69dd13-2aba-4eb0-912b-399e82368d73
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1779df8cb07a952926d7680a8d69557fd184a56c
+source-git-commit: cda5d9923d47a3e76267328af9cd1548b6291237
 workflow-type: tm+mt
-source-wordcount: 1379
-ht-degree: 1%
+source-wordcount: 1409
+ht-degree: 3%
 
 ---
 
@@ -135,7 +135,7 @@ Os IPs de saída são os seguintes:
 
 | **Região** | **IP de saída** |
 |--- |--- |
-| ND | 130.248.160.68, 20.94.203.130 |
+| ND | 130.248.149.188, 130.248.149.189, 130.248.149.190, 130.248.160.68, 20.94.203.130 |
 | EMEA | 51.132.146.75, 130.248.244.202, 130.248.244.203, 130.248.244.204, 130.248.244.210, 130.248.244.211, 130.248.244.212 |
 | APAC | 63.140.44.54 |
 
