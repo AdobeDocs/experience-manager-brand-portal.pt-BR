@@ -22,9 +22,9 @@ subfeature_v2:
   - id: ee69dd13-2aba-4eb0-912b-399e82368d73
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cda5d9923d47a3e76267328af9cd1548b6291237
+source-git-commit: 4b423f850ccbdf8c2c2da14a7cd5ab844502883a
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: 1412
 ht-degree: 3%
 
 ---
@@ -97,7 +97,7 @@ Para trabalhar com vídeos dinâmicos no Brand Portal, certifique-se de:
 
   | **Região** | **IP de saída** |
   |--- |--- |
-  | ND | 130.248.160.68, 20.94.203.130 |
+  | ND | 130.248.149.188, 130.248.149.189, 130.248.149.190, 130.248.160.68, 20.94.203.130 |
   | EMEA | 185.34.189.3, 51.132.146.75 |
   | APAC | 172.82.240.74, 172.82.240.75 |
 
