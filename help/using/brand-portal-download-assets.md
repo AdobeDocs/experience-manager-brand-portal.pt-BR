@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+source-git-commit: d2c6731ba328a0acc2d95354d2e2490f5cf0b320
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 11%
@@ -178,7 +178,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos na inter
      >
      >Se os ativos baixados também incluírem ativos licenciados, você será redirecionado para a página **[!UICONTROL Gerenciamento de Copyright]**. Nesta página, selecione os ativos, clique em **[!UICONTROL Concordar]** e em **[!UICONTROL Baixar]**. Se você optar por discordar, os ativos licenciados não serão baixados.
      > 
-     >Os ativos protegidos por licença têm um [contrato de licença anexado](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/drm) a eles, o que é feito com a configuração da [propriedade de metadados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/drm) do ativo no Experience Manager Assets.
+     >Os ativos protegidos por licença têm um [contrato de licença anexado](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) a eles, o que é feito com a configuração da [propriedade de metadados](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) do ativo no Experience Manager Assets.
 
 
      ![ativo licenciado](assets/licensed-asset-new.png)
