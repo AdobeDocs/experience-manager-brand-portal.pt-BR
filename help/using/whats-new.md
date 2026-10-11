@@ -5,7 +5,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-TQID: https://experienceleague.adobe.com/-mH8aSfC9V8seE8ynUPNeJeE2Jt79S6etcyDlK14jL0
+TQID: 'https://experienceleague.adobe.com/-mH8aSfC9V8seE8ynUPNeJeE2Jt79S6etcyDlK14jL0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Configuration
   - id: e17747bc-9b7b-44e6-a443-f54229a02620
     internal-label: Integrations
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
     internal-label: Hybrid mode
@@ -43,7 +45,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
 source-wordcount: '6645'
 ht-degree: 97%
@@ -136,7 +138,7 @@ A migração não afeta seu conjunto de dados, ativos, usuários ou quaisquer co
 
 ### Artigos de referência {#reference-articles}
 
-* [Introdução aos perfis do Adobe](https://helpx.adobe.com/br/enterprise/kb/introducing-adobe-profiles.html)
+* [Introdução aos perfis do Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
 
 * [Gerenciar perfis do Adobe](https://helpx.adobe.com/br/enterprise/using/manage-adobe-profiles.html)
 
@@ -226,7 +228,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -234,7 +236,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Download de ativo {#asset-download-setting}

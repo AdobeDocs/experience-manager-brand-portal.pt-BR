@@ -6,26 +6,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-TQID: https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU
+TQID: 'https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Content structure
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1361
+source-wordcount: '1369'
 ht-degree: 3%
-
 ---
-
 # Pesquisar ativos no Brand Portal {#search-assets-on-brand-portal}
 
 O recurso de pesquisa do Brand Portal permite pesquisar rapidamente ativos relevantes usando o Omnisearch e a pesquisa facetada que usa filtros para ajudá-lo a restringir ainda mais sua pesquisa. Você pode pesquisar ativos no nível de arquivos ou pastas e salvar os resultados da pesquisa como coleções inteligentes.
@@ -103,7 +110,7 @@ Por exemplo, use os seguintes filtros padrão:
      O [!UICONTROL Predicado de Propriedade] dá suporte a pesquisas de texto para:
 
      **Frases parciais**
-Para permitir a pesquisa de ativos usando frases parciais no Predicado de propriedade, habilite a caixa de seleção **[!UICONTROL Pesquisa parcial]** no Formulário de pesquisa. Esse método permite pesquisar pelos ativos desejados mesmo se você não especificar as palavras ou frases exatas usadas nos metadados do ativo.
+     Para permitir a pesquisa de ativos usando frases parciais no Predicado de propriedade, habilite a caixa de seleção **[!UICONTROL Pesquisa parcial]** no Formulário de pesquisa. Esse método permite pesquisar pelos ativos desejados mesmo se você não especificar as palavras ou frases exatas usadas nos metadados do ativo.
 
      >[!NOTE]
      >
@@ -114,15 +121,15 @@ Para permitir a pesquisa de ativos usando frases parciais no Predicado de propri
      >* `jcr:content/metadata/dc:format`
 
      É possível:
-      * No painel Filtros, especifique uma palavra que ocorre na frase pesquisada na faceta. Por exemplo, se você pesquisar pelo termo **climb** (e o Predicado de Propriedade for mapeado para a propriedade `dc:title`), todos os ativos com a palavra **climb** na frase de título são retornados.
-      * Especifique uma parte da palavra que ocorre na frase pesquisada, juntamente com um caractere curinga (&#42;) para preencher as lacunas.
-Por exemplo, pesquisando por:
-         * **climb&#42;** retorna todos os ativos que têm palavras que começam com os caracteres &quot;climb&quot; na frase de título.
-         * **&#42;climb** retorna todos os ativos com palavras que terminam com caracteres &quot;climb&quot; na frase de título.
-         * **&#42;climb&#42;** retorna todos os ativos que contêm palavras que compõem os caracteres &quot;climb&quot; na frase de título.
+     * No painel Filtros, especifique uma palavra que ocorre na frase pesquisada na faceta. Por exemplo, se você pesquisar pelo termo **climb** (e o Predicado de Propriedade for mapeado para a propriedade `dc:title`), todos os ativos com a palavra **climb** na frase de título são retornados.
+     * Especifique uma parte da palavra que ocorre na frase pesquisada, juntamente com um caractere curinga (&#42;) para preencher as lacunas.
+       Por exemplo, pesquisando por:
+       * **climb&#42;** retorna todos os ativos que têm palavras que começam com os caracteres &quot;climb&quot; na frase de título.
+       * **&#42;climb** retorna todos os ativos com palavras que terminam com caracteres &quot;climb&quot; na frase de título.
+       * **&#42;climb&#42;** retorna todos os ativos que contêm palavras que compõem os caracteres &quot;climb&quot; na frase de título.
 
      **Texto sem diferenciação de maiúsculas e minúsculas**
-Você pode permitir pesquisas que não diferenciam maiúsculas de minúsculas no Predicado de propriedades. Basta habilitar a caixa de seleção **[!UICONTROL Ignorar maiúsculas e minúsculas]** no Formulário de Pesquisa. Por padrão, a pesquisa de texto no Predicado de propriedade diferencia maiúsculas de minúsculas.
+     Você pode permitir pesquisas que não diferenciam maiúsculas de minúsculas no Predicado de propriedades. Basta habilitar a caixa de seleção **[!UICONTROL Ignorar maiúsculas e minúsculas]** no Formulário de Pesquisa. Por padrão, a pesquisa de texto no Predicado de propriedade diferencia maiúsculas de minúsculas.
 
    >[!NOTE]
    >

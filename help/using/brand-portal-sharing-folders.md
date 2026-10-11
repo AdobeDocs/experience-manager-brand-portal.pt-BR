@@ -5,25 +5,31 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
+TQID: 'https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1108
+source-wordcount: '1112'
 ht-degree: 2%
-
 ---
-
 # Compartilhar pastas no Brand Portal {#share-folders}
 
 O Assets precisa ser publicado no Brand Portal a partir de uma instância pré-configurada do Experience Manager Author, pois o Brand Portal não oferece suporte à assimilação de ativos.
@@ -40,7 +46,7 @@ A seguir, é descrito o fluxo de trabalho de compartilhamento de pastas e o aces
 
 ### Compartilhar pastas com grupos de usuários no Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Os direitos de acesso aos ativos de uma pasta dependem dos direitos de acesso em sua pasta principal, independentemente das configurações das pastas secundárias. [As ACLs](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/security/security) no AEM controlam esse comportamento, com pastas secundárias herdando ACLs de suas pastas principais. Por exemplo, suponha que a pasta A contenha a pasta B, que contém a pasta C. Em seguida, um grupo de usuários (ou usuários) com direitos de acesso na pasta A também têm os mesmos direitos de acesso na pasta B e na pasta C. A pasta B, que é a pasta filho de A, herda suas ACLs, e a pasta C, que é a pasta filho de B, herda suas ACLs.
+Os direitos de acesso aos ativos de uma pasta dependem dos direitos de acesso em sua pasta principal, independentemente das configurações das pastas secundárias. [As ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) no AEM controlam esse comportamento, com pastas secundárias herdando ACLs de suas pastas principais. Por exemplo, suponha que a pasta A contenha a pasta B, que contém a pasta C. Em seguida, um grupo de usuários (ou usuários) com direitos de acesso na pasta A também têm os mesmos direitos de acesso na pasta B e na pasta C. A pasta B, que é a pasta filho de A, herda suas ACLs, e a pasta C, que é a pasta filho de B, herda suas ACLs.
 
 Da mesma forma, os grupos de usuários (ou usuários) que têm permissões para acessar somente a pasta B têm as mesmas permissões de acesso na pasta C, mas não na pasta A. A Adobe recomenda organizar o conteúdo para que os ativos mais expostos sejam colocados em pastas secundárias, permitindo que o acesso seja restrito das pastas secundárias até a pasta raiz.
 
